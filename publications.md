@@ -57,13 +57,4 @@ Lastest Update: 28th Dec 2023
 
 ---
 
-## Working Manuscript
-
-#- Detecting Multiple-mix-attack in IoT Networks through Reconstruction and Classiﬁcation Machine Learning Techniques<br>
-
-#- Multi-objective Optimization Model Based on Analysis of Human-Land Relationship Coupling: A Case Study of the Masai Mara National Reserve<br>
-
-#  <br>
-
-#---
 
