@@ -27,7 +27,7 @@ Lastest Update: 28th Dec 2023
 
 - S.L. Zhang, **Z.J. Sun**, A. Kumar, Meshless symplectic and multi-symplectic scheme for the coupled nonlinear Schrödinger system based on local RBF approximation, *Comput. Math. Appl.*, 134:16-32, 2023.
 
-- **Z.J. Sun**, Y.Y. Gao, A meshless quasi-interpolation method for solving hyperbolic conservation laws based on the essentially non-oscillatory reconstruction, *Inter. J. Comput. Math.*, 100(6):1303-1320, 2023.
+- **Z.J. Sun**, Y.Y. Gao, A meshless quasi-interpolation method for solving hyperbolic conservation laws based on the essentially non-oscillatory reconstruction, *Int. J. Comput. Math.*, 100(6):1303-1320, 2023.
 
 - **Z.J. Sun**, L. Ling, A kernel-based meshless conservative Galerkin method for solving Hamiltonian wave equations, *SIAM J. Sci. Comput.*, 44(4):A2789-2807, 2022.
 
