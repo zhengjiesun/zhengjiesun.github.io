@@ -11,14 +11,17 @@ Lastest Update: 28th Dec 2023
 - W.W. Gao, J.C. Wang, **Z.J. Sun**, G. Fasshauer, Quasi-interpolation for high-dimensional function approximation, 2022
 
 
-- Z. Sun, L. Ling, and M. Chen, Structure-preserving Kernel-based methods for solving dissipative PDEs on surfaces, 2023
+- **Z.J. Sun**, L. Ling, and M. Chen, Structure-preserving Kernel-based methods for solving dissipative PDEs on surfaces, 2023
+
+
+- **Z.J. Sun**, Q.J. Gao, Energy-preserving schemes for conservative PDEs based on periodic quasi-interpolation methods, to appear in *Commun. Nonlinear Sci. Numer. Simul.*, 2024
 
 
   <br>
 
 ## Journal Paper
 
-- Coming soon! 🚀
+- 
 
   <br>
 
