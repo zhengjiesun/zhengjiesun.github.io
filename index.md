@@ -4,9 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://caihanlin.com/caihanlin.jpg" class="floatpic" width="360" height="480">
-
-Sun, Zhengjie(孙正杰) is an Assoc. Prof. of the School of Mathematics and Statistics at Nanjing University of Science and Technology. Dr. Sun got Ph.D. Degree from Fudan University in 2018. His researches focus on scattered data approximation, interpolation and quasi-interpolation, meshless methods for partial differential equations.
+Sun, Zhengjie (孙正杰) is an Assoc. Prof. of the School of Mathematics and Statistics at Nanjing University of Science and Technology. Dr. Sun got Ph.D. Degree from Fudan University in 2018. His researches focus on scattered data approximation, interpolation and quasi-interpolation, meshless methods for partial differential equations.
 
 If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *zhengjiesun[at]njust[dot]edu[dot]cn*
 
