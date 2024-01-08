@@ -11,7 +11,7 @@ Lastest Update: 28th Dec 2023
 - W.W. Gao, J.C. Wang, **Z.J. Sun**, G. Fasshauer, Quasi-interpolation for high-dimensional function approximation, 2022
 
 
-- **Z.J. Sun**, L. Ling, and M. Chen, Structure-preserving Kernel-based methods for solving dissipative PDEs on surfaces, 2023
+- **Z.J. Sun**, L. Ling, and M. Chen, Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces, 2023
 
 
 - **Z.J. Sun**, Q.J. Gao, Energy-preserving schemes for conservative PDEs based on periodic quasi-interpolation methods, to appear in *Commun. Nonlinear Sci. Numer. Simul.*, 2024
@@ -27,7 +27,7 @@ Lastest Update: 28th Dec 2023
 
 - *Z.J. Sun*, Multi-symplectic quasi-interpolation method for Hamiltonian partial differential equations, J. Comput. Phys., 395:125-143, 2019.
 
-[5]. Zhengjie Sun, Zongmin Wu, Meshless conservative schemes for multivariate Hamiltonian partial differential equations, Journal of Scientific Computing, 76:1168-1187, 2018.
+- *Z.J. Sun*, Zongmin Wu, Meshless conservative schemes for multivariate Hamiltonian partial differential equations, Journal of Scientific Computing, 76:1168-1187, 2018.
 [6].  Zhengjie Sun, Yuyan Gao, High order multiquadric trigonometric quasi-interpolation method for solving time-dependent partial differential equations, Numerical Algorithms, 93:1719-1739, 2023.
 [7].  Zhengjie Sun, Zongmin Wu, Wenwu Gao, An iterated quasi-interpolation approach for derivativeapproximation, Numerical Algorithms, 85:255-276, 2020.
 [8]. Zhengjie Sun, Wenwu Gao, A energy-momentum conserving scheme for Hamiltonian wave equation based on multiquadric trigonometric quasi-interpolation, Applied Mathematical Modelling, 57:179-191, 2018.
