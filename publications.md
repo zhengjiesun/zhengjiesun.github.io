@@ -8,7 +8,10 @@ Lastest Update: 28th Dec 2023
 
 ## Submitted Paper
 
-- [W.W. Gao, J.C. Wang, **Z.J. Sun**, G. Fasshauer, Quasi-interpolation for high-dimensional function approximation, **Numer. Math.**, *In revision*, 2022]
+- W.W. Gao, J.C. Wang, **Z.J. Sun**, G. Fasshauer, Quasi-interpolation for high-dimensional function approximation, **Numer. Math.**, *In revision*, 2022
+
+
+-[]
 
 
 - [Securing Billion Bluetooth Devices leveraging Learning-based Techniques](https://caihanlin.com/file/404/) (Under Final Revision)<br>*Final year project (FYP)*<br>**Hanlin Cai**, Yuchen Fang, Meng Yuan, Zhezhuang Xu<br>AAAI Conference on Artificial Intelligence, Undergraduate Consortium ([AAAI 2024 UC](https://aaai.org/aaai-conference/undergraduate-consortium/))<br>Vancouver, Canada. February, 2024.
