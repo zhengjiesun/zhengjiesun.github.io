@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-Sun, Zhengjie (孙正杰) is an Assoc. Prof. of the School of Mathematics and Statistics at Nanjing University of Science and Technology. Dr. Sun got Ph.D. Degree from Fudan University in 2018. His researches focus on scattered data approximation, interpolation and quasi-interpolation, meshless methods for partial differential equations.
+Sun, Zhengjie (孙正杰) is an Assoc. Prof. of the School of Mathematics and Statistics at Nanjing University of Science and Technology. Dr. Sun got Ph.D. Degree from Fudan University in 2018. His researches focus on scattered data approximation, numerical analysis, meshless methods for partial differential equations.
 <br>
 
 If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *zhengjiesun[at]njust[dot]edu[dot]cn*
@@ -21,8 +21,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - Meshless methods
 - Structure-preserving methods
 
-My current research focuses on practical problems that artificial intelligence faces in real life. My interests are on the **Machine Learning** and its applications in **Industrial IoT**. In a word, advanced technologies like ML and IoT positively influence the life of everybody.  I wish to devote my talent to this meaningful cause and bring well-being to society.
-
+We focuses on the theories and applications of kernel-based meshless methods. In particular, we study the interpolation and quasi-interpolation schemes of radial basis functions, develop meshless structure-preserving algorithms for time-dependent PDEs. Recently, my interests are on the **high-dimensional function approximation**, **numerical solutions for PDEs on manifolds**.
 <br>
 
 ---
