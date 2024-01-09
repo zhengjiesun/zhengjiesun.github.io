@@ -2,8 +2,6 @@
 layout: page
 ---
 
-# About Me
-
 Sun, Zhengjie (孙正杰) is an Assoc. Prof. of the School of Mathematics and Statistics at Nanjing University of Science and Technology. Dr. Sun got Ph.D. Degree from Fudan University in 2018. His researches focus on scattered data approximation, numerical analysis, meshless methods for partial differential equations.
 
 <br>
