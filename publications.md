@@ -14,12 +14,15 @@ Lastest Update: 28th Dec 2023
 - **Z.J. Sun**, L. Ling, and M. Chen, Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces, 2023
 
 
-- **Z.J. Sun**, Q.J. Gao, Energy-preserving schemes for conservative PDEs based on periodic quasi-interpolation methods, to appear in *Commun. Nonlinear Sci. Numer. Simul.*, 2024
+
 
 
   <br>
 
 ## Journal Paper
+
+
+- **Z.J. Sun**, Q.J. Gao, Energy-preserving schemes for conservative PDEs based on periodic quasi-interpolation methods, *Commun. Nonlinear Sci. Numer. Simul.*, 131, 107831, 2024.
 
 - **Z.J. Sun**, Y.Y. Gao, High order multiquadric trigonometric quasi-interpolation method for solving time-dependent partial differential equations, *Numer. Algorithms*, 93:1719-1739, 2023.
 
