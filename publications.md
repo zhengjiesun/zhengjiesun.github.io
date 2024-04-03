@@ -8,7 +8,7 @@ Lastest Update: 25th Jan 2024
 
 ## Submitted Paper
 
-- W.W. Gao, J.C. Wang, **Z.J. Sun* **, G. Fasshauer, Quasi-interpolation for high-dimensional function approximation, 2022
+- W.W. Gao, J.C. Wang, **Z.J. Sun**, G. Fasshauer, Quasi-interpolation for high-dimensional function approximation, 2022
 
 
 - **Z.J. Sun**, L. Ling, and M. Chen, Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces, 2023
