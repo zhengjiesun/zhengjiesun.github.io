@@ -38,7 +38,7 @@ Lastest Update: 25th Jan 2024
 
 - **Z.J. Sun**\*, A conservative scheme for two-dimensional Schrödinger equation based on multi-quadric trigonometric quasi-interpolation approach, *Appl. Math. Comput.*, 423, 2022, 12pp.
 
-- Y.Y. Gao, **Z.J. Sun**, Multi-symplectic quasi-interpolation method for the KdV equation, *Comput. Appl. Math.*, 41(3):112, 2022, 17pp.
+- Y.Y. Gao, **Z.J. Sun**\*, Multi-symplectic quasi-interpolation method for the KdV equation, *Comput. Appl. Math.*, 41(3):112, 2022, 17pp.
 
 - **Z.J. Sun**, Z.M. Wu, W.W. Gao\*, An iterated quasi-interpolation approach for derivativeapproximation, *Numer. Algorithms*, 85:255-276, 2020.
 
