@@ -54,7 +54,7 @@ Lastest Update: 25th Jan 2024
 
 - **Z.J. Sun**\*, Conservative or dissipative quasi-interpolation method for evolutionary partial differential equations, *Eng. Anal. Bound. Elem.*, 96:78-83, 2018.
 
-- **Z.J. Sun**\*, W.W. Gao, A meshless scheme for Hamiltonian partial differential equations with conservation properties, *Appl. Numer. Math.*, 119:115-125, 2017.
+- **Z.J. Sun**, W.W. Gao\*, A meshless scheme for Hamiltonian partial differential equations with conservation properties, *Appl. Numer. Math.*, 119:115-125, 2017.
 
   <br>
 
