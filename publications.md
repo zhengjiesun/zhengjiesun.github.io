@@ -15,10 +15,14 @@ Lastest Update: 21th Apr 2024
 
 
 
-- **Z.J. Sun**, L. Ling, A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds, 2024
+- **Z.J. Sun**\*, L. Ling, A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds, 2024
+
+- **Z.J. Sun**, L. Ling, R. Zhang\*, Learning PDEs from data on closed surfaces with sparse optimization, 2024
 
 
-- Shengliang Zhang, **Z.J. Sun**, Symplectic tensor-product algorithm of two-dimensional coupled seismic wave equations with multiquadric quasi-interpolations, 2024
+- S.L. Zhang, **Z.J. Sun**\*, Symplectic tensor-product algorithm of two-dimensional coupled seismic wave equations with multiquadric quasi-interpolations, 2024
+
+
 
 
 
