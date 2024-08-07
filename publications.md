@@ -19,13 +19,9 @@ Lastest Update: 24th June 2024
 
 - **Z.J. Sun**, L. Ling, R. Zhang\*, Learning PDEs from data on closed surfaces with sparse optimization, 2024, https://arxiv.org/abs/2405.06199
 
-
-- S.L. Zhang, **Z.J. Sun**\*, Symplectic tensor-product algorithm of two-dimensional coupled seismic wave equations with multiquadric quasi-interpolations, 2024
-
 - W.W. Gao, **Z.J. Sun**\*, C.W. Wang, High-order quasi-interpolation with generalized Gaussian kernels restricted over tori, 2024, https://arxiv.org/abs/2407.21283
 
-
-
+- S.L. Zhang, **Z.J. Sun**\*, Symplectic tensor-product algorithm of two-dimensional coupled seismic wave equations with multiquadric quasi-interpolations, 2024
 
 
   <br>
