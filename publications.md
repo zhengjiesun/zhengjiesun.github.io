@@ -22,7 +22,7 @@ Lastest Update: 24th June 2024
 
 - S.L. Zhang, **Z.J. Sun**\*, Symplectic tensor-product algorithm of two-dimensional coupled seismic wave equations with multiquadric quasi-interpolations, 2024
 
-- W.W. Gao, **Z.J. Sun**\*, C.W. Wang, High-order quasi-interpolation with generalized Gaussian kernels restricted over tori, 2024
+- W.W. Gao, **Z.J. Sun**\*, C.W. Wang, High-order quasi-interpolation with generalized Gaussian kernels restricted over tori, 2024, https://arxiv.org/abs/2407.21283
 
 
 
