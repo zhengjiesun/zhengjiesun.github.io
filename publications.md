@@ -10,10 +10,9 @@ Lastest Update: 24th June 2024
 
 - W.W. Gao, J.C. Wang, **Z.J. Sun**\*, G. Fasshauer, Quasi-interpolation for high-dimensional function approximation, 2022
 
+- **Z.J. Sun**, W.W. Gao, X.P. Sun, Spherical quasi-interpolation using scaled zonal kernels, https://arxiv.org/abs/2408.14803, 2024
 
 - **Z.J. Sun**, L. Ling, and M. Chen\*, Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces, 2024, https://arxiv.org/abs/2312.17478
-
-
 
 - **Z.J. Sun**\*, L. Ling, A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds, 2024
 
