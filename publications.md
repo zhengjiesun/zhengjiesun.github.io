@@ -26,7 +26,7 @@ Lastest Update: 11th Sep 2024
 
 - **Z.J. Sun**, Q.J. Gao\*, Energy-preserving schemes for conservative PDEs based on periodic quasi-interpolation methods, *Commun. Nonlinear Sci. Numer. Simul.*, 131, 107831, 2024.
 
-- **Z.J. Sun**, Y.Y. Gao\*, High order multiquadric trigonometric quasi-interpolation method for solving time-dependent partial differential equations, *Numer. Algorithms*, 93:1719-1739, 2023.
+- **Z.J. Sun**, Y.Y. Gao\*, High order multiquadric trigonometric quasi-interpolation method for solving time-dependent partial differential equations, *Numerical Algorithms*, 93:1719-1739, 2023.
 
 - **Z.J. Sun**, S.L. Zhang\*, A radial basis function approximation method for conservative Allen-Cahn equations on surfaces, *Appl. Math. Letters*, 143:108634, 2023.
 
