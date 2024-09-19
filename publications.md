@@ -20,7 +20,7 @@ Lastest Update: 10th Sep 2024
 
 ## Journal Paper
 - W.W. Gao, J.C. Wang, **Z.J. Sun**\*, G. Fasshauer, Quasi-interpolation for high-dimensional function approximation, *Numerische Mathematik*,  **Accepted**, 2024
-- 
+
 - **Z.J. Sun**, L. Ling, R. Zhang\*, Learning PDEs from data on closed surfaces with sparse optimization, *Communications in Computational Physics*, Accepted, 2024. https://arxiv.org/abs/2405.06199
 
 - **Z.J. Sun**, Q.J. Gao\*, Energy-preserving schemes for conservative PDEs based on periodic quasi-interpolation methods, *Commun. Nonlinear Sci. Numer. Simul.*, 131, 107831, 2024.
