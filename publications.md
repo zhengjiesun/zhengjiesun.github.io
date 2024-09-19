@@ -12,9 +12,9 @@ Lastest Update: 10th Sep 2024
 
 - **Z.J. Sun**\*, L. Ling, A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds, *SIAM Journal on Scientific Computing*, under revision, 2024
 
-- **Z.J. Sun**, W.W. Gao, X.P. Sun, Spherical quasi-interpolation using scaled zonal kernels, https://arxiv.org/abs/2408.14803, 2024
+- **Z.J. Sun**, L. Ling, and M. Chen\*, Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces, *Journal of Scientific Computing*, under revision，https://arxiv.org/abs/2312.17478, 2024
 
-- **Z.J. Sun**, L. Ling, and M. Chen\*, Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces, https://arxiv.org/abs/2312.17478, 2024
+- **Z.J. Sun**, W.W. Gao, X.P. Sun, Spherical quasi-interpolation using scaled zonal kernels, https://arxiv.org/abs/2408.14803, 2024
 
 - W.W. Gao, **Z.J. Sun**\*, C.W. Wang, High-order quasi-interpolation with generalized Gaussian kernels restricted over tori, https://arxiv.org/abs/2407.21283, 2024
 
