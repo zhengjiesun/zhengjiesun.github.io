@@ -12,7 +12,7 @@ Lastest Update: 20th Sep 2024
 
 - **Z.J. Sun**, W.W. Gao, X.P. Sun, Spherical quasi-interpolation using scaled zonal kernels, 2024. ([arXiv:2408.14803](https://arxiv.org/abs/2408.14803))
 
-- W.W. Gao, **Z.J. Sun**\*, C.W. Wang, High-order quasi-interpolation with generalized Gaussian kernels restricted over tori, https://arxiv.org/abs/2407.21283, 2024
+- W.W. Gao, **Z.J. Sun**\*, C.W. Wang, High-order quasi-interpolation with generalized Gaussian kernels restricted over tori, 2024. ([arXiv:2407.21283](https://arxiv.org/abs/2407.21283))
 
   <br>
 
@@ -21,7 +21,7 @@ Lastest Update: 20th Sep 2024
 
 - **Z.J. Sun**\*, L. Ling, A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds, *SIAM Journal on Scientific Computing*, **Accepted**, 2024
 
-- **Z.J. Sun**, L. Ling, R. Zhang\*, Learning PDEs from data on closed surfaces with sparse optimization, *Communications in Computational Physics*, Accepted, 2024. https://arxiv.org/abs/2405.06199
+- **Z.J. Sun**, L. Ling, R. Zhang\*, Learning PDEs from data on closed surfaces with sparse optimization, *Communications in Computational Physics*, Accepted, 2024. ([arXiv:2405.06199](https://arxiv.org/abs/2405.06199)) 
 
 - **Z.J. Sun**, Q.J. Gao\*, Energy-preserving schemes for conservative PDEs based on periodic quasi-interpolation methods, *Commun. Nonlinear Sci. Numer. Simul.*, 131, 107831, 2024.
 
