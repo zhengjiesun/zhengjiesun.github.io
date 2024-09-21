@@ -4,11 +4,11 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-Lastest Update: 20th Sep 2024
+Latest Update: 20th Sep 2024
 
 ## Submitted Paper
 
-- **Z.J. Sun**, L. Ling, and M. Chen\*, Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces, *Journal of Scientific Computing*, under revision, 2024. ([arXiv:2312.17478](https://arxiv.org/abs/2312.17478))
+- **Z.J. Sun**, L. Ling, and M. Chen\*, Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces, *Journal of Scientific Computing*, under revision, 2024. (<span style="color: #008000"></span>[arXiv:2312.17478](https://arxiv.org/abs/2312.17478))
 
 - **Z.J. Sun**, W.W. Gao, X.P. Sun, Spherical quasi-interpolation using scaled zonal kernels, 2024. ([arXiv:2408.14803](https://arxiv.org/abs/2408.14803))
 
