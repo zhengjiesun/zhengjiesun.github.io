@@ -17,9 +17,9 @@ Lastest Update: 10th Sep 2024
   <br>
 
 ## Journal Paper
-- **Z.J. Sun**\*, L. Ling, A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds, *SIAM Journal on Scientific Computing*, **Accepted**, 2024
-
 - W.W. Gao, J.C. Wang, **Z.J. Sun**\*, G. Fasshauer, Quasi-interpolation for high-dimensional function approximation, *Numerische Mathematik*,  **Accepted**, 2024
+
+- **Z.J. Sun**\*, L. Ling, A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds, *SIAM Journal on Scientific Computing*, **Accepted**, 2024
 
 - **Z.J. Sun**, L. Ling, R. Zhang\*, Learning PDEs from data on closed surfaces with sparse optimization, *Communications in Computational Physics*, Accepted, 2024. https://arxiv.org/abs/2405.06199
 
