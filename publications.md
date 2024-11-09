@@ -14,7 +14,7 @@ Latest Update: 20th Sep 2024
 <br>
 
  2.&nbsp; Spherical quasi-interpolation using scaled zonal kernels, 2024. ([arXiv:2408.14803](https://arxiv.org/abs/2408.14803)) <br>
-   **Zhengjie Sun**, Wenwu Gao, Xingping Sun 
+   &nbsp;**Zhengjie Sun**, Wenwu Gao, Xingping Sun 
 <br>
 
  3.&nbsp; High-order quasi-interpolation with generalized Gaussian kernels restricted over tori, 2024. ([arXiv:2407.21283](https://arxiv.org/abs/2407.21283)) <br>
