@@ -12,11 +12,14 @@ Latest Update: 20th Sep 2024
   **Zhengjie Sun**, Leevan Ling, and Meng Chen\* <br>
    <em>*Journal of Scientific Computing*</em>, under revision, 2024. ([arXiv:2312.17478](https://arxiv.org/abs/2312.17478))
 
-2. **Zhengjie Sun**, Wenwu Gao, Xingping Sun, Spherical quasi-interpolation using scaled zonal kernels, 2024. ([arXiv:2408.14803](https://arxiv.org/abs/2408.14803))
+2. Spherical quasi-interpolation using scaled zonal kernels, 2024. ([arXiv:2408.14803](https://arxiv.org/abs/2408.14803)) <br>
+   **Zhengjie Sun**, Wenwu Gao, Xingping Sun 
 
-3. Wenwu Gao, **Zhengjie Sun**\*, Changwei Wang, High-order quasi-interpolation with generalized Gaussian kernels restricted over tori, 2024. ([arXiv:2407.21283](https://arxiv.org/abs/2407.21283))
+3. High-order quasi-interpolation with generalized Gaussian kernels restricted over tori, 2024. ([arXiv:2407.21283](https://arxiv.org/abs/2407.21283)) <br>
+   Wenwu Gao, **Zhengjie Sun**\*, Changwei Wang
   
-4. Qinjiao Gao, **Zhengjie Sun**\*, Zongmin Wu, Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations, 2024
+4. Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations, 2024 <br>
+   Qinjiao Gao, **Zhengjie Sun**\*, Zongmin Wu
 
   <br>
 
