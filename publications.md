@@ -8,7 +8,9 @@ Latest Update: 20th Sep 2024
 
 ## Submitted Paper
 
-- **Zhengjie Sun**, Leevan Ling, and Meng Chen\*, Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces, *Journal of Scientific Computing*, under revision, 2024. ([arXiv:2312.17478](https://arxiv.org/abs/2312.17478))
+- Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces
+  **Zhengjie Sun**, Leevan Ling, and Meng Chen\*
+  *Journal of Scientific Computing*, under revision, 2024. ([arXiv:2312.17478](https://arxiv.org/abs/2312.17478))
 
 - **Zhengjie Sun**, Wenwu Gao, Xingping Sun, Spherical quasi-interpolation using scaled zonal kernels, 2024. ([arXiv:2408.14803](https://arxiv.org/abs/2408.14803))
 
