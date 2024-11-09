@@ -8,7 +8,7 @@ Latest Update: 20th Sep 2024
 
 ## Submitted Paper
 
- 1. Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces <br>
+ 1.&nbsp; Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces <br>
   **Zhengjie Sun**, Leevan Ling, and Meng Chen\* <br>
    <em>*Journal of Scientific Computing*</em>, under revision, 2024. ([arXiv:2312.17478](https://arxiv.org/abs/2312.17478))
 
