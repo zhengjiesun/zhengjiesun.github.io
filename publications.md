@@ -8,17 +8,17 @@ Latest Update: Oct 2024
 
 ## Submitted Paper
 
- - 1.&nbsp; Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces <br>
+ - 4.&nbsp; Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces <br>
    &nbsp;**Zhengjie Sun**, Leevan Ling, and Meng Chen\* <br>
    &nbsp;<em>*Journal of Scientific Computing*</em>, under revision, 2024. ([arXiv:2312.17478](https://arxiv.org/abs/2312.17478)) 
 
- - 2.&nbsp; Spherical quasi-interpolation using scaled zonal kernels, 2024. ([arXiv:2408.14803](https://arxiv.org/abs/2408.14803)) <br>
+ - 3.&nbsp; Spherical quasi-interpolation using scaled zonal kernels, 2024. ([arXiv:2408.14803](https://arxiv.org/abs/2408.14803)) <br>
    &nbsp;**Zhengjie Sun**, Wenwu Gao, Xingping Sun 
 
- - 3.&nbsp; High-order quasi-interpolation with generalized Gaussian kernels restricted over tori, 2024. ([arXiv:2407.21283](https://arxiv.org/abs/2407.21283)) <br>
+ - 2.&nbsp; High-order quasi-interpolation with generalized Gaussian kernels restricted over tori, 2024. ([arXiv:2407.21283](https://arxiv.org/abs/2407.21283)) <br>
    Wenwu Gao, **Zhengjie Sun**\*, Changwei Wang
 
- - 4.&nbsp; Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations, 2024 <br>
+ - 1.&nbsp; Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations, 2024 <br>
    Qinjiao Gao, **Zhengjie Sun**\*, Zongmin Wu
 
   <br>
