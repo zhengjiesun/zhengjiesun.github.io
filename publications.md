@@ -7,6 +7,9 @@ title: Publications
 Latest Update: Oct 2024
 
 ## Submitted Paper
+- 6.&nbsp; A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods <br>
+    Zhongting Xu, **Zhengjie Sun**\*, Shengliang Zhang
+
 - 5.&nbsp; A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres <br>
     **Zhengjie Sun**\*
 
