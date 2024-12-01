@@ -4,9 +4,12 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-Latest Update: Oct 2024
+Latest Update: Dec 2024
 
 ## Submitted Paper
+- 7.&nbsp; Energy-conserving Kansa methods for Hamiltonian wave equations <br>
+    Xiaobin Li, Meng Chen, Zhengjie Sun, Leevan Ling, Siqing Li-submitted, 2024
+
 - 6.&nbsp; A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods <br>
     Zhongting Xu, **Zhengjie Sun**\*, Shengliang Zhang-submitted, 2024
 
