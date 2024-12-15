@@ -38,7 +38,7 @@ Latest Update: Dec 2024
 
 - 19.&nbsp; A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds <br>
     **Zhengjie Sun**\*, Leevan Ling <br>
-    *SIAM Journal on Scientific Computing*, **Accepted**, 2024
+    *SIAM Journal on Scientific Computing*, 46(6):A3779-3802, 2024
 
 - 18.&nbsp; Learning PDEs from data on closed surfaces with sparse optimization <br>
     **Zhengjie Sun**, Leevan Ling, Ran Zhang\* <br>
