@@ -7,9 +7,6 @@ title: Publications
 Latest Update: Dec 2024
 
 ## Submitted Paper
-- 7.&nbsp; Energy-conserving Kansa methods for Hamiltonian wave equations <br>
-    Xiaobin Li, Meng Chen, **Zhengjie Sun**, Leevan Ling, Siqing Li-submitted, 2024
-
 - 6.&nbsp; A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods <br>
     Zhongting Xu, **Zhengjie Sun**\*, Shengliang Zhang-submitted, 2024
 
@@ -25,13 +22,16 @@ Latest Update: Dec 2024
 - 2.&nbsp; Spherical quasi-interpolation using scaled zonal kernels  ([arXiv:2408.14803](https://arxiv.org/abs/2408.14803)) <br>
    **Zhengjie Sun**, Wenwu Gao, Xingping Sun-submitted, 2024
  
-- 1.&nbsp; Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces <br>
-   **Zhengjie Sun**, Leevan Ling, and Meng Chen\* <br>
-   *Journal of Scientific Computing*, under revision, 2024. ([arXiv:2312.17478](https://arxiv.org/abs/2312.17478))
+- 1.&nbsp; Energy-conserving Kansa methods for Hamiltonian wave equations <br>
+    Xiaobin Li, Meng Chen, **Zhengjie Sun**, Leevan Ling, Siqing Li-submitted, 2024
   
   <br>
 
 ## Journal Paper
+- 21.&nbsp; Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces <br>
+   **Zhengjie Sun**, Leevan Ling, and Meng Chen\* <br>
+   *Journal of Scientific Computing*, accepted, 2024. ([arXiv:2312.17478](https://arxiv.org/abs/2312.17478))
+
 - 20.&nbsp; Quasi-interpolation for high-dimensional function approximation <br>
     Wenwu Gao, Jiecheng Wang, **Zhengjie Sun**\*, Gregory E. Fasshauer <br>
     *Numerische Mathematik*, 156:1855–1885, 2024 ([arXiv:2409.14278](https://arxiv.org/abs/2409.14278))
