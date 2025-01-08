@@ -7,14 +7,11 @@ title: Publications
 Latest Update: Dec 2024
 
 ## Submitted Paper
-- 6.&nbsp; A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods <br>
+- 5.&nbsp; A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods <br>
     Zhongting Xu, **Zhengjie Sun**\*, Shengliang Zhang-submitted, 2024
 
-- 5.&nbsp; A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres <br>
+- 4.&nbsp; A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres <br>
     **Zhengjie Sun**\*-submitted, 2024
-
-- 4.&nbsp; Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations <br>
-   Qinjiao Gao, **Zhengjie Sun**\*, Zongmin Wu-submitted, 2024
 
 - 3.&nbsp; High-order quasi-interpolation with generalized Gaussian kernels restricted over tori ([arXiv:2407.21283](https://arxiv.org/abs/2407.21283)) <br>
    Wenwu Gao, **Zhengjie Sun**\*, Changwei Wang-submitted, 2024
@@ -28,8 +25,12 @@ Latest Update: Dec 2024
   <br>
 
 ## Journal Paper
+- 22.&nbsp; Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations <br>
+   Qinjiao Gao, **Zhengjie Sun**\*, Zongmin Wu <br>
+   *Applied mathematics letters*, accepted, 2024.
+
 - 21.&nbsp; Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces <br>
-   **Zhengjie Sun**, Leevan Ling, and Meng Chen\* <br>
+   **Zhengjie Sun**, Leevan Ling, and Meng Chen <br>
    *Journal of Scientific Computing*, accepted, 2024. ([arXiv:2312.17478](https://arxiv.org/abs/2312.17478))
 
 - 20.&nbsp; Quasi-interpolation for high-dimensional function approximation <br>
