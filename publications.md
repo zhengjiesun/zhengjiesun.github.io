@@ -27,7 +27,7 @@ Latest Update: Dec 2024
 ## Journal Paper
 - 22.&nbsp; Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations <br>
    Qinjiao Gao, **Zhengjie Sun**\*, Zongmin Wu <br>
-   *Applied mathematics letters*, accepted, 2025.
+   *Applied mathematics letters*, 163, 109460, 2025.
 
 - 21.&nbsp; Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces <br>
    **Zhengjie Sun**, Leevan Ling, and Meng Chen <br>
