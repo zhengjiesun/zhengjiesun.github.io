@@ -31,7 +31,7 @@ Latest Update: Dec 2024
 
 - 21.&nbsp; Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces <br>
    **Zhengjie Sun**, Leevan Ling, and Meng Chen <br>
-   *Journal of Scientific Computing*, accepted, 2024. ([arXiv:2312.17478](https://arxiv.org/abs/2312.17478))
+   *Journal of Scientific Computing*, 102:70, 2025. ([arXiv:2312.17478](https://arxiv.org/abs/2312.17478))
 
 - 20.&nbsp; Quasi-interpolation for high-dimensional function approximation <br>
     Wenwu Gao, Jiecheng Wang, **Zhengjie Sun**\*, Gregory E. Fasshauer <br>
