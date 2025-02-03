@@ -25,25 +25,26 @@ Latest Update: Dec 2024
   <br>
 
 ## Journal Paper
-- 22.&nbsp; Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations <br>
+
+- 22.&nbsp; Learning PDEs from data on closed surfaces with sparse optimization <br>
+    **Zhengjie Sun**, Leevan Ling, Ran Zhang\* <br>
+    *Communications in Computational Physics*, Accepted, 2024 ([arXiv:2405.06199](https://arxiv.org/abs/2405.06199)) 
+
+- 21.&nbsp; Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations <br>
    Qinjiao Gao, **Zhengjie Sun**\*, Zongmin Wu <br>
    *Applied mathematics letters*, 163, 109460, 2025.
 
-- 21.&nbsp; Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces <br>
+- 20.&nbsp; Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces <br>
    **Zhengjie Sun**, Leevan Ling, and Meng Chen <br>
    *Journal of Scientific Computing*, 102:70, 2025. ([arXiv:2312.17478](https://arxiv.org/abs/2312.17478))
 
-- 20.&nbsp; Quasi-interpolation for high-dimensional function approximation <br>
+- 19.&nbsp; Quasi-interpolation for high-dimensional function approximation <br>
     Wenwu Gao, Jiecheng Wang, **Zhengjie Sun**\*, Gregory E. Fasshauer <br>
     *Numerische Mathematik*, 156:1855–1885, 2024 ([arXiv:2409.14278](https://arxiv.org/abs/2409.14278))
 
-- 19.&nbsp; A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds <br>
+- 18.&nbsp; A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds <br>
     **Zhengjie Sun**\*, Leevan Ling <br>
     *SIAM Journal on Scientific Computing*, 46(6):A3779-3802, 2024
-
-- 18.&nbsp; Learning PDEs from data on closed surfaces with sparse optimization <br>
-    **Zhengjie Sun**, Leevan Ling, Ran Zhang\* <br>
-    *Communications in Computational Physics*, Accepted, 2024 ([arXiv:2405.06199](https://arxiv.org/abs/2405.06199)) 
 
 - 17.&nbsp; Energy-preserving schemes for conservative PDEs based on periodic quasi-interpolation methods <br>
     **Zhengjie Sun**, Qinjiao Gao\* <br>
