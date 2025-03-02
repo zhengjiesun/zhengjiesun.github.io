@@ -28,7 +28,7 @@ Latest Update: Dec 2024
 
 - 22.&nbsp; Learning PDEs from data on closed surfaces with sparse optimization <br>
     **Zhengjie Sun**, Leevan Ling, Ran Zhang\* <br>
-    *Communications in Computational Physics*, Accepted, 2024 ([arXiv:2405.06199](https://arxiv.org/abs/2405.06199)) 
+    *Communications in Computational Physics*, 37:289-314, 2025 ([arXiv:2405.06199](https://arxiv.org/abs/2405.06199)) 
 
 - 21.&nbsp; Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations <br>
    Qinjiao Gao, **Zhengjie Sun**\*, Zongmin Wu <br>
@@ -36,7 +36,7 @@ Latest Update: Dec 2024
 
 - 20.&nbsp; Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces <br>
    **Zhengjie Sun**, Leevan Ling, and Meng Chen <br>
-   *Journal of Scientific Computing*, 102:70, 2025. ([arXiv:2312.17478](https://arxiv.org/abs/2312.17478))
+   *Journal of Scientific Computing*, 102(3):70, 2025. ([arXiv:2312.17478](https://arxiv.org/abs/2312.17478))
 
 - 19.&nbsp; Quasi-interpolation for high-dimensional function approximation <br>
     Wenwu Gao, Jiecheng Wang, **Zhengjie Sun**\*, Gregory E. Fasshauer <br>
