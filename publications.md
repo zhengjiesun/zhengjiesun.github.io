@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-Latest Update: Dec 2024
+Latest Update: Aug 2025
 
 ## Submitted Paper
 - 5.&nbsp; Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds ([arXiv:2407.21283](https://[arxiv.org/abs/2508.05376](https://arxiv.org/abs/2508.05376))) <br>
