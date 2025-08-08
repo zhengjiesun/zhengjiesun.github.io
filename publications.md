@@ -7,24 +7,30 @@ title: Publications
 Latest Update: Dec 2024
 
 ## Submitted Paper
-- 5.&nbsp; A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods <br>
+- 5.&nbsp; Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds ([arXiv:2407.21283](https://[arxiv.org/abs/2508.05376](https://arxiv.org/abs/2508.05376))) <br>
+    **Zhengjie Sun**\*, Leevan Ling-submitted, 2025
+
+- 4.&nbsp; A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods <br>
     Zhongting Xu, **Zhengjie Sun**\*, Shengliang Zhang-submitted, 2024
 
-- 4.&nbsp; A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres <br>
+- 3.&nbsp; A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres <br>
     **Zhengjie Sun**\*-submitted, 2024
 
-- 3.&nbsp; High-order quasi-interpolation with generalized Gaussian kernels restricted over tori ([arXiv:2407.21283](https://arxiv.org/abs/2407.21283)) <br>
-   Wenwu Gao, **Zhengjie Sun**\*, Changwei Wang-submitted, 2024
+- 2.&nbsp; High-order quasi-interpolation with generalized Gaussian kernels ([arXiv:2407.21283](https://arxiv.org/abs/2407.21283)) <br>
+   Wenwu Gao, Le Hu, **Zhengjie Sun**\*, Changwei Wang-submitted, 2025
 
-- 2.&nbsp; Spherical quasi-interpolation using scaled zonal kernels  ([arXiv:2408.14803](https://arxiv.org/abs/2408.14803)) <br>
+- 1.&nbsp; Spherical quasi-interpolation using scaled zonal kernels  ([arXiv:2408.14803](https://arxiv.org/abs/2408.14803)) <br>
    **Zhengjie Sun**, Wenwu Gao, Xingping Sun-submitted, 2024
  
-- 1.&nbsp; Energy-conserving Kansa methods for Hamiltonian wave equations <br>
-    Xiaobin Li, Meng Chen, **Zhengjie Sun**, Leevan Ling, Siqing Li-submitted, 2024
+
   
   <br>
 
 ## Journal Paper
+
+- 23.&nbsp; Energy-conserving Kansa methods for Hamiltonian wave equations <br>
+    Xiaobin Li, Meng Chen, **Zhengjie Sun**, Leevan Ling, Siqing Li <br>
+    *Applied Mathematics and Computation*, 2025
 
 - 22.&nbsp; Learning PDEs from data on closed surfaces with sparse optimization <br>
     **Zhengjie Sun**, Leevan Ling, Ran Zhang\* <br>
