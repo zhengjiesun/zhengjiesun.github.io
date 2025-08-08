@@ -7,7 +7,7 @@ title: Publications
 Latest Update: Aug 2025
 
 ## Submitted Paper
-- 5.&nbsp; Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds ([arXiv:2407.21283](https://[arxiv.org/abs/2508.05376](https://arxiv.org/abs/2508.05376))) <br>
+- 5.&nbsp; Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds ([arXiv:2508.05376](https://[arxiv.org/abs/2508.05376](https://arxiv.org/abs/2508.05376))) <br>
     **Zhengjie Sun**\*, Leevan Ling-submitted, 2025
 
 - 4.&nbsp; A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods <br>
