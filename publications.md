@@ -28,10 +28,6 @@ Latest Update: Aug 2025
 
 ## Journal Paper
 
-- 23.&nbsp; Energy-conserving Kansa methods for Hamiltonian wave equations <br>
-    Xiaobin Li, Meng Chen, **Zhengjie Sun**, Leevan Ling, Siqing Li <br>
-    *Applied Mathematics and Computation*, 2025
-
 - 22.&nbsp; Learning PDEs from data on closed surfaces with sparse optimization <br>
     **Zhengjie Sun**, Leevan Ling, Ran Zhang\* <br>
     *Communications in Computational Physics*, 37:289-314, 2025 ([arXiv:2405.06199](https://arxiv.org/abs/2405.06199)) 
