@@ -28,7 +28,7 @@ Latest Update: Aug 2025
 ## Journal Paper
 
 - 23.&nbsp; Spherical quasi-interpolation using scaled zonal kernels   <br>
-   **Zhengjie Sun**, Wenwu Gao, Xingping Sun <br>
+   **Zhengjie Sun**, Wenwu Gao\*, Xingping Sun <br>
    *IMA Journal of Numerical Analysis*, accepted, 2025 ([arXiv:2408.14803](https://arxiv.org/abs/2408.14803))
 
 - 22.&nbsp; Learning PDEs from data on closed surfaces with sparse optimization <br>
