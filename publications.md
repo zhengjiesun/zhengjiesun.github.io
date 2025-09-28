@@ -18,6 +18,8 @@ Latest Update: Oct 2025
     <li>&nbsp; Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong> and Changwei Wang. Quasi-interpolation using generalized Gaussian kernels, submitted, 2025. (<a href="https://arxiv.org/abs/2407.21283" style="color: #0066cc; text-decoration: none;">arXiv:2407.21283</a>)</li>
     
 </ul>
+<br>
+
 
 <h3 style="font-family: sans-serif;">Published papers</h3>
 
