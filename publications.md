@@ -5,7 +5,7 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-Latest Update: Aug 2025
+Latest Update: Oct 2025
 
 ## Preprints
 <ul class="compact-list">
