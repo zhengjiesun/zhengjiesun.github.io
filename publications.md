@@ -1,6 +1,8 @@
 ---
 layout: page
 permalink: /publications/index.html
+
+html
 <style>
 .compact-list li {
     margin-bottom: 0.3em !important;
