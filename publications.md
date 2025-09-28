@@ -9,7 +9,7 @@ Latest Update: Aug 2025
 
 ## Preprints
 <ul class="compact-list">
-    <li>&nbsp; <strong>Zhengjie Sun*</strong>, Leevan Ling, Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds, submitted, 2025 (<a href="https://arxiv.org/abs/2508.05376">arXiv:2508.05376</a>)</li>
+    <li>&&nbsp; <strong>Zhengjie Sun*</strong>, Leevan Ling, Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds, 2025 (<a href="https://arxiv.org/abs/2508.05376" style="color: blue; text-decoration: none;">arXiv:2508.05376</a>)</li>
     <li>&nbsp; Zhongting Xu, <strong>Zhengjie Sun*</strong>, Shengliang Zhang, A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods, submitted, 2024 </li>
     <li>&nbsp; <strong>Zhengjie Sun</strong>, Yuyan Gao*, A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres, submitted, 2025 </li>
     <li>&nbsp; Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong>, Changwei Wang, Quasi-interpolation   using generalized Gaussian kernels, submitted, 2025  (<a href="https://arxiv.org/abs/2407.21283">arXiv:2407.21283</a>)</li>
