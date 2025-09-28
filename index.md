@@ -8,7 +8,7 @@ Sun, Zhengjie (孙正杰) is an Assoc. Prof. of the School of Mathematics and St
 <br>
 
 <p style="font-family: sans-serif; line-height: 1.5;">
-If you are interested in any aspect of me, I would like to chat and collaborate, please email me at - <i>zhengjiesun[at]njust[dot]edu[dot]cn</i>
+If you are interested in any aspect of me, I would like to chat and collaborate, please email me at - <i>zhengjiesun@njust.edu.cn</i>
 </p>
 
 <br>
