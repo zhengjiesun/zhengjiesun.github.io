@@ -14,22 +14,6 @@ Latest Update: Aug 2025
     <li>&nbsp; <strong>Zhengjie Sun</strong>, Yuyan Gao*, A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres, submitted, 2025 </li>
     <li>&nbsp; Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong>, Changwei Wang, Quasi-interpolation   using generalized Gaussian kernels, submitted, 2025  (<a href="https://arxiv.org/abs/2407.21283">arXiv:2407.21283</a>)</li>
 </ul>
-
-
-- &nbsp; **Zhengjie Sun**\*, Leevan Ling, Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds,2025 ([arXiv:2508.05376](https://arxiv.org/abs/2508.05376)) <br>
-
-- &nbsp; A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods <br>
-    Zhongting Xu, **Zhengjie Sun**\*, Shengliang Zhang-submitted, 2024
-
-- &nbsp; A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres <br>
-    **Zhengjie Sun**\*-submitted, 2024
-
-- &nbsp; High-order quasi-interpolation with generalized Gaussian kernels ([arXiv:2407.21283](https://arxiv.org/abs/2407.21283)) <br>
-   Wenwu Gao, Le Hu, **Zhengjie Sun**\*, Changwei Wang-submitted, 2025
-
-
- 
-
   
   <br>
 
