@@ -9,35 +9,35 @@ Latest Update: Oct 2025
 
 ## Preprints
 <ul class="compact-list">
-    <li>&nbsp; <strong>Zhengjie Sun*</strong>, Leevan Ling. Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds, 2025. (<a href="https://arxiv.org/abs/2508.05376" style="color: #0066cc; text-decoration: none;">arXiv:2508.05376</a>)</li>
+    <li>&nbsp; <strong>Zhengjie Sun*</strong> and Leevan Ling. Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds, 2025. (<a href="https://arxiv.org/abs/2508.05376" style="color: #0066cc; text-decoration: none;">arXiv:2508.05376</a>)</li>
     
-    <li>&nbsp; Zhongting Xu, <strong>Zhengjie Sun*</strong>, Shengliang Zhang. A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods, submitted, 2024. </li>
+    <li>&nbsp; Zhongting Xu, <strong>Zhengjie Sun*</strong> and Shengliang Zhang. A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods, submitted, 2024. </li>
     
-    <li>&nbsp; <strong>Zhengjie Sun</strong>, Yuyan Gao*. A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres, submitted, 2025. </li>
+    <li>&nbsp; <strong>Zhengjie Sun</strong> and Yuyan Gao*. A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres, submitted, 2025. </li>
     
-    <li>&nbsp; Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong>, Changwei Wang. Quasi-interpolation using generalized Gaussian kernels, submitted, 2025. (<a href="[https://arxiv.org/abs/2407.21283](https://arxiv.org/abs/2407.21283)" style="color: #0066cc; text-decoration: none;">arXiv:2407.21283</a>)</li> 
+    <li>&nbsp; Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong> and Changwei Wang. Quasi-interpolation using generalized Gaussian kernels, submitted, 2025. (<a href="[https://arxiv.org/abs/2407.21283](https://arxiv.org/abs/2407.21283)" style="color: #0066cc; text-decoration: none;">arXiv:2407.21283</a>)</li> 
     
 </ul>
 
 ## Published Papers
 
 <ul class="compact-list">
-    <li>&nbsp;<strong>Zhengjie Sun*</strong>, Wenwu Gao, Xingping Sun. Spherical quasi-interpolation using scaled zonal kernels, <i>IMA Journal of Numerical Analysis</i>, doi.org/10.1093/imanum/draf104, 2025. (<a href="[https://arxiv.org/abs/2408.14803](https://arxiv.org/abs/2408.14803)" style="color: #0066cc; text-decoration: none;">arXiv:2408.14803</a>)</li>
+    <li>&nbsp;<strong>Zhengjie Sun*</strong>, Wenwu Gao and Xingping Sun. Spherical quasi-interpolation using scaled zonal kernels, <i>IMA Journal of Numerical Analysis</i>, doi.org/10.1093/imanum/draf104, 2025. (<a href="[https://arxiv.org/abs/2408.14803](https://arxiv.org/abs/2408.14803)" style="color: #0066cc; text-decoration: none;">arXiv:2408.14803</a>)</li>
     
-    <li>&nbsp;<strong>Zhengjie Sun</strong>, Leevan Ling, Ran Zhang*. Learning PDEs from data on closed surfaces with sparse optimization, <i>Communications in Computational Physics</i>, 37:289-314, 2025. </li>
+    <li>&nbsp;<strong>Zhengjie Sun</strong>, Leevan Ling and Ran Zhang*. Learning PDEs from data on closed surfaces with sparse optimization, <i>Communications in Computational Physics</i>, 37:289-314, 2025. </li>
     
-    <li>&nbsp;Qinjiao Gao, <strong>Zhengjie Sun</strong>,Zongmin Wu. Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations, <i>Applied Mathematics Letters</i>, 163, 109460, 2025. </li>
+    <li>&nbsp;Qinjiao Gao, <strong>Zhengjie Sun</strong> and Zongmin Wu. Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations, <i>Applied Mathematics Letters</i>, 163, 109460, 2025. </li>
     
-    <li>&nbsp;<strong>Zhengjie Sun*</strong>, Leevan Ling, Meng Chen. Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces, <i>Journal of Scientific Computing</i>, 102(3):70, 2025. (<a href="[https://arxiv.org/abs/2312.17478](https://arxiv.org/abs/2312.17478)" style="color: #0066cc; text-decoration: none;">arXiv:2312.17478</a>)</li>
+    <li>&nbsp;<strong>Zhengjie Sun*</strong>, Leevan Ling and Meng Chen. Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces, <i>Journal of Scientific Computing</i>, 102(3):70, 2025. (<a href="[https://arxiv.org/abs/2312.17478](https://arxiv.org/abs/2312.17478)" style="color: #0066cc; text-decoration: none;">arXiv:2312.17478</a>)</li>
 </ul>
 
 
 - &nbsp; Learning PDEs from data on closed surfaces with sparse optimization <br>
-    **Zhengjie Sun**, Leevan Ling, Ran Zhang\* <br>
+    **Zhengjie Sun**, Leevan Ling and Ran Zhang\* <br>
     *Communications in Computational Physics*, 37:289-314, 2025 ([arXiv:2405.06199](https://arxiv.org/abs/2405.06199)) 
 
 - &nbsp; Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations <br>
-   Qinjiao Gao, **Zhengjie Sun**\*, Zongmin Wu <br>
+   Qinjiao Gao, **Zhengjie Sun**\* and Zongmin Wu <br>
    *Applied mathematics letters*, 163, 109460, 2025.
 
 - &nbsp; Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces <br>
