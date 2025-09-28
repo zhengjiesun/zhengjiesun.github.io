@@ -69,7 +69,7 @@ Latest Update: Oct 2025
 
 <li>&nbsp;<strong>Zhengjie Sun</strong> and Wenwu Gao*. A energy-momentum conserving scheme for Hamiltonian wave equation based on multiquadric trigonometric quasi-interpolation, <i>Applied Mathematical Modelling</i>, 57:179-191, 2018. </li>
 
-<li>&nbsp;<strong>Zhengjie Sun*</strong>. Conservative or dissipative quasi-interpolation method for evolutionary partial differential equations, <i>Applied Mathematical Modelling</i>, 96:78-83, 2018. </li>
+<li>&nbsp;<strong>Zhengjie Sun*</strong>. Conservative or dissipative quasi-interpolation method for evolutionary partial differential equations, <i>Engineering Analysis with Boundary Elements</i>, 96:78-83, 2018. </li>
      
 <li>&nbsp;<strong>Zhengjie Sun</strong> and Wenwu Gao*. A meshless scheme for Hamiltonian partial differential equations with conservation properties, <i>Applied Numerical Mathematics</i>, 119:115-125, 2017. </li>
 
