@@ -9,13 +9,13 @@ Latest Update: Oct 2025
 
 <h3 style="margin-bottom: 15px; font-family: inherit;">Preprints</h3>
 <ul class="compact-list">
-    <li>&nbsp; <strong>Zhengjie Sun*</strong> and Leevan Ling. Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds, 2025. (<a href="https://arxiv.org/abs/2508.05376" style="color: #0066cc; text-decoration: none;">arXiv:2508.05376</a>)</li>
+    <li style="text-align: justify;">&nbsp; <strong>Zhengjie Sun*</strong> and Leevan Ling. Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds, 2025. (<a href="https://arxiv.org/abs/2508.05376" style="color: #0066cc; text-decoration: none;">arXiv:2508.05376</a>)</li>
     
-    <li>&nbsp; Zhongting Xu, <strong>Zhengjie Sun*</strong> and Shengliang Zhang. A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods, submitted, 2024. </li>
+<li style="text-align: justify;">&nbsp; Zhongting Xu, <strong>Zhengjie Sun*</strong> and Shengliang Zhang. A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods, submitted, 2024. </li>
     
-    <li>&nbsp; <strong>Zhengjie Sun</strong> and Yuyan Gao*. A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres, submitted, 2025. </li>
+<li style="text-align: justify;"> &nbsp; <strong>Zhengjie Sun</strong> and Yuyan Gao*. A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres, submitted, 2025. </li>
     
-    <li>&nbsp; Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong> and Changwei Wang. Quasi-interpolation using generalized Gaussian kernels, submitted, 2025. (<a href="https://arxiv.org/abs/2407.21283" style="color: #0066cc; text-decoration: none;">arXiv:2407.21283</a>)</li>
+<li style="text-align: justify;">&nbsp; Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong> and Changwei Wang. Quasi-interpolation using generalized Gaussian kernels, submitted, 2025. (<a href="https://arxiv.org/abs/2407.21283" style="color: #0066cc; text-decoration: none;">arXiv:2407.21283</a>)</li>
     
 </ul>
 
