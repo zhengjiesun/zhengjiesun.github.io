@@ -22,11 +22,11 @@ Latest Update: Oct 2025
 ## Published Papers
 
 <ul class="compact-list">
-    <li>&nbsp; <strong>Zhengjie Sun*</strong>, Wenwu Gao, Xingping Sun, Spherical quasi-interpolation using scaled zonal kernels, *IMA Journal of Numerical Analysis*, doi.org/10.1093/imanum/draf104, 2025. (<a href="[https://arxiv.org/abs/2508.05376](https://arxiv.org/abs/2408.14803)" style="color: #0066cc; text-decoration: none;">arXiv:2408.14803</a>)</li>
+    <li>&nbsp; <strong>Zhengjie Sun*</strong>, Wenwu Gao, Xingping Sun, Spherical quasi-interpolation using scaled zonal kernels, <i>IMA Journal of Numerical Analysis<i>, doi.org/10.1093/imanum/draf104, 2025. (<a href="[https://arxiv.org/abs/2508.05376](https://arxiv.org/abs/2408.14803)" style="color: #0066cc; text-decoration: none;">arXiv:2408.14803</a>)</li>
     
-    <li>&nbsp; <strong>Zhengjie Sun</strong>, Leevan Ling, Ran Zhang*, Learning PDEs from data on closed surfaces with sparse optimization, Communications in Computational Physics, 37:289-314, 2025. </li>
+    <li>&nbsp; <strong>Zhengjie Sun</strong>, Leevan Ling, Ran Zhang*, Learning PDEs from data on closed surfaces with sparse optimization, <i>Communications in Computational Physics<i>, 37:289-314, 2025. </li>
     
-    <li>&nbsp; Qinjiao Gao, <strong>Zhengjie Sun</strong>,Zongmin Wu, Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations, Applied Mathematics Letters, 163, 109460, 2025. </li>
+    <li>&nbsp; Qinjiao Gao, <strong>Zhengjie Sun</strong>,Zongmin Wu, Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations, <i>Applied Mathematics Letters<i>, 163, 109460, 2025. </li>
     
     <li>&nbsp; Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong>, Changwei Wang, Quasi-interpolation using generalized Gaussian kernels, submitted, 2025  (<a href="https://arxiv.org/abs/2407.21283">arXiv:2407.21283</a>)</li>
 </ul>
