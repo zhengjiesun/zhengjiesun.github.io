@@ -3,12 +3,7 @@ layout: page
 permalink: /publications/index.html
 
 html
-<style>
-.compact-list li {
-    margin-bottom: 0.3em !important;
-    line-height: 1.3;
-}
-</style>
+
 
 title: Publications
 ---
