@@ -21,7 +21,7 @@ If you are interested in any aspect of me, I would like to chat and collaborate,
     <li>Scattered Data Approximation</li>
     <li>Radial basis function</li>
     <li>Meshless methods</li>
-    <li>Structure-preserving methods</li>
+    <li>Structure-preserving schemes</li>
 </ul>
 
 <p style="font-family: sans-serif; line-height: 1.5;">
