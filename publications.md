@@ -15,7 +15,7 @@ Latest Update: Aug 2025
     
     <li>&nbsp; <strong>Zhengjie Sun</strong>, Yuyan Gao*, A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres, submitted, 2025. </li>
     
-    <li>&nbsp; Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong>, Changwei Wang, Quasi-interpolation   using generalized Gaussian kernels, submitted, 2025. (<a href="[https://arxiv.org/abs/2407.21283](https://arxiv.org/abs/2407.21283)" style="color: #0066cc; text-decoration: none;">arXiv:2407.21283</a>)</li> 
+    <li>&nbsp; Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong>, Changwei Wang, Quasi-interpolation using generalized Gaussian kernels, submitted, 2025. (<a href="[https://arxiv.org/abs/2407.21283](https://arxiv.org/abs/2407.21283)" style="color: #0066cc; text-decoration: none;">arXiv:2407.21283</a>)</li> 
     
 </ul>
 
@@ -26,9 +26,9 @@ Latest Update: Aug 2025
     
     <li>&nbsp; <strong>Zhengjie Sun</strong>, Leevan Ling, Ran Zhang*, Learning PDEs from data on closed surfaces with sparse optimization, Communications in Computational Physics, 37:289-314, 2025. </li>
     
-    <li>&nbsp; Qinjiao Gao, <strong>Zhengjie Sun</strong>,Zongmin Wu, Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations, Applied mathematics letters, 163, 109460, 2025. </li>
+    <li>&nbsp; Qinjiao Gao, <strong>Zhengjie Sun</strong>,Zongmin Wu, Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations, Applied Mathematics Letters, 163, 109460, 2025. </li>
     
-    <li>&nbsp; Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong>, Changwei Wang, Quasi-interpolation   using generalized Gaussian kernels, submitted, 2025  (<a href="https://arxiv.org/abs/2407.21283">arXiv:2407.21283</a>)</li>
+    <li>&nbsp; Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong>, Changwei Wang, Quasi-interpolation using generalized Gaussian kernels, submitted, 2025  (<a href="https://arxiv.org/abs/2407.21283">arXiv:2407.21283</a>)</li>
 </ul>
 
 
