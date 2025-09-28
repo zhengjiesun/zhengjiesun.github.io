@@ -2,9 +2,6 @@
 layout: page
 permalink: /publications/index.html
 
-html
-
-
 title: Publications
 ---
 
