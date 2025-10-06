@@ -24,7 +24,7 @@ Latest Update: Oct 2025
 <h3 style="margin-bottom: 15px; font-family: inherit;">Published papers</h3>
 
 <ul class="compact-list">
-<li>&nbsp;<strong>Zhengjie Sun</strong>, Wenwu Gao* and Xingping Sun. Spherical quasi-interpolation using scaled zonal kernels, <i>IMA Journal of Numerical Analysis</i>, doi.org/10.1093/imanum/draf104, 2025. (<a href="https://arxiv.org/abs/2408.14803" style="color: #0066cc; text-decoration: none;">arXiv:2408.14803</a>)</li>
+<li>&nbsp;<strong>Zhengjie Sun</strong>, Wenwu Gao* and Xingping Sun. Scaled zonal kernel quasi-interpolation on spheres, <i>IMA Journal of Numerical Analysis</i>, doi.org/10.1093/imanum/draf104, 2025. (<a href="https://arxiv.org/abs/2408.14803" style="color: #0066cc; text-decoration: none;">arXiv:2408.14803</a>)</li>
     
 <li>&nbsp;<strong>Zhengjie Sun</strong>, Leevan Ling and Ran Zhang*. Learning PDEs from data on closed surfaces with sparse optimization, <i>Communications in Computational Physics</i>, 37:289-314, 2025. 
 (<a href="https://arxiv.org/abs/2405.06199" style="color: #0066cc; text-decoration: none;">arXiv:2405.06199</a>)</li>
