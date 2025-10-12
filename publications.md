@@ -9,6 +9,8 @@ Latest Update: Oct 2025
 
 <h3 style="margin-bottom: 15px; font-family: inherit;">Preprints</h3>
 <ul class="compact-list">
+
+
     
 <li>&nbsp;<strong>Zhengjie Sun*</strong> and Leevan Ling. Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds, 2025. (<a href="https://arxiv.org/abs/2508.05376" style="color: #0066cc; text-decoration: none;">arXiv:2508.05376</a>)</li>
     
