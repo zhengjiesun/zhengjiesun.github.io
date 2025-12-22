@@ -14,8 +14,6 @@ Latest Update: Oct 2025
     
 <li>&nbsp;<strong>Zhengjie Sun*</strong> and Leevan Ling. Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds, submitted, 2025. (<a href="https://arxiv.org/abs/2508.05376" style="color: #0066cc; text-decoration: none;">arXiv:2508.05376</a>)</li>
     
-<li>&nbsp;Zhongting Xu, <strong>Zhengjie Sun*</strong> and Shengliang Zhang. A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods, submitted, 2024. </li>
-    
     
 <li>&nbsp;Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong> and Changwei Wang. Quasi-interpolation using generalized Gaussian kernels, submitted, 2025. (<a href="https://arxiv.org/abs/2407.21283" style="color: #0066cc; text-decoration: none;">arXiv:2407.21283</a>)</li>
     
@@ -25,6 +23,9 @@ Latest Update: Oct 2025
 <h3 style="margin-bottom: 15px; font-family: inherit;">Published papers</h3>
 
 <ul class="compact-list">
+
+<li>&nbsp;Zhongting Xu, <strong>Zhengjie Sun*</strong> and Shengliang Zhang. A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods, <i>Engineering Analysis with Boundary Elements</i>, 2025. </li>
+
 <li>&nbsp;<strong>Zhengjie Sun</strong> and Yuyan Gao*. A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres,  <i>Mathematics and Computers in Simulation</i>, 241, 31-47, 2026. </li>
     
 <li>&nbsp;<strong>Zhengjie Sun</strong>, Wenwu Gao* and Xingping Sun. Scaled zonal kernel quasi-interpolation on spheres, <i>IMA Journal of Numerical Analysis</i>, doi.org/10.1093/imanum/draf104, 2025. (<a href="https://arxiv.org/abs/2408.14803" style="color: #0066cc; text-decoration: none;">arXiv:2408.14803</a>)</li>
