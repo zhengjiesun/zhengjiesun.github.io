@@ -24,7 +24,7 @@ Latest Update: Oct 2025
 
 <ul class="compact-list">
 
-<li>&nbsp;Zhongting Xu, <strong>Zhengjie Sun*</strong> and Shengliang Zhang. A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods, <i>Engineering Analysis with Boundary Elements</i>, 2025. </li>
+<li>&nbsp;Zhongting Xu, <strong>Zhengjie Sun*</strong> and Shengliang Zhang. A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods, <i>Engineering Analysis with Boundary Elements</i>, 183, 106615, 2026. </li>
 
 <li>&nbsp;<strong>Zhengjie Sun</strong> and Yuyan Gao*. A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres,  <i>Mathematics and Computers in Simulation</i>, 241, 31-47, 2026. </li>
     
