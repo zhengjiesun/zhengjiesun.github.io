@@ -8,456 +8,282 @@ title: Publications
 Latest Update: Oct 2025
 
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academic Publications</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css">
-    <style>
-        /* 基础样式重置 */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f9f9f9;
-            max-width: 100%; /* 使用视口宽度的95% */
-            margin: 0 auto;
-             padding: 40px;
-        }
-        
-        /* 标题样式 */
-        .section-title {
-            font-family: 'Georgia', 'Times New Roman', serif;
-            font-weight: 600;
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 8px;
-            margin: 40px 0 20px 0;
-            font-size: 1.5rem;
-        }
-        
-        /* 预印本列表容器 */
-        .preprints-container {
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-            padding: 25px;
-            margin-bottom: 40px;
-        }
-        
-        /* 紧凑列表样式 */
-        .compact-list {
-            list-style-type: none;
-        }
-        
-        .compact-list li {
-            margin-bottom: 25px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #eaeaea;
-            position: relative;
-        }
-        
-        .compact-list li:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
-        
-        /* 论文标题样式 */
-        .compact-list em {
-            font-style: italic;
-            color: #2c3e50;
-            display: inline-block;
-            margin: 5px 0;
-        }
-        
-        /* 作者姓名样式 */
-        .compact-list strong {
-            color: #e74c3c;
-            font-weight: 700;
-        }
-        
-        /* 论文状态 */
-        .compact-list li::after {
-            content: attr(data-status);
-            position: absolute;
-            top: 0;
-            right: 0;
-            background-color: #f1c40f;
-            color: #34495e;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.8rem;
-            font-weight: 600;
-        }
-        
-        /* 链接容器 */
-        .paper-links {
-            margin-top: 12px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-        
-        /* 链接通用样式 */
-        .paper-links a {
-            display: inline-flex;
-            align-items: center;
-            padding: 6px 12px;
-            border-radius: 4px;
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-            font-weight: 500;
-        }
-        
-        /* arXiv链接样式 */
-        .arxiv-id {
-            background-color: #1a73e8;
-            color: white !important;
-            border: 1px solid #1a73e8;
-        }
-        
-        .arxiv-id:hover {
-            background-color: #0d62d9;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(26, 115, 232, 0.3);
-        }
-        
-        /* PDF链接样式 */
-        .pdf-download {
-            background-color: #f8f9fa;
-            color: #d32f2f !important;
-            border: 1px solid #ddd;
-        }
-        
-        .pdf-download:hover {
-            background-color: #e9ecef;
-            border-color: #d32f2f;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(211, 47, 47, 0.2);
-        }
-        
-        /* 引用链接样式 */
-        .cite-btn {
-            background-color: #2ecc71;
-            color: white !important;
-            border: 1px solid #2ecc71;
-            cursor: pointer;
-        }
-        
-        .cite-btn:hover {
-            background-color: #27ae60;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(46, 204, 113, 0.3);
-        }
-        
-        /* 图标间距 */
-        .paper-links i, .paper-links .ai {
-            margin-right: 6px;
-            font-size: 1rem;
-        }
-        
-        /* 引用弹窗 */
-        .citation-modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            z-index: 1000;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .citation-content {
-            background-color: white;
-            padding: 25px;
-            border-radius: 8px;
-            max-width: 600px;
-            width: 90%;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-            position: relative;
-        }
-        
-        .citation-close {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            cursor: pointer;
-            color: #7f8c8d;
-        }
-        
-        .citation-text {
-            background-color: #f8f9fa;
-            padding: 15px;
-            border-radius: 4px;
-            margin: 15px 0;
-            font-family: 'Courier New', monospace;
-            font-size: 0.9rem;
-            line-height: 1.5;
-            white-space: pre-wrap;
-            border-left: 4px solid #3498db;
-        }
-        
-        .copy-btn {
-            background-color: #3498db;
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 0.9rem;
-            margin-top: 10px;
-        }
-        
-        .copy-btn:hover {
-            background-color: #2980b9;
-        }
-        
-        /* 响应式设计 */
-        @media (max-width: 768px) {
-            body {
-                padding: 15px;
-            }
-            
-            .preprints-container {
-                padding: 15px;
-            }
-            
-            .compact-list li {
-                padding: 15px;
-                background-color: #fcfcfc;
-                border-radius: 6px;
-                margin-bottom: 15px;
-            }
-            
-            .compact-list li::after {
-                position: relative;
-                display: inline-block;
-                margin-left: 10px;
-                top: -2px;
-            }
-            
-            .paper-links {
-                flex-direction: column;
-                gap: 6px;
-            }
-            
-            .paper-links a {
-                width: 100%;
-                justify-content: center;
-                padding: 8px 12px;
-            }
-        }
-        
-        /* 打印样式 */
-        @media print {
-            .paper-links a {
-                color: #000 !important;
-                text-decoration: underline;
-                background: none !important;
-                border: none !important;
-                padding: 0 !important;
-            }
-            
-            .cite-btn {
-                display: none;
-            }
-            
-            .preprints-container {
-                box-shadow: none;
-                padding: 0;
-            }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Publications</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css"/>
+  <style>
+    :root{
+      --bg:#f7f8fa;
+      --panel:#fff;
+      --text:#1f2937;
+      --muted:#6b7280;
+      --brand:#2563eb;
+      --brand-600:#1d4ed8;
+      --accent:#10b981;
+      --danger:#dc2626;
+      --shadow:0 2px 12px rgba(0,0,0,.06);
+      --radius:10px;
+
+      --btn-font:.85rem;
+      --icon-size:.95rem;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; padding:24px;
+      font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji", system-ui, -apple-system;
+      background:var(--bg); color:var(--text);
+    }
+    .container{ max-width:960px; margin:0 auto; }
+    .section-title{
+      font-family: Georgia, "Times New Roman", Times, serif;
+      display:flex; align-items:center; gap:10px;
+      font-weight:700; font-size:1.4rem;
+      border-bottom:2px solid var(--brand);
+      padding-bottom:8px; margin:8px 0 18px;
+      color:#0f172a;
+    }
+    .panel{ background:var(--panel); border-radius:10px; box-shadow:var(--shadow); padding:20px; }
+
+    .pub-list{ list-style:none; margin:0; padding:0; }
+    .pub-item{
+      display:grid; grid-template-columns:1fr auto; gap:10px 16px;
+      padding:14px 0; border-bottom:1px solid #e5e7eb;
+    }
+    .pub-item:last-child{ border-bottom:none; padding-bottom:0; }
+    .meta{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .badge{
+      font-size:.72rem; font-weight:700; letter-spacing:.02em;
+      padding:2px 8px; border-radius:999px; user-select:none;
+      background:#fde68a; color:#92400e; border:1px solid #f59e0b;
+    }
+    .badge.success{ background:#d1fae5; color:#065f46; border-color:#10b981; }
+    .badge.info{ background:#dbeafe; color:#1e40af; border-color:#3b82f6; }
+    .title{ font-weight:700; color:#0f172a; line-height:1.4; }
+    .title em{ font-style:italic; font-weight:600; color:#1f2937; }
+    .authors{ color:var(--muted); }
+    .authors strong{ color: inherit; font-weight: 800; }
+
+    .links{ display:flex; gap:6px; flex-wrap:wrap; margin-top:8px; }
+    .btn{
+      display:inline-flex; align-items:center; gap:6px;
+      padding:5px 10px; text-decoration:none; border-radius:7px; font-weight:600;
+      font-size: var(--btn-font); border:1px solid transparent; transition:.2s;
+    }
+    .btn i{ font-size: var(--icon-size); }
+    .btn.arxiv{ background:var(--brand); color:#fff; border-color:var(--brand); }
+    .btn.arxiv:hover{ background:var(--brand-600); transform:translateY(-1px); }
+    .btn.pdf{ background:#f8fafc; color:#b91c1c; border-color:#e5e7eb; }
+    .btn.pdf:hover{ background:#f1f5f9; border-color:#ef4444; transform:translateY(-1px); }
+    .btn.cite{ background:#ecfeff; color:#0f766e; border-color:#67e8f9; }
+    .btn.cite:hover{ background:#cffafe; transform:translateY(-1px); }
+
+    .right{ display:flex; flex-direction:column; align-items:flex-end; gap:6px; white-space:nowrap; }
+    .year{ color:#0f172a; font-weight:700; font-size:.95rem; }
+    .status{ font-size:.8rem; color:#334155; }
+
+    .modal{ position:fixed; inset:0; display:none; align-items:center; justify-content:center; background:rgba(0,0,0,.45); z-index:1000; padding:16px; }
+    .modal[aria-hidden="false"]{ display:flex; }
+    .dialog{ background:#fff; border-radius:12px; box-shadow:var(--shadow); width:100%; max-width:720px; padding:20px; position:relative; }
+    .dialog h3{ margin:0 0 10px; font-size:1.2rem; }
+    .close{ position:absolute; top:10px; right:10px; background:none; border:none; font-size:1.1rem; cursor:pointer; color:#6b7280; }
+    .format-switch{ display:flex; gap:8px; margin:8px 0 10px; }
+    .pill{ padding:4px 10px; border-radius:999px; border:1px solid #e5e7eb; background:#f8fafc; color:#334155; cursor:pointer; font-size:.82rem; }
+    .pill.active{ background:#1f2937; color:#fff; border-color:#1f2937; }
+    .code{ background:#0b1020; color:#dbeafe; font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; border-radius:8px; padding:12px; white-space:pre-wrap; line-height:1.6; min-height:120px; border-left:4px solid var(--brand); font-size:.9rem; }
+    .actions{ display:flex; gap:8px; margin-top:10px; }
+    .copy{ background:var(--brand); color:#fff; border:none; padding:8px 12px; border-radius:8px; cursor:pointer; font-weight:700; }
+    .copy.success{ background:var(--accent); }
+    .hint{ color:#64748b; font-size:.85rem; margin-top:4px; }
+
+    @media (max-width: 720px){
+      body{ padding:16px; }
+      .pub-item{ grid-template-columns:1fr; }
+      .right{ align-items:flex-start; }
+    }
+    .btn, .close, .pill, .copy, .cite-btn:focus{ outline:2px solid transparent; outline-offset:2px; }
+    .btn:focus-visible, .close:focus-visible, .pill:focus-visible, .copy:focus-visible{ outline-color:#60a5fa; }
+  </style>
 </head>
 <body>
-    <div class="preprints-container">
-        <h3 class="section-title">
-            <i class="fas fa-file-alt"></i> Preprints
-        </h3>
-        
-        <ul class="compact-list">
-            <li data-status="Submitted, 2025">
-                <strong>Zhengjie Sun*</strong>, Mengyuan Lv and Xingping Sun. 
-                <em>Monte Carlo quasi-interpolation of spherical data</em>. 
-                <div class="paper-links">
-                    <a href="https://arxiv.org/abs/2510.12027" class="arxiv-id" target="_blank" rel="noopener noreferrer">
-                        <i class="ai ai-arxiv"></i> arXiv:2510.12027
-                    </a>
-                    <a href="https://arxiv.org/pdf/2510.12027.pdf" class="pdf-download" target="_blank" rel="noopener noreferrer">
-                        <i class="fas fa-file-pdf"></i> PDF
-                    </a>
-                    <a href="#" class="cite-btn" data-id="sun2025monte">
-                        <i class="fas fa-quote-right"></i> Cite
-                    </a>
-                </div>
-            </li>
-            
-            <li data-status="Submitted, 2025">
-                <strong>Zhengjie Sun*</strong> and Leevan Ling. 
-                <em>Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds</em>. 
-                Submitted, 2025.
-                <div class="paper-links">
-                    <a href="https://arxiv.org/abs/2508.05376" class="arxiv-id" target="_blank" rel="noopener noreferrer">
-                        <i class="ai ai-arxiv"></i> arXiv:2508.05376
-                    </a>
-                    <a href="https://arxiv.org/pdf/2508.05376.pdf" class="pdf-download" target="_blank" rel="noopener noreferrer">
-                        <i class="fas fa-file-pdf"></i> PDF
-                    </a>
-                    <a href="#" class="cite-btn" data-id="sun2025inverse">
-                        <i class="fas fa-quote-right"></i> Cite
-                    </a>
-                </div>
-            </li>
-            
-            <li data-status="Submitted, 2025">
-                Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong> and Changwei Wang. 
-                <em>Quasi-interpolation using generalized Gaussian kernels</em>. 
-                Submitted, 2025.
-                <div class="paper-links">
-                    <a href="https://arxiv.org/abs/2407.21283" class="arxiv-id" target="_blank" rel="noopener noreferrer">
-                        <i class="ai ai-arxiv"></i> arXiv:2407.21283
-                    </a>
-                    <a href="https://arxiv.org/pdf/2407.21283.pdf" class="pdf-download" target="_blank" rel="noopener noreferrer">
-                        <i class="fas fa-file-pdf"></i> PDF
-                    </a>
-                    <a href="#" class="cite-btn" data-id="gao2024quasi">
-                        <i class="fas fa-quote-right"></i> Cite
-                    </a>
-                </div>
-            </li>
-        </ul>
-    </div>
-    
-    <!-- 引用弹窗 -->
-    <div class="citation-modal" id="citationModal">
-        <div class="citation-content">
-            <button class="citation-close" id="closeModal">&times;</button>
-            <h3>Citation</h3>
-            <div class="citation-text" id="citationText"></div>
-            <button class="copy-btn" id="copyCitation">
-                <i class="fas fa-copy"></i> Copy to Clipboard
-            </button>
-        </div>
-    </div>
+  <main class="container">
+    <section class="panel" aria-labelledby="preprints-title">
+      <h2 id="preprints-title" class="section-title">
+        <i class="fas fa-file-alt" aria-hidden="true"></i>
+        Preprints
+      </h2>
+      <ul id="pubList" class="pub-list" aria-live="polite"></ul>
+    </section>
+  </main>
 
-    <script>
-        // 引用数据
-        const citations = {
-            'sun2025monte': `Sun, Z., Lv, M., & Sun, X. (2025). Monte Carlo quasi-interpolation of spherical data. arXiv preprint arXiv:2510.12027.
+  <div id="citeModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="citeTitle">
+    <div class="dialog">
+      <button id="closeModal" class="close" aria-label="Close citation dialog">
+        <i class="fas fa-times"></i>
+      </button>
+      <h3 id="citeTitle">Citation</h3>
+      <div class="format-switch" role="tablist" aria-label="Citation format">
+        <button class="pill active" role="tab" aria-selected="true" id="tab-apa">APA</button>
+        <button class="pill" role="tab" aria-selected="false" id="tab-bib">BibTeX</button>
+      </div>
+      <pre id="citeContent" class="code" tabindex="0"></pre>
+      <div class="actions">
+        <button id="copyBtn" class="copy"><i class="fas fa-copy"></i> Copy</button>
+      </div>
+      <div class="hint">Tip: Press Ctrl/Cmd+C to copy selected text if the button fails.</div>
+    </div>
+  </div>
 
-@article{sun2025monte,
+  <script>
+    const publications = [
+      {
+        id: 'sun2025monte',
+        year: 2025,
+        status: 'Submitted',
+        statusBadge: 'info',
+        authorsHTML: '<strong>Zhengjie Sun*</strong>, Mengyuan Lv, and Xingping Sun',
+        titleHTML: 'Monte Carlo quasi-interpolation of spherical data',
+        arxivId: '2510.12027',
+        arxivAbs: 'https://arxiv.org/abs/2510.12027',
+        pdf: 'https://arxiv.org/pdf/2510.12027.pdf',
+        apa: 'Sun, Z., Lv, M., & Sun, X. (2025). Monte Carlo quasi-interpolation of spherical data. arXiv preprint arXiv:2510.12027.',
+        bibtex:
+`@article{sun2025monte,
   title={Monte Carlo quasi-interpolation of spherical data},
   author={Sun, Zhengjie and Lv, Mengyuan and Sun, Xingping},
   journal={arXiv preprint arXiv:2510.12027},
   year={2025}
-}`,
-            
-            'sun2025inverse': `Sun, Z., & Ling, L. (2025). Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds. arXiv preprint arXiv:2508.05376.
-
-@article{sun2025inverse,
+}`
+      },
+      {
+        id: 'sun2025inverse',
+        year: 2025,
+        status: 'Submitted',
+        statusBadge: 'info',
+        authorsHTML: '<strong>Zhengjie Sun*</strong> and Leevan Ling',
+        titleHTML: 'Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds',
+        arxivId: '2508.05376',
+        arxivAbs: 'https://arxiv.org/abs/2508.05376',
+        pdf: 'https://arxiv.org/pdf/2508.05376.pdf',
+        apa: 'Sun, Z., & Ling, L. (2025). Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds. arXiv preprint arXiv:2508.05376.',
+        bibtex:
+`@article{sun2025inverse,
   title={Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds},
   author={Sun, Zhengjie and Ling, Leevan},
   journal={arXiv preprint arXiv:2508.05376},
   year={2025}
-}`,
-            
-            'gao2024quasi': `Gao, W., Hu, L., Sun, Z., & Wang, C. (2024). Quasi-interpolation using generalized Gaussian kernels. arXiv preprint arXiv:2407.21283.
-
-@article{gao2024quasi,
+}`
+      },
+      {
+        id: 'gao2024quasi',
+        year: 2024,
+        status: 'Submitted',
+        statusBadge: 'info',
+        authorsHTML: 'Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong>, and Changwei Wang',
+        titleHTML: 'Quasi-interpolation using generalized Gaussian kernels',
+        arxivId: '2407.21283',
+        arxivAbs: 'https://arxiv.org/abs/2407.21283',
+        pdf: 'https://arxiv.org/pdf/2407.21283.pdf',
+        apa: 'Gao, W., Hu, L., Sun, Z., & Wang, C. (2024). Quasi-interpolation using generalized Gaussian kernels. arXiv preprint arXiv:2407.21283.',
+        bibtex:
+`@article{gao2024quasi,
   title={Quasi-interpolation using generalized Gaussian kernels},
   author={Gao, Wenwu and Hu, Le and Sun, Zhengjie and Wang, Changwei},
   journal={arXiv preprint arXiv:2407.21283},
   year={2024}
 }`
-        };
+      }
+    ];
 
-        // DOM元素
-        const modal = document.getElementById('citationModal');
-        const citationText = document.getElementById('citationText');
-        const closeModal = document.getElementById('closeModal');
-        const copyBtn = document.getElementById('copyCitation');
+    const listEl = document.getElementById('pubList');
+    function renderList(items){
+      listEl.innerHTML = '';
+      items.sort((a,b)=> b.year - a.year || a.titleHTML.localeCompare(b.titleHTML));
+      for(const p of items){
+        const li = document.createElement('li'); li.className='pub-item';
+        const left = document.createElement('div');
+        const meta = document.createElement('div'); meta.className='meta';
+        const badge = document.createElement('span'); badge.className='badge '+(p.statusBadge||''); badge.textContent=p.status||''; meta.appendChild(badge);
+        const title = document.createElement('div'); title.className='title'; title.innerHTML=`<em>${p.titleHTML}</em>`;
+        const authors = document.createElement('div'); authors.className='authors'; authors.innerHTML=p.authorsHTML;
+        const links = document.createElement('div'); links.className='links';
+        if(p.arxivAbs){ const a=document.createElement('a'); a.className='btn arxiv'; a.href=p.arxivAbs; a.target='_blank'; a.rel='noopener'; a.innerHTML=`<i class="ai ai-arxiv"></i> arXiv:${p.arxivId}`; links.appendChild(a); }
+        if(p.pdf){ const a=document.createElement('a'); a.className='btn pdf'; a.href=p.pdf; a.target='_blank'; a.rel='noopener'; a.innerHTML=`<i class="fas fa-file-pdf"></i> PDF`; links.appendChild(a); }
+        const cite=document.createElement('button'); cite.className='btn cite cite-btn'; cite.type='button'; cite.dataset.id=p.id; cite.innerHTML=`<i class="fas fa-quote-right"></i> Cite`; links.appendChild(cite);
+        left.appendChild(meta); left.appendChild(title); left.appendChild(authors); left.appendChild(links);
 
-        // 为所有引用按钮添加事件监听器
-        document.querySelectorAll('.cite-btn').forEach(btn => {
-            btn.addEventListener('click', function(e) {
-                e.preventDefault();
-                const paperId = this.dataset.id;
-                
-                if (citations[paperId]) {
-                    citationText.textContent = citations[paperId];
-                    modal.style.display = 'flex';
-                    
-                    // 设置页面不可滚动
-                    document.body.style.overflow = 'hidden';
-                }
-            });
-        });
+        const right=document.createElement('div'); right.className='right';
+        right.innerHTML=`<div class="year">${p.year}</div><div class="status">${p.status||''}</div>`;
 
-        // 关闭弹窗
-        closeModal.addEventListener('click', function() {
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-        });
+        li.appendChild(left); li.appendChild(right); listEl.appendChild(li);
+      }
+    }
+    renderList(publications);
 
-        // 点击弹窗外部关闭
-        modal.addEventListener('click', function(e) {
-            if (e.target === modal) {
-                modal.style.display = 'none';
-                document.body.style.overflow = 'auto';
-            }
-        });
+    const modal=document.getElementById('citeModal');
+    const closeBtn=document.getElementById('closeModal');
+    const citeContent=document.getElementById('citeContent');
+    const copyBtn=document.getElementById('copyBtn');
+    const tabAPA=document.getElementById('tab-apa');
+    const tabBib=document.getElementById('tab-bib');
+    let currentPub=null;
 
-        // 复制引用到剪贴板
-        copyBtn.addEventListener('click', function() {
-            const textToCopy = citationText.textContent;
-            
-            navigator.clipboard.writeText(textToCopy).then(() => {
-                // 显示复制成功反馈
-                const originalText = copyBtn.innerHTML;
-                copyBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
-                copyBtn.style.backgroundColor = '#2ecc71';
-                
-                setTimeout(() => {
-                    copyBtn.innerHTML = originalText;
-                    copyBtn.style.backgroundColor = '';
-                }, 2000);
-            }).catch(err => {
-                console.error('复制失败: ', err);
-                alert('复制失败，请手动选择文本复制。');
-            });
-        });
+    function openModal(pubId){
+      currentPub=publications.find(p=>p.id===pubId);
+      if(!currentPub) return;
+      setFormat('apa');
+      modal.setAttribute('aria-hidden','false');
+      document.body.style.overflow='hidden';
+      citeContent.focus();
+    }
+    function closeModal(){
+      modal.setAttribute('aria-hidden','true');
+      document.body.style.overflow='auto';
+    }
+    function setFormat(fmt){
+      if(!currentPub) return;
+      if(fmt==='apa'){
+        tabAPA.classList.add('active'); tabAPA.setAttribute('aria-selected','true');
+        tabBib.classList.remove('active'); tabBib.setAttribute('aria-selected','false');
+        citeContent.textContent=currentPub.apa||'N/A';
+      }else{
+        tabBib.classList.add('active'); tabBib.setAttribute('aria-selected','true');
+        tabAPA.classList.remove('active'); tabAPA.setAttribute('aria-selected','false');
+        citeContent.textContent=currentPub.bibtex||'N/A';
+      }
+    }
+    document.addEventListener('click',(e)=>{
+      const btn=e.target.closest('.cite-btn');
+      if(btn){ e.preventDefault(); openModal(btn.dataset.id); }
+    });
+    tabAPA.addEventListener('click',()=>setFormat('apa'));
+    tabBib.addEventListener('click',()=>setFormat('bib'));
+    closeBtn.addEventListener('click',closeModal);
+    modal.addEventListener('click',(e)=>{ if(e.target===modal) closeModal(); });
+    document.addEventListener('keydown',(e)=>{ if(e.key==='Escape' && modal.getAttribute('aria-hidden')==='false') closeModal(); });
 
-        // 链接点击统计（可选）
-        document.querySelectorAll('.paper-links a[href]').forEach(link => {
-            link.addEventListener('click', function() {
-                const linkType = this.classList.contains('arxiv-id') ? 'arXiv' : 
-                               this.classList.contains('pdf-download') ? 'PDF' : 'Cite';
-                console.log(`点击了 ${linkType} 链接: ${this.href}`);
-                
-                // 这里可以添加Google Analytics或其他统计代码
-                // ga('send', 'event', 'Preprint Link', 'click', linkType);
-            });
-        });
-    </script>
+    async function copyTextFallback(text){
+      try{
+        if(navigator.clipboard && window.isSecureContext){
+          await navigator.clipboard.writeText(text); return true;
+        }
+      }catch{}
+      const tmp=document.createElement('textarea'); tmp.value=text; tmp.style.position='fixed'; tmp.style.left='-9999px'; document.body.appendChild(tmp);
+      tmp.focus(); tmp.select(); const ok=document.execCommand('copy'); document.body.removeChild(tmp); return ok;
+    }
+    copyBtn.addEventListener('click', async()=>{
+      const ok=await copyTextFallback(citeContent.textContent);
+      copyBtn.classList.toggle('success',ok);
+      copyBtn.innerHTML= ok ? '<i class="fas fa-check"></i> Copied' : '<i class="fas fa-copy"></i> Copy failed';
+      setTimeout(()=>{ copyBtn.classList.remove('success'); copyBtn.innerHTML='<i class="fas fa-copy"></i> Copy'; }, 1800);
+    });
+  </script>
 </body>
 </html>
-    
 
 
 <h3 style="margin-bottom: 15px; font-family: inherit;">Published papers</h3>
