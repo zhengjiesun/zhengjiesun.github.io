@@ -240,7 +240,7 @@ Latest Update: Oct 2025
         authorsHTML: 'Zhongting Xu, <strong>Zhengjie Sun*</strong> and Shengliang Zhang',
         titleHTML: 'A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods',
         venue: 'Engineering Analysis with Boundary Elements, 183, 106615',
-        doiLink: 'https://doi.org/10.1016/j.enganabound.2026.106615',
+        doiLink: 'https://doi.org/10.1016/j.enganabound.2025.106615',
         apa: 'Xu, Z., Sun, Z., & Zhang, S. (2026). A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods. Engineering Analysis with Boundary Elements, 183, 106615.',
         bibtex:
 `@article{xu2026meshless,
