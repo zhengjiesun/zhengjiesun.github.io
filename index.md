@@ -5,7 +5,7 @@ layout: page
 <!-- Profile / About Section -->
 <section class="content" aria-labelledby="about-title">
   <h3 id="about-title" style="margin: 0 0 0.75rem; font-weight: 600; font-size: 1.25rem;">
-    About
+    
   </h3>
 
   <p style="line-height: 1.7; margin: 0;">
