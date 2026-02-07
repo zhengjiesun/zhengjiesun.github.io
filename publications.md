@@ -355,8 +355,10 @@ Latest Update: Oct 2025
         authorsHTML: 'Wenwu Gao, Jiecheng Wang, <strong>Zhengjie Sun*</strong> and Gregory E. Fasshauer',
         titleHTML: 'Quasi-interpolation for high-dimensional function approximation',
         venue: 'Numerische Mathematik, 156:1855–1885',
+        doiLink:  'https://doi.org/10.1007/s00211-024-01435-6',
         arxivId: '2409.14278',
         arxivAbs: 'https://arxiv.org/abs/2409.14278',
+        pdf: 'https://arxiv.org/abs/2409.14278.pdf',
         apa: 'Gao, W., Wang, J., Sun, Z., & Fasshauer, G. E. (2024). Quasi-interpolation for high-dimensional function approximation. Numerische Mathematik, 156, 1855–1885.',
         bibtex:
 `@article{gao2024highdim,
