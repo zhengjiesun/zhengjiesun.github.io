@@ -45,7 +45,6 @@ Latest Update: Oct 2025
 
 </ul>
     
-</ul>
 
 
 <h3 style="margin-bottom: 15px; font-family: inherit;">Published papers</h3>
