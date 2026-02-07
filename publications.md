@@ -172,7 +172,7 @@ Latest Update: Oct 2025
         year: 2025,
         status: 'Submitted',
         statusBadge: 'info',
-        authorsHTML: '<strong>Zhengjie Sun*</strong>, Mengyuan Lv, and Xingping Sun',
+        authorsHTML: '<strong>Zhengjie Sun*</strong>, <u>Mengyuan Lv</u>, and Xingping Sun',
         titleHTML: 'Monte Carlo quasi-interpolation of spherical data',
         arxivId: '2510.12027',
         arxivAbs: 'https://arxiv.org/abs/2510.12027',
