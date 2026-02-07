@@ -795,7 +795,7 @@ Latest Update: Oct 2025
     // Published：右侧仅年份；venue 放在左侧标题下
     function renderListPublished(targetEl, items){
       targetEl.innerHTML = '';
-      items.sort((a,b)=> b.year - a.year || a.titleHTML.localeCompare(b.titleHTML));
+      // 不排序，按添加顺序渲染
       for(const p of items){
         const li = document.createElement('li'); li.className='pub-item';
 
