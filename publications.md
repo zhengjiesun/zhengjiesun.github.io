@@ -332,6 +332,7 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun*</strong>, Leevan Ling and Meng Chen',
         titleHTML: 'Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces',
         venue: 'Journal of Scientific Computing, 102(3):70',
+        doiLink = 'https://doi.org/10.1007/s10915-024-02774-0',
         arxivId: '2312.17478',
         arxivAbs: 'https://arxiv.org/abs/2312.17478',
         apa: 'Sun, Z., Ling, L., & Chen, M. (2025). Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces. Journal of Scientific Computing, 102(3), 70.',
