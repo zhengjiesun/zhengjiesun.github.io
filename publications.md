@@ -26,7 +26,6 @@ Latest Update: Oct 2025
       --danger:#dc2626;
       --shadow:0 2px 12px rgba(0,0,0,.06);
       --radius:10px;
-
       --btn-font:.85rem;
       --icon-size:.95rem;
     }
@@ -36,7 +35,14 @@ Latest Update: Oct 2025
       font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji", system-ui, -apple-system;
       background:var(--bg); color:var(--text);
     }
-    .container{ max-width:960px; margin:0 auto; }
+    /* 更宽容器 + 响应式分级 */
+    .container{ max-width:1200px; margin:0 auto; }
+    @media (min-width:1024px){ .container{ max-width:1280px; } }
+    @media (min-width:1280px){
+      .container{ max-width:1400px; }
+      body{ padding-left:32px; padding-right:32px; }
+    }
+    @media (min-width:1536px){ .container{ max-width:1500px; } }
 
     .section-title{
       font-family: Georgia, "Times New Roman", Times, serif;
@@ -48,7 +54,7 @@ Latest Update: Oct 2025
     }
     .panel{ background:var(--panel); border-radius:10px; box-shadow:var(--shadow); padding:20px; }
 
-    /* Unified publication card */
+    /* 统一的 publication card 基础样式 */
     .pub-list{ list-style:none; margin:0; padding:0; }
     .pub-item{
       display:grid; grid-template-columns:1fr auto; gap:10px 16px;
@@ -65,10 +71,12 @@ Latest Update: Oct 2025
     .badge.info{ background:#dbeafe; color:#1e40af; border-color:#3b82f6; }
     .badge.success{ background:#d1fae5; color:#065f46; border-color:#10b981; }
     .badge.warn{ background:#fee2e2; color:#991b1b; border-color:#ef4444; }
+
     .title{ font-weight:700; color:#0f172a; line-height:1.4; }
     .title em{ font-style:italic; font-weight:600; color:#1f2937; }
-    .authors{ color:var(--muted); }
-    .authors strong{ color: inherit; font-weight: 800; } /* 本人仅加粗 */
+    .venue{ color:#334155; font-size:.9rem; margin-top:4px; } /* 发表期刊放到左侧标题下 */
+    .authors{ color:var(--muted); margin-top:2px; }
+    .authors strong{ font-weight:800; }
 
     .links{ display:flex; gap:6px; flex-wrap:wrap; margin-top:8px; }
     .btn{
@@ -88,7 +96,6 @@ Latest Update: Oct 2025
 
     .right{ display:flex; flex-direction:column; align-items:flex-end; gap:4px; text-align:right; }
     .year{ color:#0f172a; font-weight:700; font-size:.95rem; }
-    .venue{ color:#334155; font-size:.86rem; }
     .status{ font-size:.8rem; color:#334155; }
 
     /* Modal */
@@ -117,7 +124,7 @@ Latest Update: Oct 2025
 </head>
 <body>
   <main class="container">
-    <!-- Preprints -->
+    <!-- Preprints（保持原布局） -->
     <section class="panel" aria-labelledby="preprints-title">
       <h2 id="preprints-title" class="section-title">
         <i class="fas fa-flask" aria-hidden="true"></i>
@@ -126,7 +133,7 @@ Latest Update: Oct 2025
       <ul id="preprintsList" class="pub-list" aria-live="polite"></ul>
     </section>
 
-    <!-- Published papers -->
+    <!-- Published（修改后的布局：右侧仅年份；venue 在标题下方） -->
     <section class="panel" aria-labelledby="published-title" style="margin-top:20px;">
       <h2 id="published-title" class="section-title">
         <i class="fas fa-book-open" aria-hidden="true"></i>
@@ -156,12 +163,7 @@ Latest Update: Oct 2025
   </div>
 
   <script>
-    // Unified data model for all publications
-    // Fields:
-    // id, year, type: 'preprint' | 'published'
-    // status, statusBadge ('info' | 'success' | 'warn' | ''), titleHTML, authorsHTML
-    // venue (journal/conference name with volume/pages), doi, doiLink, arxivId, arxivAbs, pdf
-    // apa, bibtex
+    // 统一数据模型（示例含多条；可继续补充/修改）
     const pubs = [
       // Preprints
       {
@@ -225,7 +227,7 @@ Latest Update: Oct 2025
 }`
       },
 
-      // Published (converted to unified cards)
+      // Published
       {
         id: 'xu2026eabe',
         type: 'published',
@@ -235,7 +237,6 @@ Latest Update: Oct 2025
         authorsHTML: 'Zhongting Xu, <strong>Zhengjie Sun*</strong> and Shengliang Zhang',
         titleHTML: 'A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods',
         venue: 'Engineering Analysis with Boundary Elements, 183, 106615',
-        doi: '10.1016/j.enganabound.2026.106615',
         doiLink: 'https://doi.org/10.1016/j.enganabound.2026.106615',
         apa: 'Xu, Z., Sun, Z., & Zhang, S. (2026). A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods. Engineering Analysis with Boundary Elements, 183, 106615.',
         bibtex:
@@ -279,7 +280,6 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun</strong>, Wenwu Gao* and Xingping Sun',
         titleHTML: 'Scaled zonal kernel quasi-interpolation on spheres',
         venue: 'IMA Journal of Numerical Analysis',
-        doi: '10.1093/imanum/draf104',
         doiLink: 'https://doi.org/10.1093/imanum/draf104',
         arxivId: '2408.14803',
         arxivAbs: 'https://arxiv.org/abs/2408.14803',
@@ -747,7 +747,6 @@ Latest Update: Oct 2025
       }
     ];
 
-    // Utilities
     const preprintsList = document.getElementById('preprintsList');
     const publishedList = document.getElementById('publishedList');
 
@@ -759,7 +758,8 @@ Latest Update: Oct 2025
       return a;
     }
 
-    function renderList(targetEl, items){
+    // Preprints：原通用渲染（右侧含年份、venue与状态）
+    function renderListDefault(targetEl, items){
       targetEl.innerHTML = '';
       items.sort((a,b)=> b.year - a.year || a.titleHTML.localeCompare(b.titleHTML));
       for(const p of items){
@@ -790,11 +790,45 @@ Latest Update: Oct 2025
       }
     }
 
-    // Initial render
-    renderList(preprintsList, pubs.filter(p=>p.type==='preprint'));
-    renderList(publishedList, pubs.filter(p=>p.type==='published'));
+    // Published：右侧仅年份；venue 放在左侧标题下
+    function renderListPublished(targetEl, items){
+      targetEl.innerHTML = '';
+      items.sort((a,b)=> b.year - a.year || a.titleHTML.localeCompare(b.titleHTML));
+      for(const p of items){
+        const li = document.createElement('li'); li.className='pub-item';
 
-    // Modal logic
+        const left = document.createElement('div');
+
+        const title = document.createElement('div'); title.className='title'; title.innerHTML=`<em>${p.titleHTML}</em>`;
+        left.appendChild(title);
+
+        if(p.venue){
+          const venue = document.createElement('div'); venue.className='venue'; venue.textContent = p.venue;
+          left.appendChild(venue);
+        }
+
+        const authors = document.createElement('div'); authors.className='authors'; authors.innerHTML=p.authorsHTML;
+        left.appendChild(authors);
+
+        const links = document.createElement('div'); links.className='links';
+        if(p.arxivAbs){ links.appendChild(createLinkBtn({className:'arxiv', href:p.arxivAbs, iconHTML:'<i class="ai ai-arxiv"></i>', label:`arXiv${p.arxivId?':'+p.arxivId:''}`})); }
+        if(p.pdf){ links.appendChild(createLinkBtn({className:'pdf', href:p.pdf, iconHTML:'<i class="fas fa-file-pdf"></i>', label:'PDF'})); }
+        if(p.doiLink){ links.appendChild(createLinkBtn({className:'doi', href:p.doiLink, iconHTML:'<i class="fas fa-link"></i>', label:'DOI'})); }
+        const cite=document.createElement('button'); cite.className='btn cite cite-btn'; cite.type='button'; cite.dataset.id=p.id; cite.innerHTML=`<i class="fas fa-quote-right"></i> Cite`; links.appendChild(cite);
+        left.appendChild(links);
+
+        const right=document.createElement('div'); right.className='right';
+        right.innerHTML = `<div class="year">${p.year}</div>`; // 仅年份
+
+        li.appendChild(left); li.appendChild(right); targetEl.appendChild(li);
+      }
+    }
+
+    // 初始渲染
+    renderListDefault(preprintsList, pubs.filter(p=>p.type==='preprint'));
+    renderListPublished(publishedList, pubs.filter(p=>p.type==='published'));
+
+    // Modal 逻辑
     const modal=document.getElementById('citeModal');
     const closeBtn=document.getElementById('closeModal');
     const citeContent=document.getElementById('citeContent');
@@ -849,7 +883,7 @@ Latest Update: Oct 2025
     copyBtn.addEventListener('click', async()=>{
       const ok=await copyTextFallback(citeContent.textContent);
       copyBtn.classList.toggle('success',ok);
-      copyBtn.innerHTML= ok ? '<i class="fas fa-check"></i> Copied' : '<i class="fas fa-copy"></i> Copy failed';
+      copyBtn.innerHTML= ok ? '<i class="fas fa-check"></i> Copied' : '<i class="fas fa-copy"></i> Copy';
       setTimeout(()=>{ copyBtn.classList.remove('success'); copyBtn.innerHTML='<i class="fas fa-copy"></i> Copy'; }, 1800);
     });
   </script>
