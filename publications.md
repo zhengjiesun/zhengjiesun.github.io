@@ -306,6 +306,7 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun</strong>, Leevan Ling and Ran Zhang*',
         titleHTML: 'Learning PDEs from data on closed surfaces with sparse optimization',
         venue: 'Communications in Computational Physics, 37:289–314',
+        doiLink: 'https://doi.org/10.4208/cicp.OA-2024-0112',
         arxivId: '2405.06199',
         arxivAbs: 'https://arxiv.org/abs/2405.06199',
         apa: 'Sun, Z., Ling, L., & Zhang, R. (2025). Learning PDEs from data on closed surfaces with sparse optimization. Communications in Computational Physics, 37, 289–314.',
