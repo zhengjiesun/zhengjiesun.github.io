@@ -318,26 +318,9 @@ Latest Update: Oct 2025
   year={2025}
 }`
       },
-      <!--
-    {id: 'gao2025aml',
-        type: 'published',
-        year: 2025,
-        status: 'Published',
-        statusBadge: 'success',
-        authorsHTML: 'Qinjiao Gao, <strong>Zhengjie Sun*</strong> and Zongmin Wu',
-        titleHTML: 'Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations',
-        venue: 'Applied Mathematics Letters, 163, 109460',
-        apa: 'Gao, Q., Sun, Z., & Wu, Z. (2025). Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations. Applied Mathematics Letters, 163, 109460.',
-        bibtex:
-`@article{gao2025energy,
-  title={Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations},
-  author={Gao, Qinjiao and Sun, Zhengjie and Wu, Zongmin},
-  journal={Applied Mathematics Letters},
-  volume={163},
-  pages={109460},
-  year={2025}
-}`}
-      -->
+    
+    
+     
       {
         id: 'sun2025jsc',
         type: 'published',
