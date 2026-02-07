@@ -295,7 +295,6 @@ Latest Update: Oct 2025
             <li data-status="Submitted, 2025">
                 <strong>Zhengjie Sun*</strong>, Mengyuan Lv and Xingping Sun. 
                 <em>Monte Carlo quasi-interpolation of spherical data</em>. 
-                Submitted, 2025.
                 <div class="paper-links">
                     <a href="https://arxiv.org/abs/2510.12027" class="arxiv-id" target="_blank" rel="noopener noreferrer">
                         <i class="ai ai-arxiv"></i> arXiv:2510.12027
