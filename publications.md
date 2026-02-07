@@ -7,15 +7,43 @@ title: Publications
 
 Latest Update: Oct 2025
 
-<h3 style="margin-bottom: 15px; font-family: inherit;">Preprints</h3>
+<h3 class="section-title">Preprints</h3>
 <ul class="compact-list">
 
-<li>&nbsp;<strong>Zhengjie Sun*</strong>, Mengyuan Lv and Xingping Sun. Monte Carlo quasi-interpolation of spherical data, submitted, 2025. (<a href="https://arxiv.org/abs/2510.12027" style="color: #0066cc; text-decoration: none;">arXiv:2510.12027</a>)</li>
+<li>
+    <strong>Zhengjie Sun*</strong>, Mengyuan Lv and Xingping Sun. 
+    <em>Monte Carlo quasi-interpolation of spherical data</em>. 
+    Submitted, 2025.
+    <div class="paper-links">
+        [<a href="https://arxiv.org/abs/2510.12027" class="arxiv-id">arXiv:2510.12027</a>]
+        [<a href="https://arxiv.org/pdf/2510.12027.pdf" class="pdf-download">PDF</a>]
+        [<a href="#" class="cite-btn" data-id="sun2025monte">Cite</a>]
+    </div>
+</li>
     
-<li>&nbsp;<strong>Zhengjie Sun*</strong> and Leevan Ling. Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds, submitted, 2025. (<a href="https://arxiv.org/abs/2508.05376" style="color: #0066cc; text-decoration: none;">arXiv:2508.05376</a>)</li>
+<li>
+    <strong>Zhengjie Sun*</strong> and Leevan Ling. 
+    <em>Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds</em>. 
+    Submitted, 2025.
+    <div class="paper-links">
+        [<a href="https://arxiv.org/abs/2508.05376" class="arxiv-id">arXiv:2508.05376</a>]
+        [<a href="https://arxiv.org/pdf/2508.05376.pdf" class="pdf-download">PDF</a>]
+        [<a href="#" class="cite-btn" data-id="sun2025inverse">Cite</a>]
+    </div>
+</li>
     
-    
-<li>&nbsp;Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong> and Changwei Wang. Quasi-interpolation using generalized Gaussian kernels, submitted, 2025. (<a href="https://arxiv.org/abs/2407.21283" style="color: #0066cc; text-decoration: none;">arXiv:2407.21283</a>)</li>
+<li>
+    Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong> and Changwei Wang. 
+    <em>Quasi-interpolation using generalized Gaussian kernels</em>. 
+    Submitted, 2025.
+    <div class="paper-links">
+        [<a href="https://arxiv.org/abs/2407.21283" class="arxiv-id">arXiv:2407.21283</a>]
+        [<a href="https://arxiv.org/pdf/2407.21283.pdf" class="pdf-download">PDF</a>]
+        [<a href="#" class="cite-btn" data-id="gao2024quasi">Cite</a>]
+    </div>
+</li>
+
+</ul>
     
 </ul>
 
