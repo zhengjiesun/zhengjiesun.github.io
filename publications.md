@@ -509,7 +509,7 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun</strong> and Leevan Ling*',
         titleHTML: 'A kernel-based meshless conservative Galerkin method for solving Hamiltonian wave equations',
         venue: 'SIAM Journal on Scientific Computing, 44(4):A2789–2807',
-        doiLink: '',
+        doiLink: 'https://doi.org/10.1137/21M143698',
         apa: 'Sun, Z., & Ling, L. (2022). A kernel-based meshless conservative Galerkin method for solving Hamiltonian wave equations. SIAM Journal on Scientific Computing, 44(4), A2789–A2807.',
         bibtex:
 `@article{sun2022galerkin,
@@ -531,7 +531,7 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun</strong>, Wenwu Gao and Ran Yang*',
         titleHTML: 'A convergent iterated quasi-interpolation for periodic domain and its applications to surface PDEs',
         venue: 'Journal of Scientific Computing, 93(2):37',
-        doiLink: '',
+        doiLink: 'https://doi.org/10.1007/s10915-022-01998-2',
         apa: 'Sun, Z., Gao, W., & Yang, R. (2022). A convergent iterated quasi-interpolation for periodic domain and its applications to surface PDEs. Journal of Scientific Computing, 93(2), 37.',
         bibtex:
 `@article{sun2022iterated,
@@ -553,7 +553,7 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun*</strong>',
         titleHTML: 'A conservative scheme for two-dimensional Schrödinger equation based on multi-quadric trigonometric quasi-interpolation approach',
         venue: 'Applied Mathematics and Computation, 423, 12pp',
-        doiLink: '',
+        doiLink: 'https://doi.org/10.1016/j.amc.2022.126996',
         apa: 'Sun, Z. (2022). A conservative scheme for two-dimensional Schrödinger equation based on multi-quadric trigonometric quasi-interpolation approach. Applied Mathematics and Computation, 423, 12pp.',
         bibtex:
 `@article{sun2022schrodinger,
@@ -574,7 +574,7 @@ Latest Update: Oct 2025
         authorsHTML: 'Yuyan Gao and <strong>Zhengjie Sun*</strong>',
         titleHTML: 'Multi-symplectic quasi-interpolation method for the KdV equation',
         venue: 'Computational and Applied Mathematics, 41(3):112, 17pp',
-        doiLink: '',
+        doiLink: 'https://doi.org/10.1007/s40314-022-01809-2',
         apa: 'Gao, Y., & Sun, Z. (2022). Multi-symplectic quasi-interpolation method for the KdV equation. Computational and Applied Mathematics, 41(3), 112 (17pp).',
         bibtex:
 `@article{gao2022kdv,
@@ -596,7 +596,7 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun</strong>, Zongmin Wu and Wenwu Gao*',
         titleHTML: 'An iterated quasi-interpolation approach for derivative approximation',
         venue: 'Numerical Algorithms, 85:255–276',
-        doiLink: '',
+        doiLink: 'https://doi.org/10.1007/s11075-019-00812-9',
         apa: 'Sun, Z., Wu, Z., & Gao, W. (2020). An iterated quasi-interpolation approach for derivative approximation. Numerical Algorithms, 85, 255–276.',
         bibtex:
 `@article{sun2020deriv,
@@ -617,7 +617,7 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun*</strong>',
         titleHTML: 'Multi-symplectic quasi-interpolation method for Hamiltonian partial differential equations',
         venue: 'Journal of Computational Physics, 395:125–143',
-        doiLink: '',
+        doiLink: 'https://doi.org/10.1016/j.jcp.2019.06.026',
         apa: 'Sun, Z. (2019). Multi-symplectic quasi-interpolation method for Hamiltonian partial differential equations. Journal of Computational Physics, 395, 125–143.',
         bibtex:
 `@article{sun2019msqi,
@@ -638,7 +638,7 @@ Latest Update: Oct 2025
         authorsHTML: 'Wenwu Gao and <strong>Zhengjie Sun*</strong>',
         titleHTML: 'High-order numerical solution of time-dependent differential equations with quasi-interpolation',
         venue: 'Applied Numerical Mathematics, 146:276–290',
-        doiLink: '',
+        doiLink: 'https://doi.org/10.1016/j.apnum.2019.07.011',
         apa: 'Gao, W., & Sun, Z. (2019). High-order numerical solution of time-dependent differential equations with quasi-interpolation. Applied Numerical Mathematics, 146, 276–290.',
         bibtex:
 `@article{gao2019highorder,
@@ -659,7 +659,7 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun*</strong>',
         titleHTML: 'A meshless symplectic method for two-dimensional nonlinear Schrödinger equations based on radial basis function approximation',
         venue: 'Engineering Analysis with Boundary Elements, 104:1–7',
-        doiLink: '',
+        doiLink: 'https://doi.org/10.1016/j.enganabound.2019.03.014',
         apa: 'Sun, Z. (2019). A meshless symplectic method for two-dimensional nonlinear Schrödinger equations based on radial basis function approximation. Engineering Analysis with Boundary Elements, 104, 1–7.',
         bibtex:
 `@article{sun2019symplectic,
@@ -680,7 +680,7 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun</strong> and Zongmin Wu*',
         titleHTML: 'Meshless conservative schemes for multivariate Hamiltonian partial differential equations',
         venue: 'Journal of Scientific Computing, 76:1168–1187',
-        doiLink: '',
+        doiLink: 'https://doi.org/10.1007/s10915-018-0658-1',
         apa: 'Sun, Z., & Wu, Z. (2018). Meshless conservative schemes for multivariate Hamiltonian partial differential equations. Journal of Scientific Computing, 76, 1168–1187.',
         bibtex:
 `@article{sun2018meshless,
@@ -701,7 +701,7 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun</strong> and Wenwu Gao*',
         titleHTML: 'A energy-momentum conserving scheme for Hamiltonian wave equation based on multiquadric trigonometric quasi-interpolation',
         venue: 'Applied Mathematical Modelling, 57:179–191',
-        doiLink: '',
+        doiLink: 'https://doi.org/10.1016/j.apm.2018.01.002',
         apa: 'Sun, Z., & Gao, W. (2018). A energy-momentum conserving scheme for Hamiltonian wave equation based on multiquadric trigonometric quasi-interpolation. Applied Mathematical Modelling, 57, 179–191.',
         bibtex:
 `@article{sun2018amm,
@@ -722,7 +722,7 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun*</strong>',
         titleHTML: 'Conservative or dissipative quasi-interpolation method for evolutionary partial differential equations',
         venue: 'Engineering Analysis with Boundary Elements, 96:78–83',
-        doiLink: '',
+        doiLink: 'https://doi.org/10.1016/j.enganabound.2018.08.009',
         apa: 'Sun, Z. (2018). Conservative or dissipative quasi-interpolation method for evolutionary partial differential equations. Engineering Analysis with Boundary Elements, 96, 78–83.',
         bibtex:
 `@article{sun2018qim,
@@ -743,7 +743,7 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun</strong> and Wenwu Gao*',
         titleHTML: 'A meshless scheme for Hamiltonian partial differential equations with conservation properties',
         venue: 'Applied Numerical Mathematics, 119:115–125',
-        doiLink: '',
+        doiLink: 'https://doi.org/10.1016/j.apnum.2017.04.005',
         apa: 'Sun, Z., & Gao, W. (2017). A meshless scheme for Hamiltonian partial differential equations with conservation properties. Applied Numerical Mathematics, 119, 115–125.',
         bibtex:
 `@article{sun2017anm,
