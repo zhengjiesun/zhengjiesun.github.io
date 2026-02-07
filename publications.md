@@ -30,7 +30,7 @@ Latest Update: Oct 2025
             background-color: #f9f9f9;
             max-width: 1000px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 40px;
         }
         
         /* 标题样式 */
