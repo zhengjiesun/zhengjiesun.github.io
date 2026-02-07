@@ -381,6 +381,8 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun*</strong> and Leevan Ling',
         titleHTML: 'A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds',
         venue: 'SIAM Journal on Scientific Computing, 46(6):A3779–3802',
+        doiLink: 'https://doi.org/10.1137/24M1654245',
+        pdf: 'https://epubs.siam.org/doi/epdf/10.1137/24M1654245.pdf',
         apa: 'Sun, Z., & Ling, L. (2024). A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds. SIAM Journal on Scientific Computing, 46(6), A3779–A3802.',
         bibtex:
 `@article{sun2024highorder,
