@@ -7,7 +7,7 @@ title: Publications
 
 Latest Update: Oct 2025
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
