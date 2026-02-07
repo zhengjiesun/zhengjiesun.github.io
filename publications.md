@@ -318,7 +318,7 @@ Latest Update: Oct 2025
   year={2025}
 }`
       },
-      {
+      <!--{
         id: 'gao2025aml',
         type: 'published',
         year: 2025,
@@ -337,7 +337,7 @@ Latest Update: Oct 2025
   pages={109460},
   year={2025}
 }`
-      },
+      },-->
       {
         id: 'sun2025jsc',
         type: 'published',
