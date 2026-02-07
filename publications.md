@@ -263,6 +263,7 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun</strong> and Yuyan Gao*',
         titleHTML: 'A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres',
         venue: 'Mathematics and Computers in Simulation, 241, 31–47',
+        doiLink: 'https://doi.org/10.1016/j.matcom.2025.09.031',
         apa: 'Sun, Z., & Gao, Y. (2026). A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres. Mathematics and Computers in Simulation, 241, 31–47.',
         bibtex:
 `@article{sun2026allen,
