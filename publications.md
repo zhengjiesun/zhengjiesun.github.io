@@ -764,7 +764,6 @@ Latest Update: Oct 2025
     // Preprints：原通用渲染（右侧含年份、venue与状态）
     function renderListDefault(targetEl, items){
       targetEl.innerHTML = '';
-      items.sort((a,b)=> b.year - a.year || a.titleHTML.localeCompare(b.titleHTML));
       for(const p of items){
         const li = document.createElement('li'); li.className='pub-item';
 
