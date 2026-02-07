@@ -59,35 +59,34 @@ layout: page
     Selected Publications
   </h3>
 
-  <!-- 列表采用简洁块级条目，便于后续追加与维护 -->
   <ul style="line-height: 1.7; margin: 0; padding-left: 1.25rem;">
     <li style="margin: 0 0 0.5rem;">
-      Sun, Z., Gao, W., &amp; Sun, X. (2025).
+      <strong>Sun, Z.</strong>, Gao, W., &amp; Sun, X. (2025).
       Scaled zonal kernel quasi-interpolation on spheres.
       <i>IMA Journal of Numerical Analysis</i>.
       <a href="https://doi.org/10.1093/imanum/draf104" rel="noopener noreferrer" target="_blank">https://doi.org/10.1093/imanum/draf104</a>
     </li>
 
     <li style="margin: 0 0 0.5rem;">
-      Sun, Z., &amp; Ling, L. (2024).
+      <strong>Sun, Z.</strong>, &amp; Ling, L. (2024).
       A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds.
       <i>SIAM Journal on Scientific Computing</i>, 46(6), A3779–A3802.
     </li>
 
     <li style="margin: 0 0 0.5rem;">
-      Gao, W., Wang, J., Sun, Z., &amp; Fasshauer, G. E. (2024).
+      Gao, W., Wang, J., <strong>Sun, Z.</strong>, &amp; Fasshauer, G. E. (2024).
       Quasi-interpolation for high-dimensional function approximation.
       <i>Numerische Mathematik</i>, 156, 1855–1885.
     </li>
 
     <li style="margin: 0 0 0.5rem;">
-      Sun, Z., &amp; Ling, L. (2022).
+      <strong>Sun, Z.</strong>, &amp; Ling, L. (2022).
       A kernel-based meshless conservative Galerkin method for solving Hamiltonian wave equations.
       <i>SIAM Journal on Scientific Computing</i>, 44(4), A2789–A2807.
     </li>
 
     <li style="margin: 0;">
-      Sun, Z., Ling, L., &amp; Chen, M. (2025).
+      <strong>Sun, Z.</strong>, Ling, L., &amp; Chen, M. (2025).
       Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces.
       <i>Journal of Scientific Computing</i>, 102(3), 70.
     </li>
