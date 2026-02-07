@@ -28,9 +28,9 @@ Latest Update: Oct 2025
             line-height: 1.6;
             color: #333;
             background-color: #f9f9f9;
-            max-width: 95%; /* 使用视口宽度的95% */
+            max-width: 100%; /* 使用视口宽度的95% */
             margin: 0 auto;
-             padding: 30px;
+             padding: 40px;
         }
         
         /* 标题样式 */
