@@ -6,6 +6,7 @@ title: Publications
 
 Latest Update: Oct 2025
 
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -22,13 +23,12 @@ Latest Update: Oct 2025
       --brand:#2563eb;
       --brand-600:#1d4ed8;
       --accent:#10b981;
+      --danger:#dc2626;
       --shadow:0 2px 12px rgba(0,0,0,.06);
       --radius:10px;
 
       --btn-font:.85rem;
       --icon-size:.95rem;
-      --link:#1a73e8;
-      --link-hover:#0d62d9;
     }
     *{box-sizing:border-box}
     body{
@@ -48,21 +48,23 @@ Latest Update: Oct 2025
     }
     .panel{ background:var(--panel); border-radius:10px; box-shadow:var(--shadow); padding:20px; }
 
-    /* Preprints list */
+    /* Unified publication card */
     .pub-list{ list-style:none; margin:0; padding:0; }
     .pub-item{
       display:grid; grid-template-columns:1fr auto; gap:10px 16px;
       padding:14px 0; border-bottom:1px solid #e5e7eb;
     }
     .pub-item:last-child{ border-bottom:none; padding-bottom:0; }
+
     .meta{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
     .badge{
       font-size:.72rem; font-weight:700; letter-spacing:.02em;
       padding:2px 8px; border-radius:999px; user-select:none;
-      background:#fde68a; color:#92400e; border:1px solid #f59e0b;
+      background:#e5e7eb; color:#374151; border:1px solid #d1d5db;
     }
-    .badge.success{ background:#d1fae5; color:#065f46; border-color:#10b981; }
     .badge.info{ background:#dbeafe; color:#1e40af; border-color:#3b82f6; }
+    .badge.success{ background:#d1fae5; color:#065f46; border-color:#10b981; }
+    .badge.warn{ background:#fee2e2; color:#991b1b; border-color:#ef4444; }
     .title{ font-weight:700; color:#0f172a; line-height:1.4; }
     .title em{ font-style:italic; font-weight:600; color:#1f2937; }
     .authors{ color:var(--muted); }
@@ -79,11 +81,14 @@ Latest Update: Oct 2025
     .btn.arxiv:hover{ background:var(--brand-600); transform:translateY(-1px); }
     .btn.pdf{ background:#f8fafc; color:#b91c1c; border-color:#e5e7eb; }
     .btn.pdf:hover{ background:#f1f5f9; border-color:#ef4444; transform:translateY(-1px); }
+    .btn.doi{ background:#eef2ff; color:#3730a3; border-color:#c7d2fe; }
+    .btn.doi:hover{ background:#e0e7ff; transform:translateY(-1px); }
     .btn.cite{ background:#ecfeff; color:#0f766e; border-color:#67e8f9; }
     .btn.cite:hover{ background:#cffafe; transform:translateY(-1px); }
 
-    .right{ display:flex; flex-direction:column; align-items:flex-end; gap:6px; white-space:nowrap; }
+    .right{ display:flex; flex-direction:column; align-items:flex-end; gap:4px; text-align:right; }
     .year{ color:#0f172a; font-weight:700; font-size:.95rem; }
+    .venue{ color:#334155; font-size:.86rem; }
     .status{ font-size:.8rem; color:#334155; }
 
     /* Modal */
@@ -101,34 +106,10 @@ Latest Update: Oct 2025
     .copy.success{ background:var(--accent); }
     .hint{ color:#64748b; font-size:.85rem; margin-top:4px; }
 
-    /* Published papers (静态列表的样式统一) */
-    .published{
-      margin-top:28px;
-    }
-    .published h3{
-      margin:0 0 12px;
-      font-family: Georgia, "Times New Roman", Times, serif;
-      font-size:1.25rem; font-weight:700; color:#0f172a;
-      border-bottom:1px solid #e5e7eb; padding-bottom:6px;
-    }
-    .pub-plain{ list-style:none; padding:0; margin:0; }
-    .pub-plain li{
-      padding:10px 0; border-bottom:1px solid #eef2f7; line-height:1.6;
-    }
-    .pub-plain li:last-child{ border-bottom:none; }
-    .pub-plain i{ font-style:italic; }
-    .pub-plain a{
-      color: var(--link); text-decoration: none; border-bottom: 1px dotted rgba(26,115,232,.35);
-    }
-    .pub-plain a:hover{
-      color: var(--link-hover); border-bottom-color: rgba(13,98,217,.6);
-    }
-    .pub-plain strong{ font-weight:800; color: inherit; } /* 本人仅加粗 */
-
     @media (max-width: 720px){
       body{ padding:16px; }
       .pub-item{ grid-template-columns:1fr; }
-      .right{ align-items:flex-start; }
+      .right{ align-items:flex-start; text-align:left; }
     }
     .btn, .close, .pill, .copy, .cite-btn:focus{ outline:2px solid transparent; outline-offset:2px; }
     .btn:focus-visible, .close:focus-visible, .pill:focus-visible, .copy:focus-visible{ outline-color:#60a5fa; }
@@ -139,66 +120,19 @@ Latest Update: Oct 2025
     <!-- Preprints -->
     <section class="panel" aria-labelledby="preprints-title">
       <h2 id="preprints-title" class="section-title">
-        <i class="fas fa-file-alt" aria-hidden="true"></i>
+        <i class="fas fa-flask" aria-hidden="true"></i>
         Preprints
       </h2>
-      <ul id="pubList" class="pub-list" aria-live="polite"></ul>
+      <ul id="preprintsList" class="pub-list" aria-live="polite"></ul>
     </section>
 
     <!-- Published papers -->
-    <section class="published">
-      <h3>Published papers</h3>
-      <ul class="pub-plain">
-        <li>Zhongting Xu, <strong>Zhengjie Sun*</strong> and Shengliang Zhang. A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods, <i>Engineering Analysis with Boundary Elements</i>, 183, 106615, 2026.</li>
-
-        <li><strong>Zhengjie Sun</strong> and Yuyan Gao*. A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres, <i>Mathematics and Computers in Simulation</i>, 241, 31-47, 2026.</li>
-
-        <li><strong>Zhengjie Sun</strong>, Wenwu Gao* and Xingping Sun. Scaled zonal kernel quasi-interpolation on spheres, <i>IMA Journal of Numerical Analysis</i>, doi.org/10.1093/imanum/draf104, 2025. (<a href="https://arxiv.org/abs/2408.14803" target="_blank" rel="noopener">arXiv:2408.14803</a>)</li>
-
-        <li><strong>Zhengjie Sun</strong>, Leevan Ling and Ran Zhang*. Learning PDEs from data on closed surfaces with sparse optimization, <i>Communications in Computational Physics</i>, 37:289-314, 2025. (<a href="https://arxiv.org/abs/2405.06199" target="_blank" rel="noopener">arXiv:2405.06199</a>)</li>
-
-        <li>Qinjiao Gao, <strong>Zhengjie Sun*</strong> and Zongmin Wu. Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations, <i>Applied Mathematics Letters</i>, 163, 109460, 2025.</li>
-
-        <li><strong>Zhengjie Sun*</strong>, Leevan Ling and Meng Chen. Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces, <i>Journal of Scientific Computing</i>, 102(3):70, 2025. (<a href="https://arxiv.org/abs/2312.17478" target="_blank" rel="noopener">arXiv:2312.17478</a>)</li>
-
-        <li>Wenwu Gao, Jiecheng Wang, <strong>Zhengjie Sun*</strong> and Gregory E. Fasshauer. Quasi-interpolation for high-dimensional function approximation, <i>Numerische Mathematik</i>, 156:1855–1885, 2024. (<a href="https://arxiv.org/abs/2409.14278" target="_blank" rel="noopener">arXiv:2409.14278</a>)</li>
-
-        <li><strong>Zhengjie Sun*</strong> and Leevan Ling. A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds, <i>SIAM Journal on Scientific Computing</i>, 46(6):A3779-3802, 2024.</li>
-
-        <li><strong>Zhengjie Sun</strong> and Qinjiao Gao*. Energy-preserving schemes for conservative PDEs based on periodic quasi-interpolation methods, <i>Communications in Nonlinear Science and Numerical Simulation</i>, 131, 107831, 2024.</li>
-
-        <li><strong>Zhengjie Sun*</strong> and Yuyan Gao. High order multiquadric trigonometric quasi-interpolation method for solving time-dependent partial differential equations, <i>Numerical Algorithms</i>, 93:1719-1739, 2023.</li>
-
-        <li><strong>Zhengjie Sun</strong> and Shengliang Zhang*. A radial basis function approximation method for conservative Allen-Cahn equations on surfaces, <i>Applied Mathematics Letters</i>, 143, 108634, 2023.</li>
-
-        <li>Shengliang Zhang, <strong>Zhengjie Sun*</strong> and Alpesh Kumar. Meshless symplectic and multi-symplectic scheme for the coupled nonlinear Schrödinger system based on local RBF approximation, <i>Computers & Mathematics with Applications</i>, 134:16-32, 2023.</li>
-
-        <li><strong>Zhengjie Sun*</strong> and Yuyan Gao. A meshless quasi-interpolation method for solving hyperbolic conservation laws based on the essentially non-oscillatory reconstruction, <i>International Journal of Computer Mathematics</i>, 100(6):1303-1320, 2023.</li>
-
-        <li><strong>Zhengjie Sun</strong> and Leevan Ling*. A kernel-based meshless conservative Galerkin method for solving Hamiltonian wave equations, <i>SIAM Journal on Scientific Computing</i>, 44(4):A2789-2807, 2022.</li>
-
-        <li><strong>Zhengjie Sun</strong>, Wenwu Gao and Ran Yang*. A convergent iterated quasi-interpolation for periodic domain and its applications to surface PDEs, <i>Journal of Scientific Computing</i>, 93(2):37, 2022.</li>
-
-        <li><strong>Zhengjie Sun*</strong>. A conservative scheme for two-dimensional Schrödinger equation based on multi-quadric trigonometric quasi-interpolation approach, <i>Applied Mathematics and Computation</i>, 423, 2022, 12pp.</li>
-
-        <li>Yuyan Gao and <strong>Zhengjie Sun*</strong>. Multi-symplectic quasi-interpolation method for the KdV equation, <i>Computational and Applied Mathematics</i>, 41(3):112, 17pp, 2022.</li>
-
-        <li><strong>Zhengjie Sun</strong>, Zongmin Wu and Wenwu Gao*. An iterated quasi-interpolation approach for derivative approximation, <i>Numerical Algorithms</i>, 85:255-276, 2020.</li>
-
-        <li><strong>Zhengjie Sun*</strong>. Multi-symplectic quasi-interpolation method for Hamiltonian partial differential equations, <i>Journal of Computational Physics</i>, 395:125-143, 2019.</li>
-
-        <li>Wenwu Gao and <strong>Zhengjie Sun*</strong>. High-order numerical solution of time-dependent differential equations with quasi-interpolation, <i>Applied Numerical Mathematics</i>, 146:276-290, 2019.</li>
-
-        <li><strong>Zhengjie Sun*</strong>. A meshless symplectic method for two-dimensional nonlinear Schrödinger equations based on radial basis function approximation, <i>Engineering Analysis with Boundary Elements</i>, 104:1-7, 2019.</li>
-
-        <li><strong>Zhengjie Sun</strong> and Zongmin Wu*. Meshless conservative schemes for multivariate Hamiltonian partial differential equations, <i>Journal of Scientific Computing</i>, 76:1168-1187, 2018.</li>
-
-        <li><strong>Zhengjie Sun</strong> and Wenwu Gao*. A energy-momentum conserving scheme for Hamiltonian wave equation based on multiquadric trigonometric quasi-interpolation, <i>Applied Mathematical Modelling</i>, 57:179-191, 2018.</li>
-
-        <li><strong>Zhengjie Sun*</strong>. Conservative or dissipative quasi-interpolation method for evolutionary partial differential equations, <i>Engineering Analysis with Boundary Elements</i>, 96:78-83, 2018.</li>
-        
-        <li><strong>Zhengjie Sun</strong> and Wenwu Gao*. A meshless scheme for Hamiltonian partial differential equations with conservation properties, <i>Applied Numerical Mathematics</i>, 119:115-125, 2017.</li>
-      </ul>
+    <section class="panel" aria-labelledby="published-title" style="margin-top:20px;">
+      <h2 id="published-title" class="section-title">
+        <i class="fas fa-book-open" aria-hidden="true"></i>
+        Published papers
+      </h2>
+      <ul id="publishedList" class="pub-list" aria-live="polite"></ul>
     </section>
   </main>
 
@@ -222,10 +156,17 @@ Latest Update: Oct 2025
   </div>
 
   <script>
-    // Preprints data
-    const publications = [
+    // Unified data model for all publications
+    // Fields:
+    // id, year, type: 'preprint' | 'published'
+    // status, statusBadge ('info' | 'success' | 'warn' | ''), titleHTML, authorsHTML
+    // venue (journal/conference name with volume/pages), doi, doiLink, arxivId, arxivAbs, pdf
+    // apa, bibtex
+    const pubs = [
+      // Preprints
       {
         id: 'sun2025monte',
+        type: 'preprint',
         year: 2025,
         status: 'Submitted',
         statusBadge: 'info',
@@ -245,6 +186,7 @@ Latest Update: Oct 2025
       },
       {
         id: 'sun2025inverse',
+        type: 'preprint',
         year: 2025,
         status: 'Submitted',
         statusBadge: 'info',
@@ -264,6 +206,7 @@ Latest Update: Oct 2025
       },
       {
         id: 'gao2024quasi',
+        type: 'preprint',
         year: 2024,
         status: 'Submitted',
         statusBadge: 'info',
@@ -280,34 +223,576 @@ Latest Update: Oct 2025
   journal={arXiv preprint arXiv:2407.21283},
   year={2024}
 }`
+      },
+
+      // Published (converted to unified cards)
+      {
+        id: 'xu2026eabe',
+        type: 'published',
+        year: 2026,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: 'Zhongting Xu, <strong>Zhengjie Sun*</strong> and Shengliang Zhang',
+        titleHTML: 'A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods',
+        venue: 'Engineering Analysis with Boundary Elements, 183, 106615',
+        doi: '10.1016/j.enganabound.2026.106615',
+        doiLink: 'https://doi.org/10.1016/j.enganabound.2026.106615',
+        apa: 'Xu, Z., Sun, Z., & Zhang, S. (2026). A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods. Engineering Analysis with Boundary Elements, 183, 106615.',
+        bibtex:
+`@article{xu2026meshless,
+  title={A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods},
+  author={Xu, Zhongting and Sun, Zhengjie and Zhang, Shengliang},
+  journal={Engineering Analysis with Boundary Elements},
+  volume={183},
+  pages={106615},
+  year={2026},
+  publisher={Elsevier},
+  doi={10.1016/j.enganabound.2026.106615}
+}`
+      },
+      {
+        id: 'sun2026macs',
+        type: 'published',
+        year: 2026,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun</strong> and Yuyan Gao*',
+        titleHTML: 'A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres',
+        venue: 'Mathematics and Computers in Simulation, 241, 31–47',
+        apa: 'Sun, Z., & Gao, Y. (2026). A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres. Mathematics and Computers in Simulation, 241, 31–47.',
+        bibtex:
+`@article{sun2026allen,
+  title={A meshless structure-preserving quasi-interpolation method for the Allen-Cahn equation on spheres},
+  author={Sun, Zhengjie and Gao, Yuyan},
+  journal={Mathematics and Computers in Simulation},
+  volume={241},
+  pages={31--47},
+  year={2026}
+}`
+      },
+      {
+        id: 'sun2025imanum',
+        type: 'published',
+        year: 2025,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun</strong>, Wenwu Gao* and Xingping Sun',
+        titleHTML: 'Scaled zonal kernel quasi-interpolation on spheres',
+        venue: 'IMA Journal of Numerical Analysis',
+        doi: '10.1093/imanum/draf104',
+        doiLink: 'https://doi.org/10.1093/imanum/draf104',
+        arxivId: '2408.14803',
+        arxivAbs: 'https://arxiv.org/abs/2408.14803',
+        apa: 'Sun, Z., Gao, W., & Sun, X. (2025). Scaled zonal kernel quasi-interpolation on spheres. IMA Journal of Numerical Analysis. https://doi.org/10.1093/imanum/draf104',
+        bibtex:
+`@article{sun2025scaled,
+  title={Scaled zonal kernel quasi-interpolation on spheres},
+  author={Sun, Zhengjie and Gao, Wenwu and Sun, Xingping},
+  journal={IMA Journal of Numerical Analysis},
+  year={2025},
+  doi={10.1093/imanum/draf104}
+}`
+      },
+      {
+        id: 'sun2025ccp',
+        type: 'published',
+        year: 2025,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun</strong>, Leevan Ling and Ran Zhang*',
+        titleHTML: 'Learning PDEs from data on closed surfaces with sparse optimization',
+        venue: 'Communications in Computational Physics, 37:289–314',
+        arxivId: '2405.06199',
+        arxivAbs: 'https://arxiv.org/abs/2405.06199',
+        apa: 'Sun, Z., Ling, L., & Zhang, R. (2025). Learning PDEs from data on closed surfaces with sparse optimization. Communications in Computational Physics, 37, 289–314.',
+        bibtex:
+`@article{sun2025learning,
+  title={Learning PDEs from data on closed surfaces with sparse optimization},
+  author={Sun, Zhengjie and Ling, Leevan and Zhang, Ran},
+  journal={Communications in Computational Physics},
+  volume={37},
+  pages={289--314},
+  year={2025}
+}`
+      },
+      {
+        id: 'gao2025aml',
+        type: 'published',
+        year: 2025,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: 'Qinjiao Gao, <strong>Zhengjie Sun*</strong> and Zongmin Wu',
+        titleHTML: 'Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations',
+        venue: 'Applied Mathematics Letters, 163, 109460',
+        apa: 'Gao, Q., Sun, Z., & Wu, Z. (2025). Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations. Applied Mathematics Letters, 163, 109460.',
+        bibtex:
+`@article{gao2025energy,
+  title={Energy-equidistributed moving mesh strategies for simulating Hamiltonian partial differential equations},
+  author={Gao, Qinjiao and Sun, Zhengjie and Wu, Zongmin},
+  journal={Applied Mathematics Letters},
+  volume={163},
+  pages={109460},
+  year={2025}
+}`
+      },
+      {
+        id: 'sun2025jsc',
+        type: 'published',
+        year: 2025,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun*</strong>, Leevan Ling and Meng Chen',
+        titleHTML: 'Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces',
+        venue: 'Journal of Scientific Computing, 102(3):70',
+        arxivId: '2312.17478',
+        arxivAbs: 'https://arxiv.org/abs/2312.17478',
+        apa: 'Sun, Z., Ling, L., & Chen, M. (2025). Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces. Journal of Scientific Computing, 102(3), 70.',
+        bibtex:
+`@article{sun2025structure,
+  title={Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces},
+  author={Sun, Zhengjie and Ling, Leevan and Chen, Meng},
+  journal={Journal of Scientific Computing},
+  volume={102},
+  number={3},
+  pages={70},
+  year={2025}
+}`
+      },
+      {
+        id: 'gao2024num-math',
+        type: 'published',
+        year: 2024,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: 'Wenwu Gao, Jiecheng Wang, <strong>Zhengjie Sun*</strong> and Gregory E. Fasshauer',
+        titleHTML: 'Quasi-interpolation for high-dimensional function approximation',
+        venue: 'Numerische Mathematik, 156:1855–1885',
+        arxivId: '2409.14278',
+        arxivAbs: 'https://arxiv.org/abs/2409.14278',
+        apa: 'Gao, W., Wang, J., Sun, Z., & Fasshauer, G. E. (2024). Quasi-interpolation for high-dimensional function approximation. Numerische Mathematik, 156, 1855–1885.',
+        bibtex:
+`@article{gao2024highdim,
+  title={Quasi-interpolation for high-dimensional function approximation},
+  author={Gao, Wenwu and Wang, Jiecheng and Sun, Zhengjie and Fasshauer, Gregory E.},
+  journal={Numerische Mathematik},
+  volume={156},
+  pages={1855--1885},
+  year={2024}
+}`
+      },
+      {
+        id: 'sun2024sjsc',
+        type: 'published',
+        year: 2024,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun*</strong> and Leevan Ling',
+        titleHTML: 'A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds',
+        venue: 'SIAM Journal on Scientific Computing, 46(6):A3779–3802',
+        apa: 'Sun, Z., & Ling, L. (2024). A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds. SIAM Journal on Scientific Computing, 46(6), A3779–A3802.',
+        bibtex:
+`@article{sun2024highorder,
+  title={A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds},
+  author={Sun, Zhengjie and Ling, Leevan},
+  journal={SIAM Journal on Scientific Computing},
+  volume={46},
+  number={6},
+  pages={A3779--A3802},
+  year={2024}
+}`
+      },
+      {
+        id: 'sun2024cnsns',
+        type: 'published',
+        year: 2024,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun</strong> and Qinjiao Gao*',
+        titleHTML: 'Energy-preserving schemes for conservative PDEs based on periodic quasi-interpolation methods',
+        venue: 'Communications in Nonlinear Science and Numerical Simulation, 131, 107831',
+        apa: 'Sun, Z., & Gao, Q. (2024). Energy-preserving schemes for conservative PDEs based on periodic quasi-interpolation methods. Communications in Nonlinear Science and Numerical Simulation, 131, 107831.',
+        bibtex:
+`@article{sun2024energy,
+  title={Energy-preserving schemes for conservative PDEs based on periodic quasi-interpolation methods},
+  author={Sun, Zhengjie and Gao, Qinjiao},
+  journal={Communications in Nonlinear Science and Numerical Simulation},
+  volume={131},
+  pages={107831},
+  year={2024}
+}`
+      },
+      {
+        id: 'sun2023numalg',
+        type: 'published',
+        year: 2023,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun*</strong> and Yuyan Gao',
+        titleHTML: 'High order multiquadric trigonometric quasi-interpolation method for solving time-dependent partial differential equations',
+        venue: 'Numerical Algorithms, 93:1719–1739',
+        apa: 'Sun, Z., & Gao, Y. (2023). High order multiquadric trigonometric quasi-interpolation method for solving time-dependent partial differential equations. Numerical Algorithms, 93, 1719–1739.',
+        bibtex:
+`@article{sun2023mq,
+  title={High order multiquadric trigonometric quasi-interpolation method for solving time-dependent partial differential equations},
+  author={Sun, Zhengjie and Gao, Yuyan},
+  journal={Numerical Algorithms},
+  volume={93},
+  pages={1719--1739},
+  year={2023}
+}`
+      },
+      {
+        id: 'sun2023aml',
+        type: 'published',
+        year: 2023,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun</strong> and Shengliang Zhang*',
+        titleHTML: 'A radial basis function approximation method for conservative Allen-Cahn equations on surfaces',
+        venue: 'Applied Mathematics Letters, 143, 108634',
+        apa: 'Sun, Z., & Zhang, S. (2023). A radial basis function approximation method for conservative Allen-Cahn equations on surfaces. Applied Mathematics Letters, 143, 108634.',
+        bibtex:
+`@article{sun2023ac,
+  title={A radial basis function approximation method for conservative Allen-Cahn equations on surfaces},
+  author={Sun, Zhengjie and Zhang, Shengliang},
+  journal={Applied Mathematics Letters},
+  volume={143},
+  pages={108634},
+  year={2023}
+}`
+      },
+      {
+        id: 'zhang2023cma',
+        type: 'published',
+        year: 2023,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: 'Shengliang Zhang, <strong>Zhengjie Sun*</strong> and Alpesh Kumar',
+        titleHTML: 'Meshless symplectic and multi-symplectic scheme for the coupled nonlinear Schrödinger system based on local RBF approximation',
+        venue: 'Computers & Mathematics with Applications, 134:16–32',
+        apa: 'Zhang, S., Sun, Z., & Kumar, A. (2023). Meshless symplectic and multi-symplectic scheme for the coupled nonlinear Schrödinger system based on local RBF approximation. Computers & Mathematics with Applications, 134, 16–32.',
+        bibtex:
+`@article{zhang2023symplectic,
+  title={Meshless symplectic and multi-symplectic scheme for the coupled nonlinear Schr{\"o}dinger system based on local RBF approximation},
+  author={Zhang, Shengliang and Sun, Zhengjie and Kumar, Alpesh},
+  journal={Computers \& Mathematics with Applications},
+  volume={134},
+  pages={16--32},
+  year={2023}
+}`
+      },
+      {
+        id: 'sun2023ijcm',
+        type: 'published',
+        year: 2023,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun*</strong> and Yuyan Gao',
+        titleHTML: 'A meshless quasi-interpolation method for solving hyperbolic conservation laws based on the essentially non-oscillatory reconstruction',
+        venue: 'International Journal of Computer Mathematics, 100(6):1303–1320',
+        apa: 'Sun, Z., & Gao, Y. (2023). A meshless quasi-interpolation method for solving hyperbolic conservation laws based on the essentially non-oscillatory reconstruction. International Journal of Computer Mathematics, 100(6), 1303–1320.',
+        bibtex:
+`@article{sun2023eno,
+  title={A meshless quasi-interpolation method for solving hyperbolic conservation laws based on the essentially non-oscillatory reconstruction},
+  author={Sun, Zhengjie and Gao, Yuyan},
+  journal={International Journal of Computer Mathematics},
+  volume={100},
+  number={6},
+  pages={1303--1320},
+  year={2023}
+}`
+      },
+      {
+        id: 'sun2022sjsc',
+        type: 'published',
+        year: 2022,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun</strong> and Leevan Ling*',
+        titleHTML: 'A kernel-based meshless conservative Galerkin method for solving Hamiltonian wave equations',
+        venue: 'SIAM Journal on Scientific Computing, 44(4):A2789–2807',
+        apa: 'Sun, Z., & Ling, L. (2022). A kernel-based meshless conservative Galerkin method for solving Hamiltonian wave equations. SIAM Journal on Scientific Computing, 44(4), A2789–A2807.',
+        bibtex:
+`@article{sun2022galerkin,
+  title={A kernel-based meshless conservative Galerkin method for solving Hamiltonian wave equations},
+  author={Sun, Zhengjie and Ling, Leevan},
+  journal={SIAM Journal on Scientific Computing},
+  volume={44},
+  number={4},
+  pages={A2789--A2807},
+  year={2022}
+}`
+      },
+      {
+        id: 'sun2022jsc',
+        type: 'published',
+        year: 2022,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun</strong>, Wenwu Gao and Ran Yang*',
+        titleHTML: 'A convergent iterated quasi-interpolation for periodic domain and its applications to surface PDEs',
+        venue: 'Journal of Scientific Computing, 93(2):37',
+        apa: 'Sun, Z., Gao, W., & Yang, R. (2022). A convergent iterated quasi-interpolation for periodic domain and its applications to surface PDEs. Journal of Scientific Computing, 93(2), 37.',
+        bibtex:
+`@article{sun2022iterated,
+  title={A convergent iterated quasi-interpolation for periodic domain and its applications to surface PDEs},
+  author={Sun, Zhengjie and Gao, Wenwu and Yang, Ran},
+  journal={Journal of Scientific Computing},
+  volume={93},
+  number={2},
+  pages={37},
+  year={2022}
+}`
+      },
+      {
+        id: 'sun2022amc',
+        type: 'published',
+        year: 2022,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun*</strong>',
+        titleHTML: 'A conservative scheme for two-dimensional Schrödinger equation based on multi-quadric trigonometric quasi-interpolation approach',
+        venue: 'Applied Mathematics and Computation, 423, 12pp',
+        apa: 'Sun, Z. (2022). A conservative scheme for two-dimensional Schrödinger equation based on multi-quadric trigonometric quasi-interpolation approach. Applied Mathematics and Computation, 423, 12pp.',
+        bibtex:
+`@article{sun2022schrodinger,
+  title={A conservative scheme for two-dimensional Schr{\"o}dinger equation based on multi-quadric trigonometric quasi-interpolation approach},
+  author={Sun, Zhengjie},
+  journal={Applied Mathematics and Computation},
+  volume={423},
+  pages={12pp},
+  year={2022}
+}`
+      },
+      {
+        id: 'gao2022cam',
+        type: 'published',
+        year: 2022,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: 'Yuyan Gao and <strong>Zhengjie Sun*</strong>',
+        titleHTML: 'Multi-symplectic quasi-interpolation method for the KdV equation',
+        venue: 'Computational and Applied Mathematics, 41(3):112, 17pp',
+        apa: 'Gao, Y., & Sun, Z. (2022). Multi-symplectic quasi-interpolation method for the KdV equation. Computational and Applied Mathematics, 41(3), 112 (17pp).',
+        bibtex:
+`@article{gao2022kdv,
+  title={Multi-symplectic quasi-interpolation method for the KdV equation},
+  author={Gao, Yuyan and Sun, Zhengjie},
+  journal={Computational and Applied Mathematics},
+  volume={41},
+  number={3},
+  pages={112},
+  year={2022}
+}`
+      },
+      {
+        id: 'sun2020numalg',
+        type: 'published',
+        year: 2020,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun</strong>, Zongmin Wu and Wenwu Gao*',
+        titleHTML: 'An iterated quasi-interpolation approach for derivative approximation',
+        venue: 'Numerical Algorithms, 85:255–276',
+        apa: 'Sun, Z., Wu, Z., & Gao, W. (2020). An iterated quasi-interpolation approach for derivative approximation. Numerical Algorithms, 85, 255–276.',
+        bibtex:
+`@article{sun2020deriv,
+  title={An iterated quasi-interpolation approach for derivative approximation},
+  author={Sun, Zhengjie and Wu, Zongmin and Gao, Wenwu},
+  journal={Numerical Algorithms},
+  volume={85},
+  pages={255--276},
+  year={2020}
+}`
+      },
+      {
+        id: 'sun2019jcp',
+        type: 'published',
+        year: 2019,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun*</strong>',
+        titleHTML: 'Multi-symplectic quasi-interpolation method for Hamiltonian partial differential equations',
+        venue: 'Journal of Computational Physics, 395:125–143',
+        apa: 'Sun, Z. (2019). Multi-symplectic quasi-interpolation method for Hamiltonian partial differential equations. Journal of Computational Physics, 395, 125–143.',
+        bibtex:
+`@article{sun2019msqi,
+  title={Multi-symplectic quasi-interpolation method for Hamiltonian partial differential equations},
+  author={Sun, Zhengjie},
+  journal={Journal of Computational Physics},
+  volume={395},
+  pages={125--143},
+  year={2019}
+}`
+      },
+      {
+        id: 'gao2019anm',
+        type: 'published',
+        year: 2019,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: 'Wenwu Gao and <strong>Zhengjie Sun*</strong>',
+        titleHTML: 'High-order numerical solution of time-dependent differential equations with quasi-interpolation',
+        venue: 'Applied Numerical Mathematics, 146:276–290',
+        apa: 'Gao, W., & Sun, Z. (2019). High-order numerical solution of time-dependent differential equations with quasi-interpolation. Applied Numerical Mathematics, 146, 276–290.',
+        bibtex:
+`@article{gao2019highorder,
+  title={High-order numerical solution of time-dependent differential equations with quasi-interpolation},
+  author={Gao, Wenwu and Sun, Zhengjie},
+  journal={Applied Numerical Mathematics},
+  volume={146},
+  pages={276--290},
+  year={2019}
+}`
+      },
+      {
+        id: 'sun2019eabe',
+        type: 'published',
+        year: 2019,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun*</strong>',
+        titleHTML: 'A meshless symplectic method for two-dimensional nonlinear Schrödinger equations based on radial basis function approximation',
+        venue: 'Engineering Analysis with Boundary Elements, 104:1–7',
+        apa: 'Sun, Z. (2019). A meshless symplectic method for two-dimensional nonlinear Schrödinger equations based on radial basis function approximation. Engineering Analysis with Boundary Elements, 104, 1–7.',
+        bibtex:
+`@article{sun2019symplectic,
+  title={A meshless symplectic method for two-dimensional nonlinear Schr{\"o}dinger equations based on radial basis function approximation},
+  author={Sun, Zhengjie},
+  journal={Engineering Analysis with Boundary Elements},
+  volume={104},
+  pages={1--7},
+  year={2019}
+}`
+      },
+      {
+        id: 'sun2018jsc',
+        type: 'published',
+        year: 2018,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun</strong> and Zongmin Wu*',
+        titleHTML: 'Meshless conservative schemes for multivariate Hamiltonian partial differential equations',
+        venue: 'Journal of Scientific Computing, 76:1168–1187',
+        apa: 'Sun, Z., & Wu, Z. (2018). Meshless conservative schemes for multivariate Hamiltonian partial differential equations. Journal of Scientific Computing, 76, 1168–1187.',
+        bibtex:
+`@article{sun2018meshless,
+  title={Meshless conservative schemes for multivariate Hamiltonian partial differential equations},
+  author={Sun, Zhengjie and Wu, Zongmin},
+  journal={Journal of Scientific Computing},
+  volume={76},
+  pages={1168--1187},
+  year={2018}
+}`
+      },
+      {
+        id: 'sun2018amm',
+        type: 'published',
+        year: 2018,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun</strong> and Wenwu Gao*',
+        titleHTML: 'A energy-momentum conserving scheme for Hamiltonian wave equation based on multiquadric trigonometric quasi-interpolation',
+        venue: 'Applied Mathematical Modelling, 57:179–191',
+        apa: 'Sun, Z., & Gao, W. (2018). A energy-momentum conserving scheme for Hamiltonian wave equation based on multiquadric trigonometric quasi-interpolation. Applied Mathematical Modelling, 57, 179–191.',
+        bibtex:
+`@article{sun2018amm,
+  title={A energy-momentum conserving scheme for Hamiltonian wave equation based on multiquadric trigonometric quasi-interpolation},
+  author={Sun, Zhengjie and Gao, Wenwu},
+  journal={Applied Mathematical Modelling},
+  volume={57},
+  pages={179--191},
+  year={2018}
+}`
+      },
+      {
+        id: 'sun2018eabe',
+        type: 'published',
+        year: 2018,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun*</strong>',
+        titleHTML: 'Conservative or dissipative quasi-interpolation method for evolutionary partial differential equations',
+        venue: 'Engineering Analysis with Boundary Elements, 96:78–83',
+        apa: 'Sun, Z. (2018). Conservative or dissipative quasi-interpolation method for evolutionary partial differential equations. Engineering Analysis with Boundary Elements, 96, 78–83.',
+        bibtex:
+`@article{sun2018qim,
+  title={Conservative or dissipative quasi-interpolation method for evolutionary partial differential equations},
+  author={Sun, Zhengjie},
+  journal={Engineering Analysis with Boundary Elements},
+  volume={96},
+  pages={78--83},
+  year={2018}
+}`
+      },
+      {
+        id: 'sun2017anm',
+        type: 'published',
+        year: 2017,
+        status: 'Published',
+        statusBadge: 'success',
+        authorsHTML: '<strong>Zhengjie Sun</strong> and Wenwu Gao*',
+        titleHTML: 'A meshless scheme for Hamiltonian partial differential equations with conservation properties',
+        venue: 'Applied Numerical Mathematics, 119:115–125',
+        apa: 'Sun, Z., & Gao, W. (2017). A meshless scheme for Hamiltonian partial differential equations with conservation properties. Applied Numerical Mathematics, 119, 115–125.',
+        bibtex:
+`@article{sun2017anm,
+  title={A meshless scheme for Hamiltonian partial differential equations with conservation properties},
+  author={Sun, Zhengjie and Gao, Wenwu},
+  journal={Applied Numerical Mathematics},
+  volume={119},
+  pages={115--125},
+  year={2017}
+}`
       }
     ];
 
-    // Render Preprints
-    const listEl = document.getElementById('pubList');
-    function renderList(items){
-      listEl.innerHTML = '';
+    // Utilities
+    const preprintsList = document.getElementById('preprintsList');
+    const publishedList = document.getElementById('publishedList');
+
+    function createLinkBtn({className, href, iconHTML, label}){
+      const a = document.createElement('a');
+      a.className = `btn ${className}`;
+      a.href = href; a.target = '_blank'; a.rel = 'noopener';
+      a.innerHTML = `${iconHTML} ${label}`;
+      return a;
+    }
+
+    function renderList(targetEl, items){
+      targetEl.innerHTML = '';
       items.sort((a,b)=> b.year - a.year || a.titleHTML.localeCompare(b.titleHTML));
       for(const p of items){
         const li = document.createElement('li'); li.className='pub-item';
+
         const left = document.createElement('div');
         const meta = document.createElement('div'); meta.className='meta';
-        const badge = document.createElement('span'); badge.className='badge '+(p.statusBadge||''); badge.textContent=p.status||''; meta.appendChild(badge);
+        if(p.status){ const badge=document.createElement('span'); badge.className='badge '+(p.statusBadge||''); badge.textContent=p.status; meta.appendChild(badge); }
         const title = document.createElement('div'); title.className='title'; title.innerHTML=`<em>${p.titleHTML}</em>`;
         const authors = document.createElement('div'); authors.className='authors'; authors.innerHTML=p.authorsHTML;
+
         const links = document.createElement('div'); links.className='links';
-        if(p.arxivAbs){ const a=document.createElement('a'); a.className='btn arxiv'; a.href=p.arxivAbs; a.target='_blank'; a.rel='noopener'; a.innerHTML=`<i class="ai ai-arxiv"></i> arXiv:${p.arxivId}`; links.appendChild(a); }
-        if(p.pdf){ const a=document.createElement('a'); a.className='btn pdf'; a.href=p.pdf; a.target='_blank'; a.rel='noopener'; a.innerHTML=`<i class="fas fa-file-pdf"></i> PDF`; links.appendChild(a); }
+        if(p.arxivAbs){ links.appendChild(createLinkBtn({className:'arxiv', href:p.arxivAbs, iconHTML:'<i class="ai ai-arxiv"></i>', label:`arXiv${p.arxivId?':'+p.arxivId:''}`})); }
+        if(p.pdf){ links.appendChild(createLinkBtn({className:'pdf', href:p.pdf, iconHTML:'<i class="fas fa-file-pdf"></i>', label:'PDF'})); }
+        if(p.doiLink){ links.appendChild(createLinkBtn({className:'doi', href:p.doiLink, iconHTML:'<i class="fas fa-link"></i>', label:'DOI'})); }
         const cite=document.createElement('button'); cite.className='btn cite cite-btn'; cite.type='button'; cite.dataset.id=p.id; cite.innerHTML=`<i class="fas fa-quote-right"></i> Cite`; links.appendChild(cite);
+
         left.appendChild(meta); left.appendChild(title); left.appendChild(authors); left.appendChild(links);
 
         const right=document.createElement('div'); right.className='right';
-        right.innerHTML=`<div class="year">${p.year}</div><div class="status">${p.status||''}</div>`;
+        right.innerHTML = `
+          <div class="year">${p.year}</div>
+          ${p.venue ? `<div class="venue">${p.venue}</div>` : ''}
+          ${p.status ? `<div class="status">${p.status}</div>` : ''}
+        `;
 
-        li.appendChild(left); li.appendChild(right); listEl.appendChild(li);
+        li.appendChild(left); li.appendChild(right); targetEl.appendChild(li);
       }
     }
-    renderList(publications);
+
+    // Initial render
+    renderList(preprintsList, pubs.filter(p=>p.type==='preprint'));
+    renderList(publishedList, pubs.filter(p=>p.type==='published'));
 
     // Modal logic
     const modal=document.getElementById('citeModal');
@@ -319,7 +804,7 @@ Latest Update: Oct 2025
     let currentPub=null;
 
     function openModal(pubId){
-      currentPub=publications.find(p=>p.id===pubId);
+      currentPub=pubs.find(p=>p.id===pubId);
       if(!currentPub) return;
       setFormat('apa');
       modal.setAttribute('aria-hidden','false');
