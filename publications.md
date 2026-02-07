@@ -404,6 +404,7 @@ Latest Update: Oct 2025
         authorsHTML: '<strong>Zhengjie Sun</strong> and Qinjiao Gao*',
         titleHTML: 'Energy-preserving schemes for conservative PDEs based on periodic quasi-interpolation methods',
         venue: 'Communications in Nonlinear Science and Numerical Simulation, 131, 107831',
+        doiLink: 'https://doi.org/10.1016/j.cnsns.2024.107831',
         apa: 'Sun, Z., & Gao, Q. (2024). Energy-preserving schemes for conservative PDEs based on periodic quasi-interpolation methods. Communications in Nonlinear Science and Numerical Simulation, 131, 107831.',
         bibtex:
 `@article{sun2024energy,
