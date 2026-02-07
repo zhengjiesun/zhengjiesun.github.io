@@ -237,7 +237,7 @@ Latest Update: Oct 2025
         year: 2026,
         status: 'Published',
         statusBadge: 'success',
-        authorsHTML: 'Zhongting Xu, <strong>Zhengjie Sun*</strong> and Shengliang Zhang',
+        authorsHTML: '<u>Zhongting Xu</u>, <strong>Zhengjie Sun*</strong> and Shengliang Zhang',
         titleHTML: 'A meshless energy-preserving scheme for conservative partial differential equations using kernel-based Galerkin methods',
         venue: 'Engineering Analysis with Boundary Elements, 183, 106615',
         doiLink: 'https://doi.org/10.1016/j.enganabound.2025.106615',
