@@ -310,6 +310,7 @@ Latest Update: Oct 2025
         doiLink: 'https://doi.org/10.4208/cicp.OA-2024-0112',
         arxivId: '2405.06199',
         arxivAbs: 'https://arxiv.org/abs/2405.06199',
+        pdf: 'https://arxiv.org/pdf/2405.06199v2.pdf',
         apa: 'Sun, Z., Ling, L., & Zhang, R. (2025). Learning PDEs from data on closed surfaces with sparse optimization. Communications in Computational Physics, 37, 289–314.',
         bibtex:
 `@article{sun2025learning,
@@ -334,6 +335,7 @@ Latest Update: Oct 2025
         doiLink:  'https://doi.org/10.1007/s10915-024-02774-0',
         arxivId: '2312.17478',
         arxivAbs: 'https://arxiv.org/abs/2312.17478',
+        pdf: 'https://arxiv.org/pdf/2312.17478v2.pdf',
         apa: 'Sun, Z., Ling, L., & Chen, M. (2025). Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces. Journal of Scientific Computing, 102(3), 70.',
         bibtex:
 `@article{sun2025structure,
