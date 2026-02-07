@@ -282,7 +282,7 @@ Latest Update: Oct 2025
         statusBadge: 'success',
         authorsHTML: '<strong>Zhengjie Sun</strong>, Wenwu Gao* and Xingping Sun',
         titleHTML: 'Scaled zonal kernel quasi-interpolation on spheres',
-        venue: 'IMA Journal of Numerical Analysis',
+        venue: 'IMA Journal of Numerical Analysis, doi.org/10.1093/imanum/draf104',
         doiLink: 'https://doi.org/10.1093/imanum/draf104',
         arxivId: '2408.14803',
         arxivAbs: 'https://arxiv.org/abs/2408.14803',
