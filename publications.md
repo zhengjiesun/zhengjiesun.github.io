@@ -287,6 +287,7 @@ Latest Update: Oct 2025
         doiLink: 'https://doi.org/10.1093/imanum/draf104',
         arxivId: '2408.14803',
         arxivAbs: 'https://arxiv.org/abs/2408.14803',
+        pdf: 'https://arxiv.org/pdf/2408.14803v2.pdf',
         apa: 'Sun, Z., Gao, W., & Sun, X. (2025). Scaled zonal kernel quasi-interpolation on spheres. IMA Journal of Numerical Analysis. https://doi.org/10.1093/imanum/draf104',
         bibtex:
 `@article{sun2025scaled,
