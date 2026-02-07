@@ -53,13 +53,43 @@ layout: page
 
 <hr style="margin: 1.5rem 0; border: 0; border-top: 1px solid #e5e7eb;" />
 
-<!-- Optional: Link to Publications section to keep style cohesion -->
-<!-- 若需要在此页内引导去 Publications，可保留以下段落；否则删掉即可。 -->
-<section class="content" aria-labelledby="publications-link-title">
-  <h3 id="publications-link-title" style="margin: 0 0 0.5rem; font-weight: 600; font-size: 1.25rem;">
-    Publications
+<!-- Selected Publications (代表作) -->
+<section class="content" aria-labelledby="selected-pubs-title">
+  <h3 id="selected-pubs-title" style="margin: 0 0 0.75rem; font-weight: 600; font-size: 1.25rem;">
+    Selected Publications
   </h3>
-  <p style="line-height: 1.7; margin: 0;">
-    Please see the Publications page for a complete list of papers.
-  </p>
+
+  <!-- 列表采用简洁块级条目，便于后续追加与维护 -->
+  <ul style="line-height: 1.7; margin: 0; padding-left: 1.25rem;">
+    <li style="margin: 0 0 0.5rem;">
+      Sun, Z., Gao, W., &amp; Sun, X. (2025).
+      Scaled zonal kernel quasi-interpolation on spheres.
+      <i>IMA Journal of Numerical Analysis</i>.
+      <a href="https://doi.org/10.1093/imanum/draf104" rel="noopener noreferrer" target="_blank">https://doi.org/10.1093/imanum/draf104</a>
+    </li>
+
+    <li style="margin: 0 0 0.5rem;">
+      Sun, Z., &amp; Ling, L. (2024).
+      A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds.
+      <i>SIAM Journal on Scientific Computing</i>, 46(6), A3779–A3802.
+    </li>
+
+    <li style="margin: 0 0 0.5rem;">
+      Gao, W., Wang, J., Sun, Z., &amp; Fasshauer, G. E. (2024).
+      Quasi-interpolation for high-dimensional function approximation.
+      <i>Numerische Mathematik</i>, 156, 1855–1885.
+    </li>
+
+    <li style="margin: 0 0 0.5rem;">
+      Sun, Z., &amp; Ling, L. (2022).
+      A kernel-based meshless conservative Galerkin method for solving Hamiltonian wave equations.
+      <i>SIAM Journal on Scientific Computing</i>, 44(4), A2789–A2807.
+    </li>
+
+    <li style="margin: 0;">
+      Sun, Z., Ling, L., &amp; Chen, M. (2025).
+      Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces.
+      <i>Journal of Scientific Computing</i>, 102(3), 70.
+    </li>
+  </ul>
 </section>
