@@ -209,8 +209,8 @@ Latest Update: Feb 2026
       {
         id: 'gao2024quasi',
         type: 'preprint',
-        year: 2025,
-        status: 'Submitted',
+        year: 2026,
+        status: 'Accepted',
         statusBadge: 'info',
         authorsHTML: 'Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong>, and Changwei Wang',
         titleHTML: 'Quasi-interpolation using generalized Gaussian kernels',
