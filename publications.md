@@ -214,6 +214,7 @@ Latest Update: Feb 2026
         statusBadge: 'info',
         authorsHTML: 'Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong>, and Changwei Wang',
         titleHTML: 'Quasi-interpolation using generalized Gaussian kernels',
+        venue: 'Journal of Computational and Applied Mathematics',
         arxivId: '2407.21283',
         arxivAbs: 'https://arxiv.org/abs/2407.21283',
         pdf: 'https://arxiv.org/pdf/2407.21283.pdf',
