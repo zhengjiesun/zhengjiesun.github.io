@@ -206,32 +206,37 @@ Latest Update: Feb 2026
   year={2025}
 }`
       },
-      {
-        id: 'gao2024quasi',
-        type: 'preprint',
+      
+
+      
+      // Published
+       {
+        id: 'gao2026quasi',
+        type: 'published',
         year: 2026,
-        status: 'Accepted',
-        statusBadge: 'info',
+        status: 'Published',
+        statusBadge: 'success',
         authorsHTML: 'Wenwu Gao, Le Hu, <strong>Zhengjie Sun*</strong>, and Changwei Wang',
         titleHTML: 'Quasi-interpolation using generalized Gaussian kernels',
         venue: 'Journal of Computational and Applied Mathematics',
+        doiLink: 'https://doi.org/10.1016/j.cam.2026.117438',
         arxivId: '2407.21283',
         arxivAbs: 'https://arxiv.org/abs/2407.21283',
         pdf: 'https://arxiv.org/pdf/2407.21283.pdf',
-        apa: 'Gao, W., Hu, L., Sun, Z., & Wang, C. (2024). Quasi-interpolation using generalized Gaussian kernels. arXiv preprint arXiv:2407.21283.',
+        apa: 'Gao, W., Hu, L., Sun, Z., & Wang, C. (2026). Quasi-interpolation using generalized Gaussian kernels. Journal of Computational and Applied Mathematics, 483, 117438.',
         bibtex:
 `@article{gao2024quasi,
   title={Quasi-interpolation using generalized Gaussian kernels},
   author={Gao, Wenwu and Hu, Le and Sun, Zhengjie and Wang, Changwei},
-  journal={arXiv preprint arXiv:2407.21283},
-  year={2024}
+  journal={Journal of Computational and Applied Mathematics},
+  volume = {483},
+  pages = {117438},
+  year={2026},
+  publisher={Elsevier},
+  doi = {10.1016/j.cam.2026.117438}
 }`
       },
-
-
-
       
-      // Published
       {
         id: 'xu2026eabe',
         type: 'published',
