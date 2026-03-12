@@ -336,7 +336,7 @@ Latest Update: Feb 2026
         status: 'Published',
         statusBadge: 'success',
         authorsHTML: '<strong>Zhengjie Sun*</strong>, Leevan Ling and Meng Chen',
-        titleHTML: 'Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces',
+        titleHTML: 'Structure-preserving kernel-based meshless methods for solving dissipative PDEs on surfaces',
         venue: 'Journal of Scientific Computing, 102(3):70',
         doiLink:  'https://doi.org/10.1007/s10915-024-02774-0',
         arxivId: '2312.17478',
