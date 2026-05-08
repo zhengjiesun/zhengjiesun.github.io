@@ -167,6 +167,28 @@ Latest Update: Feb 2026
     const pubs = [
       // Preprints
       {
+        id: 'sun2026monte',
+        type: 'preprint',
+        year: 2025,
+        status: 'Submitted',
+        statusBadge: 'info',
+        authorsHTML: '<strong>Zhengjie Sun*</strong>, <u>Biao Huang</u>, and Xingping Sun',
+        titleHTML: 'Vector field multiplier operators and matrix-valued kernel quasi-interpolation',
+        arxivId: '2605.05610',
+        arxivAbs: 'https://arxiv.org/abs/2605.05610',
+        pdf: 'https://arxiv.org/pdf/2605.05610.pdf',
+        apa: 'Sun, Z., Huang, B., & Sun, X. (2026). Vector field multiplier operators and matrix-valued kernel quasi-interpolation. arXiv preprint arXiv:2605.05610.',
+        bibtex:
+`@article{sun2026vector,
+  title={Vector field multiplier operators and matrix-valued kernel quasi-interpolation},
+  author={Sun, Zhengjie and Huang, Biao and Sun, Xingping},
+  journal={arXiv preprint arXiv:2605.05610},
+  year={2026}
+}`
+      },
+
+      
+      {
         id: 'sun2025monte',
         type: 'preprint',
         year: 2025,
@@ -186,6 +208,8 @@ Latest Update: Feb 2026
   year={2025}
 }`
       },
+
+      
       {
         id: 'sun2025inverse',
         type: 'preprint',
