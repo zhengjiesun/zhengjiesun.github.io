@@ -172,7 +172,7 @@ Latest Update: Feb 2026
         year: 2025,
         status: 'Submitted',
         statusBadge: 'info',
-        authorsHTML: '<strong>Zhengjie Sun*</strong>, <u>Biao Huang</u>, and Xingping Sun',
+        authorsHTML: '<strong>Zhengjie Sun</strong>, <u>Biao Huang</u>, and Xingping Sun*',
         titleHTML: 'Vector field multiplier operators and matrix-valued kernel quasi-interpolation',
         arxivId: '2605.05610',
         arxivAbs: 'https://arxiv.org/abs/2605.05610',
