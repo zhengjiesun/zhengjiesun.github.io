@@ -169,7 +169,7 @@ Latest Update: Feb 2026
       {
         id: 'sun2026monte',
         type: 'preprint',
-        year: 2025,
+        year: 2026,
         status: 'Submitted',
         statusBadge: 'info',
         authorsHTML: '<strong>Zhengjie Sun</strong>, <u>Biao Huang</u>, and Xingping Sun*',
