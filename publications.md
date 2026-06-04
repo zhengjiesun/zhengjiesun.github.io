@@ -214,10 +214,10 @@ Latest Update: May 2026
       // Published
        {
         id: 'sun2026monte',
-        type: 'preprint',
+        type: 'published',
         year: 2026,
-        status: 'Submitted',
-        statusBadge: 'info',
+        status: 'Accepted',
+        statusBadge: 'success',
         authorsHTML: '<strong>Zhengjie Sun*</strong>, <u>Mengyuan Lv</u>, and Xingping Sun',
         titleHTML: 'Monte Carlo quasi-interpolation of spherical data',
         venue: 'To appear in SIAM Journal on Numerical Analysis',
