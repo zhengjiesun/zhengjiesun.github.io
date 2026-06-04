@@ -189,28 +189,6 @@ Latest Update: May 2026
 
       
       {
-        id: 'sun2025monte',
-        type: 'preprint',
-        year: 2025,
-        status: 'Submitted',
-        statusBadge: 'info',
-        authorsHTML: '<strong>Zhengjie Sun*</strong>, <u>Mengyuan Lv</u>, and Xingping Sun',
-        titleHTML: 'Monte Carlo quasi-interpolation of spherical data',
-        arxivId: '2510.12027',
-        arxivAbs: 'https://arxiv.org/abs/2510.12027',
-        pdf: 'https://arxiv.org/pdf/2510.12027.pdf',
-        apa: 'Sun, Z., Lv, M., & Sun, X. (2025). Monte Carlo quasi-interpolation of spherical data. arXiv preprint arXiv:2510.12027.',
-        bibtex:
-`@article{sun2025monte,
-  title={Monte Carlo quasi-interpolation of spherical data},
-  author={Sun, Zhengjie and Lv, Mengyuan and Sun, Xingping},
-  journal={arXiv preprint arXiv:2510.12027},
-  year={2025}
-}`
-      },
-
-      
-      {
         id: 'sun2025inverse',
         type: 'preprint',
         year: 2025,
@@ -234,6 +212,29 @@ Latest Update: May 2026
 
       
       // Published
+       {
+        id: 'sun2026monte',
+        type: 'preprint',
+        year: 2026,
+        status: 'Submitted',
+        statusBadge: 'info',
+        authorsHTML: '<strong>Zhengjie Sun*</strong>, <u>Mengyuan Lv</u>, and Xingping Sun',
+        titleHTML: 'Monte Carlo quasi-interpolation of spherical data',
+        venue: 'To appear in SIAM Journal on Numerical Analysis',
+        arxivId: '2510.12027',
+        arxivAbs: 'https://arxiv.org/abs/2510.12027',
+        pdf: 'https://arxiv.org/pdf/2510.12027.pdf',
+        apa: 'Sun, Z., Lv, M., & Sun, X. (2025). Monte Carlo quasi-interpolation of spherical data. arXiv preprint arXiv:2510.12027.',
+        bibtex:
+`@article{sun2026monte,
+  title={Monte Carlo quasi-interpolation of spherical data},
+  author={Sun, Zhengjie and Lv, Mengyuan and Sun, Xingping},
+  journal={arXiv preprint arXiv:2510.12027},
+  year={2026}
+}`
+      },
+
+      
        {
         id: 'gao2026quasi',
         type: 'published',
