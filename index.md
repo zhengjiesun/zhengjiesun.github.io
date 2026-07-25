@@ -17,11 +17,6 @@ image: /images/zjsun.jpg
       Associate Professor, School of Mathematics and Statistics<br>
       Nanjing University of Science and Technology
     </p>
-    <p class="home-summary">
-      I work on kernel-based approximation, meshless methods for partial
-      differential equations, and numerical schemes that preserve the
-      structure of the underlying problem.
-    </p>
     <nav class="home-links" aria-label="Profile links">
       <a href="mailto:zhengjiesun@njust.edu.cn">Email</a>
       <a href="/file/CV-ZhengjieSun.pdf">CV</a>
