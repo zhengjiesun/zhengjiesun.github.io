@@ -2,16 +2,10 @@
 layout: page
 permalink: /publications/index.html
 title: Publications
-description: Preprints and peer-reviewed research in approximation, kernels, meshless methods, and numerical PDEs.
 ---
 
 <div class="publication-note">
-  <p>
-    Publications are listed in reverse chronological order. For a citation
-    overview and current metrics, visit
-    <a href="https://scholar.google.com/citations?user=vWAeCPwAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>.
-  </p>
-  <p class="last-updated">Last updated May 2026</p>
+  <p class="last-updated"><strong>Last updated May 2026</strong></p>
 </div>
 
 <section class="publication-group" aria-labelledby="preprints-heading">
