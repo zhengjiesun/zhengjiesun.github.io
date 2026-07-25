@@ -1,95 +1,204 @@
 ---
-layout: page
+layout: landing
+title: Zhengjie Sun
+description: Associate Professor of Mathematics working on kernel-based approximation, meshless methods, and structure-preserving numerical schemes.
+image: /images/zjsun.jpg
 ---
 
-<!-- Profile / About Section -->
-<section class="content" aria-labelledby="about-title">
-  <h3 id="about-title" style="margin: 0 0 0.75rem; font-weight: 600; font-size: 1.25rem;">
-    About
-  </h3>
+<section class="hero" aria-labelledby="profile-name">
+  <div class="hero-visual">
+    <div class="portrait-frame">
+      <img src="/images/zjsun.jpg" alt="Portrait of Zhengjie Sun" width="420" height="540">
+    </div>
+    <div class="portrait-caption" aria-label="Location">
+      <span class="status-dot" aria-hidden="true"></span>
+      Nanjing, China
+    </div>
+  </div>
 
-  <p style="line-height: 1.7; margin: 0;">
-    Sun, Zhengjie (孙正杰) is an Associate Professor at the School of Mathematics and Statistics,
-    Nanjing University of Science and Technology. He received his Ph.D. from Fudan University in 2018.
-    His research focuses on scattered data approximation, numerical analysis, and meshless methods for
-    partial differential equations (PDEs).
-  </p>
+  <div class="hero-copy">
+    <p class="eyebrow">Applied Mathematics · Numerical Analysis</p>
+    <h1 id="profile-name">Zhengjie Sun <span lang="zh-CN">孙正杰</span></h1>
+    <p class="role">Associate Professor, School of Mathematics and Statistics</p>
+    <p class="institution">Nanjing University of Science and Technology</p>
+    <p class="hero-summary">
+      I develop kernel-based numerical methods that make complex geometry
+      computable—accurately, efficiently, and with the structure of the original
+      problem intact.
+    </p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="/publications/">Explore my research <span aria-hidden="true">↗</span></a>
+      <a class="button button-secondary" href="mailto:zhengjiesun@njust.edu.cn">Get in touch</a>
+    </div>
+    <div class="profile-links" aria-label="Professional profiles">
+      <a href="/file/CV-ZhengjieSun.pdf">Curriculum vitae</a>
+      <a href="https://scholar.google.com/citations?user=vWAeCPwAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/zhengjiesun" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
 
-  <div style="height: 1rem;"></div>
-
-  <p style="line-height: 1.7; margin: 0;">
-    If you are interested in my work and would like to chat or collaborate, please email me at
-    <a href="mailto:zhengjiesun@njust.edu.cn" rel="noopener noreferrer">
-      <i>zhengjiesun@njust.edu.cn</i>
-    </a>.
-  </p>
+  <div class="hero-mark" aria-hidden="true">
+    <span>φ</span>
+  </div>
 </section>
 
-<hr style="margin: 1.5rem 0; border: 0; border-top: 1px solid #e5e7eb;" />
+<div class="profile-facts" aria-label="Profile at a glance">
+  <p><span>Based in</span>Nanjing, China</p>
+  <p><span>Ph.D.</span>Fudan University, 2018</p>
+  <p><span>Research</span>Kernels · PDEs · Manifolds</p>
+</div>
 
-<!-- Research Interests Section -->
-<section class="content" aria-labelledby="interests-title">
-  <h3 id="interests-title" style="margin: 0 0 0.75rem; font-weight: 600; font-size: 1.25rem;">
-    Research Interests
-  </h3>
+<section class="intro-grid" aria-labelledby="about-title">
+  <div class="section-heading">
+    <p class="section-number">01 / About</p>
+    <h2 id="about-title">Mathematics built for the shape of the problem.</h2>
+  </div>
+  <div class="intro-copy">
+    <p class="lead">
+      My work sits where approximation theory, numerical analysis, and
+      scientific computing meet.
+    </p>
+    <p>
+      I study scattered-data approximation and radial basis functions, then use
+      that theory to design meshless algorithms for partial differential
+      equations. A recurring goal is to preserve the energy, dissipation, or
+      geometry that makes a model meaningful.
+    </p>
+    <p>
+      Current directions include high-dimensional approximation and numerical
+      PDEs on curved surfaces and Riemannian manifolds.
+    </p>
+    <a class="inline-link" href="/file/CV-ZhengjieSun.pdf">Download full CV <span aria-hidden="true">↓</span></a>
+  </div>
 
-  <!-- 关键词式列表：与 Publications 的条目风格一致（紧凑、易扫读） -->
-  <ul style="line-height: 1.7; margin: 0 0 0.5rem 1.25rem;">
-    <li>Scattered data approximation</li>
-    <li>Radial basis functions</li>
-    <li>Meshless methods</li>
-    <li>Structure-preserving schemes</li>
-  </ul>
-
-  <p style="line-height: 1.7; margin: 0.75rem 0 0;">
-    We focus on the theory and applications of kernel-based meshless methods.
-    In particular, we study interpolation and quasi-interpolation schemes of radial basis functions,
-    and develop meshless structure-preserving algorithms for time-dependent PDEs.
-    Recently, our interests include
-    <strong>high-dimensional function approximation</strong> and
-    <strong>numerical solutions for PDEs on manifolds</strong>.
-  </p>
+  <aside class="now-card" aria-labelledby="now-title">
+    <p class="eyebrow">Now / 2026</p>
+    <h3 id="now-title">Recent notes</h3>
+    <ul>
+      <li>
+        <span>Paper</span>
+        Monte Carlo quasi-interpolation of spherical data accepted by
+        <em>SIAM Journal on Numerical Analysis</em>.
+      </li>
+      <li>
+        <span>Preprint</span>
+        Vector field multiplier operators and matrix-valued kernel
+        quasi-interpolation.
+      </li>
+      <li>
+        <span>Grant</span>
+        National Natural Science Foundation of China, General Program.
+      </li>
+    </ul>
+  </aside>
 </section>
 
-<hr style="margin: 1.5rem 0; border: 0; border-top: 1px solid #e5e7eb;" />
+<section class="research-section" aria-labelledby="research-title">
+  <div class="research-inner">
+    <div class="research-intro">
+      <div class="section-heading section-heading-light">
+        <p class="section-number">02 / Research</p>
+        <h2 id="research-title">Four themes,<br>one connected program.</h2>
+      </div>
+      <p>
+        From irregular samples to evolving surfaces, I build the theory and
+        algorithms needed to move reliably between data and dynamics.
+      </p>
+    </div>
 
-<!-- Optional: Link to Publications section to keep style cohesion -->
-<!-- 若需要在此页内引导去 Publications，可保留以下段落；否则删掉即可。 -->
-<section class="content" aria-labelledby="selected-pubs-title">
-  <h3 id="selected-pubs-title" style="margin: 0 0 0.75rem; font-weight: 600; font-size: 1.25rem;">
-    Selected Publications
-  </h3>
+    <div class="research-grid">
+      <article class="research-card">
+        <span class="card-index">01</span>
+        <h3>Scattered data approximation</h3>
+        <p>Stable and accurate reconstruction from irregularly distributed observations.</p>
+        <span class="card-keywords">Approximation · Error analysis</span>
+      </article>
+      <article class="research-card">
+        <span class="card-index">02</span>
+        <h3>Radial basis functions</h3>
+        <p>Kernel constructions, interpolation, and quasi-interpolation theory.</p>
+        <span class="card-keywords">Kernels · Quasi-interpolation</span>
+      </article>
+      <article class="research-card">
+        <span class="card-index">03</span>
+        <h3>Meshless methods</h3>
+        <p>Flexible numerical schemes for PDEs in complex domains and on manifolds.</p>
+        <span class="card-keywords">PDEs · Manifolds</span>
+      </article>
+      <article class="research-card">
+        <span class="card-index">04</span>
+        <h3>Structure preservation</h3>
+        <p>Algorithms that respect energy, dissipation, and geometry over long simulations.</p>
+        <span class="card-keywords">Energy · Geometry</span>
+      </article>
+    </div>
+  </div>
+</section>
 
-  <ul style="line-height: 1.7; margin: 0; padding-left: 1.25rem;">
-    <li style="margin: 0 0 0.5rem;">
-      <strong>Sun, Z.</strong>, Gao, W., &amp; Sun, X. (2025).
-      Scaled zonal kernel quasi-interpolation on spheres.
-      <i>IMA Journal of Numerical Analysis</i>.
-      <a href="https://doi.org/10.1093/imanum/draf104" rel="noopener noreferrer" target="_blank">https://doi.org/10.1093/imanum/draf104</a>
+<section class="publications-section" aria-labelledby="publications-title">
+  <div class="publications-header">
+    <div class="section-heading">
+      <p class="section-number">03 / Selected work</p>
+      <h2 id="publications-title">Recent publications</h2>
+    </div>
+    <a class="inline-link" href="/publications/">View the complete list <span aria-hidden="true">→</span></a>
+  </div>
+
+  <ol class="publication-list">
+    <li>
+      <div class="publication-meta">
+        <span>2026 · Accepted</span>
+        SIAM Journal on Numerical Analysis
+      </div>
+      <div class="publication-copy">
+        <h3>Monte Carlo quasi-interpolation of spherical data</h3>
+        <p><strong>Sun, Z.</strong>, Lv, M., &amp; Sun, X.</p>
+      </div>
+      <a class="publication-link" href="https://arxiv.org/abs/2510.12027" target="_blank" rel="noopener noreferrer" aria-label="Read Monte Carlo quasi-interpolation of spherical data">Read <span aria-hidden="true">↗</span></a>
     </li>
-
-    <li style="margin: 0 0 0.5rem;">
-      <strong>Sun, Z.</strong>, &amp; Ling, L. (2024).
-      A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds.
-      <i>SIAM Journal on Scientific Computing</i>, 46(6), A3779–A3802.
+    <li>
+      <div class="publication-meta">
+        <span>2026 · Published</span>
+        Journal of Computational and Applied Mathematics
+      </div>
+      <div class="publication-copy">
+        <h3>Quasi-interpolation using generalized Gaussian kernels</h3>
+        <p>Gao, W., Hu, L., <strong>Sun, Z.</strong>, &amp; Wang, C.</p>
+      </div>
+      <a class="publication-link" href="https://doi.org/10.1016/j.cam.2026.117438" target="_blank" rel="noopener noreferrer" aria-label="Read Quasi-interpolation using generalized Gaussian kernels">DOI <span aria-hidden="true">↗</span></a>
     </li>
-
-    <li style="margin: 0 0 0.5rem;">
-      Gao, W., Wang, J., <strong>Sun, Z.</strong>, &amp; Fasshauer, G. E. (2024).
-      Quasi-interpolation for high-dimensional function approximation.
-      <i>Numerische Mathematik</i>, 156, 1855–1885.
+    <li>
+      <div class="publication-meta">
+        <span>2026 · Published</span>
+        Engineering Analysis with Boundary Elements
+      </div>
+      <div class="publication-copy">
+        <h3>A meshless energy-preserving scheme for conservative PDEs using kernel-based Galerkin methods</h3>
+        <p>Xu, Z., <strong>Sun, Z.</strong>, &amp; Zhang, S.</p>
+      </div>
+      <a class="publication-link" href="https://doi.org/10.1016/j.enganabound.2025.106615" target="_blank" rel="noopener noreferrer" aria-label="Read A meshless energy-preserving scheme for conservative PDEs">DOI <span aria-hidden="true">↗</span></a>
     </li>
-
-    <li style="margin: 0 0 0.5rem;">
-      <strong>Sun, Z.</strong>, &amp; Ling, L. (2022).
-      A kernel-based meshless conservative Galerkin method for solving Hamiltonian wave equations.
-      <i>SIAM Journal on Scientific Computing</i>, 44(4), A2789–A2807.
+    <li>
+      <div class="publication-meta">
+        <span>2025 · Published</span>
+        IMA Journal of Numerical Analysis
+      </div>
+      <div class="publication-copy">
+        <h3>Scaled zonal kernel quasi-interpolation on spheres</h3>
+        <p><strong>Sun, Z.</strong>, Gao, W., &amp; Sun, X.</p>
+      </div>
+      <a class="publication-link" href="https://doi.org/10.1093/imanum/draf104" target="_blank" rel="noopener noreferrer" aria-label="Read Scaled zonal kernel quasi-interpolation on spheres">DOI <span aria-hidden="true">↗</span></a>
     </li>
+  </ol>
+</section>
 
-    <li style="margin: 0;">
-      <strong>Sun, Z.</strong>, Ling, L., &amp; Chen, M. (2025).
-      Structure-preserving kernel-based methods for solving dissipative PDEs on surfaces.
-      <i>Journal of Scientific Computing</i>, 102(3), 70.
-    </li>
-  </ul>
+<section class="contact-band" aria-labelledby="contact-title">
+  <div>
+    <p class="eyebrow">Collaboration · Students · Seminars</p>
+    <h2 id="contact-title">Have a problem where data meets geometry?</h2>
+    <p>I’m always glad to hear about interesting mathematics and potential collaborations.</p>
+  </div>
+  <a class="button button-light" href="mailto:zhengjiesun@njust.edu.cn">
+    zhengjiesun@njust.edu.cn <span aria-hidden="true">↗</span>
+  </a>
 </section>
