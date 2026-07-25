@@ -56,32 +56,13 @@ image: /images/zjsun.jpg
   </div>
 </section>
 
-<section class="home-section" aria-labelledby="recent-title">
+<section class="home-section" aria-labelledby="selected-work-title">
   <header class="section-header-row">
-    <div>
-      <p class="section-label">Selected work</p>
-      <h2 id="recent-title">Recent publications</h2>
-    </div>
+    <h2 id="selected-work-title">Selected work</h2>
     <a class="quiet-link" href="/publications/">All publications →</a>
   </header>
 
   <ol class="home-paper-list">
-    <li>
-      <div class="paper-year">2026</div>
-      <div>
-        <h3>Monte Carlo quasi-interpolation of spherical data</h3>
-        <p><strong>Sun, Z.</strong>, Lv, M., &amp; Sun, X. · <em>SIAM Journal on Numerical Analysis</em>, accepted.</p>
-      </div>
-      <a href="https://arxiv.org/abs/2510.12027" target="_blank" rel="noopener noreferrer" aria-label="Read Monte Carlo quasi-interpolation of spherical data">Read</a>
-    </li>
-    <li>
-      <div class="paper-year">2026</div>
-      <div>
-        <h3>Quasi-interpolation using generalized Gaussian kernels</h3>
-        <p>Gao, W., Hu, L., <strong>Sun, Z.</strong>, &amp; Wang, C. · <em>Journal of Computational and Applied Mathematics</em>.</p>
-      </div>
-      <a href="https://doi.org/10.1016/j.cam.2026.117438" target="_blank" rel="noopener noreferrer" aria-label="Read Quasi-interpolation using generalized Gaussian kernels">DOI</a>
-    </li>
     <li>
       <div class="paper-year">2025</div>
       <div>
@@ -89,6 +70,38 @@ image: /images/zjsun.jpg
         <p><strong>Sun, Z.</strong>, Gao, W., &amp; Sun, X. · <em>IMA Journal of Numerical Analysis</em>.</p>
       </div>
       <a href="https://doi.org/10.1093/imanum/draf104" target="_blank" rel="noopener noreferrer" aria-label="Read Scaled zonal kernel quasi-interpolation on spheres">DOI</a>
+    </li>
+    <li>
+      <div class="paper-year">2024</div>
+      <div>
+        <h3>A high-order meshless linearly implicit energy-preserving method for nonlinear wave equations on Riemannian manifolds</h3>
+        <p><strong>Sun, Z.</strong> &amp; Ling, L. · <em>SIAM Journal on Scientific Computing</em>, 46(6), A3779–A3802.</p>
+      </div>
+      <a href="https://doi.org/10.1137/24M1654245" target="_blank" rel="noopener noreferrer" aria-label="Read A high-order meshless linearly implicit energy-preserving method">DOI</a>
+    </li>
+    <li>
+      <div class="paper-year">2024</div>
+      <div>
+        <h3>Quasi-interpolation for high-dimensional function approximation</h3>
+        <p>Gao, W., Wang, J., <strong>Sun, Z.</strong>, &amp; Fasshauer, G. E. · <em>Numerische Mathematik</em>, 156, 1855–1885.</p>
+      </div>
+      <a href="https://doi.org/10.1007/s00211-024-01435-6" target="_blank" rel="noopener noreferrer" aria-label="Read Quasi-interpolation for high-dimensional function approximation">DOI</a>
+    </li>
+    <li>
+      <div class="paper-year">2022</div>
+      <div>
+        <h3>A kernel-based meshless conservative Galerkin method for solving Hamiltonian wave equations</h3>
+        <p><strong>Sun, Z.</strong> &amp; Ling, L. · <em>SIAM Journal on Scientific Computing</em>, 44(4), A2789–A2807.</p>
+      </div>
+      <a href="https://doi.org/10.1137/21M143698" target="_blank" rel="noopener noreferrer" aria-label="Read A kernel-based meshless conservative Galerkin method">DOI</a>
+    </li>
+    <li>
+      <div class="paper-year">2025</div>
+      <div>
+        <h3>Structure-preserving kernel-based meshless methods for solving dissipative PDEs on surfaces</h3>
+        <p><strong>Sun, Z.</strong>, Ling, L., &amp; Chen, M. · <em>Journal of Scientific Computing</em>, 102(3), 70.</p>
+      </div>
+      <a href="https://doi.org/10.1007/s10915-024-02774-0" target="_blank" rel="noopener noreferrer" aria-label="Read Structure-preserving kernel-based meshless methods for dissipative PDEs">DOI</a>
     </li>
   </ol>
 </section>
