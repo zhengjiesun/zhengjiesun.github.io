@@ -1,0 +1,31 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  {% include head.html %}
+  <script src="https://cdn.counter.dev/script.js" data-id="4c8f7caa-2b55-46cd-a995-2c4633303773" data-utcoffset="8"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5N5JY1E21"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-T5N5JY1E21');
+  </script>
+</head>
+<body class="landing-page" itemscope itemtype="https://schema.org/ProfilePage">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  {% include chrome-frame.html %}
+  {% include navigation.html %}
+
+  <main class="landing-main" id="main-content" itemprop="mainContentOfPage">
+    {{ content }}
+  </main>
+
+  <div class="footer-wrap">
+    <footer>
+      {% include footer.html %}
+    </footer>
+  </div>
+
+  {% include scripts.html %}
+</body>
+</html>
