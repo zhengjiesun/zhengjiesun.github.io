@@ -2,15 +2,7 @@
 layout: page
 permalink: /teaching/index.html
 title: Teaching
-description: Current undergraduate and graduate teaching.
 ---
-
-<div class="page-intro">
-  <p>
-    My teaching focuses on mathematical methods that connect theory with
-    scientific and engineering applications.
-  </p>
-</div>
 
 <div class="detail-list">
   <article>
