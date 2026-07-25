@@ -18,7 +18,7 @@ image: /images/zjsun.jpg
       Nanjing University of Science and Technology
     </p>
     <nav class="home-links" aria-label="Profile links">
-      <a href="mailto:zhengjiesun@njust.edu.cn">Email</a>
+      <a href="mailto:zhengjiesun2020@gmail.com">Email</a>
       <a href="/file/CV-ZhengjieSun.pdf">CV</a>
       <a href="https://scholar.google.com/citations?user=vWAeCPwAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
       <a href="https://github.com/zhengjiesun" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -106,5 +106,5 @@ image: /images/zjsun.jpg
     <h2 id="contact-title">Contact</h2>
     <p>For research discussions, seminars, or collaboration enquiries.</p>
   </div>
-  <a href="mailto:zhengjiesun@njust.edu.cn">zhengjiesun@njust.edu.cn</a>
+  <a href="mailto:zhengjiesun2020@gmail.com">zhengjiesun2020@gmail.com</a>
 </section>
