@@ -23,6 +23,11 @@
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:type" content="{% if page.url == '/' %}profile{% else %}website{% endif %}">
+{% if page.image %}<meta property="og:image" content="{{ site.url }}{{ page.image }}">
+<meta property="og:image:alt" content="Portrait of Zhengjie Sun">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">{% endif %}
 
 {% if site.google_verify %}<!-- Webmaster Tools verfication -->
 <meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
@@ -37,15 +42,19 @@
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f4f0e7">
 
 
 <!-- Google Webfonts -->
-<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=DM+Serif+Display&amp;family=Noto+Sans+SC:wght@400;500;600&amp;display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous" />
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/redesign.css">
 
 <!--[if (lt IE 9) & (!IEMobile)]>
 <link rel="stylesheet" href="/assets/css/ie.css">
@@ -68,3 +77,29 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/fav.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/fav.png">
+{% if page.url == '/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Zhengjie Sun",
+  "alternateName": "孙正杰",
+  "url": "{{ site.url }}",
+  "image": "{{ site.url }}/images/zjsun.jpg",
+  "jobTitle": "Associate Professor",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Nanjing University of Science and Technology"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Fudan University"
+  },
+  "sameAs": [
+    "https://scholar.google.com/citations?user=vWAeCPwAAAAJ",
+    "https://github.com/zhengjiesun",
+    "https://www.researchgate.net/profile/Zhengjie-Sun"
+  ]
+}
+</script>
+{% endif %}
