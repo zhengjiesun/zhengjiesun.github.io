@@ -37,7 +37,7 @@ title: Publications
 </section>
 
 <section class="publication-group" aria-labelledby="published-heading">
-  <h2 id="published-heading">Published and accepted</h2>
+  <h2 id="published-heading">Published</h2>
 
   <div class="publication-year-group">
     <h3>2026</h3>
