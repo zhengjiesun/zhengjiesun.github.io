@@ -17,11 +17,7 @@
   {% include navigation.html %}
 
   <main class="page-main" id="main-content" itemprop="mainContentOfPage">
-    <header class="page-header">
-      <p class="page-kicker">Zhengjie Sun · Academic profile</p>
-      <h1>{{ page.title }}</h1>
-      {% if page.description %}<p>{{ page.description }}</p>{% endif %}
-    </header>
+    <h1 class="sr-only">{{ page.title }}</h1>
 
     <article class="page-body" itemprop="text">
       {{ content }}
