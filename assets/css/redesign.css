@@ -219,18 +219,18 @@ button:focus-visible {
   margin: 0;
   color: var(--ink);
   font-family: var(--serif);
-  font-size: clamp(40px, 5vw, 54px);
+  font-size: clamp(27px, 3vw, 34px);
   font-weight: 400;
-  line-height: 0.98;
-  letter-spacing: -0.04em;
+  line-height: 1.12;
+  letter-spacing: -0.025em;
 }
 
 .home-intro h1 span {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 8px;
   color: var(--teal);
   font-family: "Noto Sans SC", sans-serif;
-  font-size: 0.28em;
+  font-size: 0.48em;
   font-weight: 500;
   letter-spacing: 0;
   vertical-align: middle;
@@ -519,14 +519,14 @@ button:focus-visible {
 .publication-authors {
   margin: 5px 0 0;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.45;
 }
 
 .publication-venue {
   margin: 2px 0 0;
   color: #344355;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   line-height: 1.4;
 }
@@ -728,8 +728,6 @@ button:focus-visible {
 
   .home-portrait { width: 118px; }
   .home-portrait img { height: 128px; }
-  .home-intro h1 { font-size: 38px; }
-  .home-intro h1 span { display: block; margin: 10px 0 0; font-size: 0.38em; }
   .home-role { margin-top: 12px; font-size: 13px; }
 
   .home-about {
