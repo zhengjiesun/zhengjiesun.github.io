@@ -33,20 +33,25 @@ image: /images/zjsun.jpg
 
 <section class="home-section home-about" aria-labelledby="about-title">
   <header>
-    <p class="section-label">About</p>
-    <h2 id="about-title">Research at the intersection of approximation and computation.</h2>
+    <h2 id="about-title">About</h2>
   </header>
   <div class="home-section-copy">
     <p>
-      I received my Ph.D. from Fudan University in 2018. My research connects
-      approximation theory, numerical analysis, and scientific computing, with
-      particular attention to methods for irregular data and complex geometry.
+      I am an Associate Professor in the School of Mathematics and Statistics
+      at Nanjing University of Science and Technology. I received my Ph.D. from
+      Fudan University in 2018.
     </p>
-    <ul class="topic-list" aria-label="Research interests">
+    <p>
+      My research focuses on approximation theory and numerical methods for
+      partial differential equations, especially kernel-based and meshless
+      methods.
+    </p>
+    <h3>Research interests</h3>
+    <ul class="research-interests">
       <li>Scattered data approximation</li>
       <li>Radial basis functions</li>
       <li>Meshless methods for PDEs</li>
-      <li>Structure-preserving algorithms</li>
+      <li>Structure-preserving numerical schemes</li>
     </ul>
   </div>
 </section>
@@ -90,8 +95,8 @@ image: /images/zjsun.jpg
 
 <section class="home-contact" aria-labelledby="contact-title">
   <div>
-    <p class="section-label">Contact</p>
-    <h2 id="contact-title">Research conversations and collaborations are welcome.</h2>
+    <h2 id="contact-title">Contact</h2>
+    <p>For research discussions, seminars, or collaboration enquiries.</p>
   </div>
   <a href="mailto:zhengjiesun@njust.edu.cn">zhengjiesun@njust.edu.cn</a>
 </section>
