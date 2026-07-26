@@ -93,11 +93,10 @@ title: Publications
         <div class="publication-details">
           <h4>Scaled zonal kernel quasi-interpolation on spheres</h4>
           <p class="publication-authors"><strong>Zhengjie Sun</strong>, Wenwu Gao*, and Xingping Sun</p>
-          <p class="publication-venue"><em>IMA Journal of Numerical Analysis</em></p>
+          <p class="publication-venue"><em>IMA Journal of Numerical Analysis</em> · <a href="https://doi.org/10.1093/imanum/draf104" target="_blank" rel="noopener noreferrer">doi.org/10.1093/imanum/draf104</a></p>
         </div>
         <div class="publication-actions">
           <a href="https://arxiv.org/abs/2408.14803" target="_blank" rel="noopener noreferrer">arXiv ↗</a>
-          <a href="https://doi.org/10.1093/imanum/draf104" target="_blank" rel="noopener noreferrer">doi.org/10.1093/imanum/draf104 ↗</a>
         </div>
       </article>
       <article class="full-publication">
