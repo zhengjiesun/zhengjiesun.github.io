@@ -59,6 +59,14 @@ image: /images/zjsun.jpg
 
   <ol class="home-paper-list">
     <li>
+      <div class="paper-year">2026</div>
+      <div>
+        <h3>Monte Carlo quasi-interpolation of spherical data</h3>
+        <p><strong>Sun, Z.</strong>, Lv, M., &amp; Sun, X. · To appear in <em>SIAM Journal on Numerical Analysis</em>.</p>
+      </div>
+      <a href="https://arxiv.org/abs/2510.12027" target="_blank" rel="noopener noreferrer" aria-label="Read Monte Carlo quasi-interpolation of spherical data">arXiv</a>
+    </li>
+    <li>
       <div class="paper-year">2025</div>
       <div>
         <h3>Scaled zonal kernel quasi-interpolation on spheres</h3>
@@ -89,14 +97,6 @@ image: /images/zjsun.jpg
         <p><strong>Sun, Z.</strong> &amp; Ling, L. · <em>SIAM Journal on Scientific Computing</em>, 44(4), A2789–A2807.</p>
       </div>
       <a href="https://doi.org/10.1137/21M143698" target="_blank" rel="noopener noreferrer" aria-label="Read A kernel-based meshless conservative Galerkin method">DOI</a>
-    </li>
-    <li>
-      <div class="paper-year">2025</div>
-      <div>
-        <h3>Structure-preserving kernel-based meshless methods for solving dissipative PDEs on surfaces</h3>
-        <p><strong>Sun, Z.</strong>, Ling, L., &amp; Chen, M. · <em>Journal of Scientific Computing</em>, 102(3), 70.</p>
-      </div>
-      <a href="https://doi.org/10.1007/s10915-024-02774-0" target="_blank" rel="noopener noreferrer" aria-label="Read Structure-preserving kernel-based meshless methods for dissipative PDEs">DOI</a>
     </li>
   </ol>
 </section>
