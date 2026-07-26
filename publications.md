@@ -46,7 +46,7 @@ title: Publications
         <div class="publication-details">
           <h4>Monte Carlo quasi-interpolation of spherical data</h4>
           <p class="publication-authors"><strong>Zhengjie Sun*</strong>, <u>Mengyuan Lv</u>, and Xingping Sun</p>
-          <p class="publication-venue">To appear in <em>SIAM Journal on Numerical Analysis</em></p>
+          <p class="publication-venue"><em>SIAM Journal on Numerical Analysis</em></p>
         </div>
         <div class="publication-actions">
           <a href="https://arxiv.org/abs/2510.12027" target="_blank" rel="noopener noreferrer">arXiv ↗</a>
