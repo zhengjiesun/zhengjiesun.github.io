@@ -357,7 +357,7 @@ button:focus-visible {
 .home-paper-list h3 {
   margin: 0;
   color: var(--ink);
-  font-family: var(--serif);
+  font-family: "Times New Roman", Times, serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 1.28;
@@ -513,7 +513,7 @@ button:focus-visible {
 .publication-details h4 {
   margin: 0;
   color: var(--ink);
-  font-family: var(--serif);
+  font-family: "Times New Roman", Times, serif;
   font-size: 21px;
   font-weight: 400;
   line-height: 1.25;
