@@ -5,12 +5,23 @@ title: Publications
 ---
 
 <div class="publication-note">
-  <p class="last-updated"><strong>Last updated May 2026</strong></p>
+  <p class="last-updated"><strong>Last updated August 2026</strong></p>
 </div>
 
 <section class="publication-group" aria-labelledby="preprints-heading">
   <h2 id="preprints-heading">Preprints</h2>
   <div class="full-publication-list">
+    <article class="full-publication">
+      <div class="publication-year">2026</div>
+      <div class="publication-details">
+        <h3>Error estimates for vector field interpolation based on generalized matrix-valued kernels</h3>
+        <p class="publication-authors"><strong>Zhengjie Sun</strong>, Lishuo Dong, and Leevan Ling</p>
+        <p class="publication-venue">Submitted · arXiv:2608.04313</p>
+      </div>
+      <div class="publication-actions">
+        <a href="https://arxiv.org/abs/2608.04313" target="_blank" rel="noopener noreferrer">arXiv ↗</a>
+      </div>
+    </article>
     <article class="full-publication">
       <div class="publication-year">2026</div>
       <div class="publication-details">
