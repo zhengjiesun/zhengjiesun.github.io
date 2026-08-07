@@ -26,7 +26,7 @@ title: Publications
       <div class="publication-year">2026</div>
       <div class="publication-details">
         <h3>Error estimates for vector field interpolation based on generalized matrix-valued kernels</h3>
-        <p class="publication-authors"><strong>Zhengjie Sun</strong>, <u>Lishuo Dong</u>, and Leevan Ling</p>
+        <p class="publication-authors"><strong>Zhengjie Sun</strong>, <u>Lishuo Dong*</u>, and Leevan Ling</p>
         <p class="publication-venue">Submitted · arXiv:2608.04313</p>
       </div>
       <div class="publication-actions">
