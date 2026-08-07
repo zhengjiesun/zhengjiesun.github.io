@@ -14,6 +14,17 @@ title: Publications
     <article class="full-publication">
       <div class="publication-year">2026</div>
       <div class="publication-details">
+        <h3>Divergence-free interpolation of tangential vector fields via matrix-valued kernels</h3>
+        <p class="publication-authors"><strong>Zhengjie Sun</strong>, Lishuo Dong, and <u>Biao Huang</u></p>
+        <p class="publication-venue">Submitted · arXiv:2608.05547</p>
+      </div>
+      <div class="publication-actions">
+        <a href="https://arxiv.org/abs/2608.05547" target="_blank" rel="noopener noreferrer">arXiv ↗</a>
+      </div>
+    </article>
+    <article class="full-publication">
+      <div class="publication-year">2026</div>
+      <div class="publication-details">
         <h3>Error estimates for vector field interpolation based on generalized matrix-valued kernels</h3>
         <p class="publication-authors"><strong>Zhengjie Sun</strong>, Lishuo Dong, and Leevan Ling</p>
         <p class="publication-venue">Submitted · arXiv:2608.04313</p>
