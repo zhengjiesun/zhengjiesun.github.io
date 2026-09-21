@@ -72,6 +72,7 @@ title: Publications
         </div>
         <div class="publication-actions">
           <a href="https://arxiv.org/abs/2510.12027" target="_blank" rel="noopener noreferrer">arXiv ↗</a>
+          <a href="https://doi.org/10.1137/25M1810490" target="_blank" rel="noopener noreferrer">DOI ↗</a>
         </div>
       </article>
       <article class="full-publication">
