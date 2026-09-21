@@ -64,7 +64,7 @@ image: /images/zjsun.jpg
         <h3>Monte Carlo quasi-interpolation of spherical data</h3>
         <p><strong>Sun, Z.</strong>, Lv, M., &amp; Sun, X. · <em>SIAM Journal on Numerical Analysis</em>, 64(5), 2005-2027.</p>
       </div>
-      <a href="https://arxiv.org/abs/2510.12027" target="_blank" rel="noopener noreferrer" aria-label="Read Monte Carlo quasi-interpolation of spherical data">arXiv</a>
+      <a href="https://doi.org/10.1137/25M1810490" target="_blank" rel="noopener noreferrer" aria-label="Read Monte Carlo quasi-interpolation of spherical data">DOI</a>
     </li>
     <li>
       <div class="paper-year">2025</div>
