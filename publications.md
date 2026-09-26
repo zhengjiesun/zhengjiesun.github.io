@@ -16,7 +16,7 @@ title: Publications
       <div class="publication-details">
         <h3>Divergence-free interpolation of tangential vector fields via matrix-valued kernels</h3>
         <p class="publication-authors"><strong>Zhengjie Sun</strong>, <u>Lishuo Dong</u>, and <u>Biao Huang</u></p>
-        <p class="publication-venue">Submitted to IMA J. Numer. Anal. · arXiv:2608.05547</p>
+        <p class="publication-venue">Submitted · arXiv:2608.05547</p>
       </div>
       <div class="publication-actions">
         <a href="https://arxiv.org/abs/2608.05547" target="_blank" rel="noopener noreferrer">arXiv ↗</a>
@@ -27,7 +27,7 @@ title: Publications
       <div class="publication-details">
         <h3>Error estimates for vector field interpolation based on generalized matrix-valued kernels</h3>
         <p class="publication-authors"><strong>Zhengjie Sun</strong>, <u>Lishuo Dong</u>*, and Leevan Ling</p>
-        <p class="publication-venue">Submitted to SIAM J. Numer. Anal. · arXiv:2608.04313</p>
+        <p class="publication-venue">Submitted · arXiv:2608.04313</p>
       </div>
       <div class="publication-actions">
         <a href="https://arxiv.org/abs/2608.04313" target="_blank" rel="noopener noreferrer">arXiv ↗</a>
@@ -38,7 +38,7 @@ title: Publications
       <div class="publication-details">
         <h3>Vector field multiplier operators and matrix-valued kernel quasi-interpolation</h3>
         <p class="publication-authors"><strong>Zhengjie Sun</strong>, <u>Biao Huang</u>, and Xingping Sun*</p>
-        <p class="publication-venue">Submitted to Found. Comput. Math.· arXiv:2605.05610</p>
+        <p class="publication-venue">Submitted· arXiv:2605.05610</p>
       </div>
       <div class="publication-actions">
         <a href="https://arxiv.org/abs/2605.05610" target="_blank" rel="noopener noreferrer">arXiv ↗</a>
@@ -49,7 +49,7 @@ title: Publications
       <div class="publication-details">
         <h3>Inverse inequalities for kernel-based approximation on bounded domains and Riemannian manifolds</h3>
         <p class="publication-authors"><strong>Zhengjie Sun*</strong> and Leevan Ling</p>
-        <p class="publication-venue">Submitted to Math. Comput.· arXiv:2508.05376</p>
+        <p class="publication-venue">Submitted· arXiv:2508.05376</p>
       </div>
       <div class="publication-actions">
         <a href="https://arxiv.org/abs/2508.05376" target="_blank" rel="noopener noreferrer">arXiv ↗</a>
