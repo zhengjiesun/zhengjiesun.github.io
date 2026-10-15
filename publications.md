@@ -15,7 +15,7 @@ title: Publications
       <div class="publication-year">2026</div>
       <div class="publication-details">
         <h3>Weight-adapted ANOVA kernels for high-dimensional periodic approximation</h3>
-        <p class="publication-authors"><strong>Zhengjie Sun</strong></p>
+        <p class="publication-authors"><strong>Zhengjie Sun</strong>*</p>
         <p class="publication-venue">Submitted · arXiv:2610.19409</p>
       </div>
       <div class="publication-actions">
@@ -26,7 +26,7 @@ title: Publications
       <div class="publication-year">2026</div>
       <div class="publication-details">
         <h3>Divergence-free interpolation of tangential vector fields via matrix-valued kernels</h3>
-        <p class="publication-authors"><strong>Zhengjie Sun</strong>, <u>Lishuo Dong</u>, and <u>Biao Huang</u></p>
+        <p class="publication-authors"><strong>Zhengjie Sun</strong>, <u>Lishuo Dong</u>*, and <u>Biao Huang</u></p>
         <p class="publication-venue">Submitted · arXiv:2608.05547</p>
       </div>
       <div class="publication-actions">
